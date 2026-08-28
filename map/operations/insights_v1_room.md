@@ -2,7 +2,7 @@
 
 # InsightsV1Room — operations
 
-Accessor: `client.insights_v1_room` · Source: `twilio_sdk/apis/insights_v1_room.py` · 2 operations
+Accessor: `client.insights_v1_room` · Source: `twilio/apis/insights_v1_room.py` · 2 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `InsightsV1VideoRoomSummary` | `twilio_sdk/models/insights_v1_video_room_summary.py` |
+| `InsightsV1VideoRoomSummary` | `twilio/models/insights_v1_video_room_summary.py` |
 
 ### client.insights_v1_room.list_video_room_summary
 
@@ -33,7 +33,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `VideoRoomSummaryEnumRoomTypeOrStr` | `twilio_sdk/models/enums/video_room_summary_enum_room_type.py` |
-| `VideoRoomSummaryEnumCodecOrStr` | `twilio_sdk/models/enums/video_room_summary_enum_codec.py` |
-| `ListVideoRoomSummaryResponse` | `twilio_sdk/models/list_video_room_summary_response.py` |
+| `VideoRoomSummaryEnumRoomTypeOrStr` | `twilio/models/enums/video_room_summary_enum_room_type.py` |
+| `VideoRoomSummaryEnumCodecOrStr` | `twilio/models/enums/video_room_summary_enum_codec.py` |
+| `ListVideoRoomSummaryResponse` | `twilio/models/list_video_room_summary_response.py` |
 

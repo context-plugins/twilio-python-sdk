@@ -2,7 +2,7 @@
 
 # TaskrouterV1TaskQueuesStatistics — operations
 
-Accessor: `client.taskrouter_v1_task_queues_statistics` · Source: `twilio_sdk/apis/taskrouter_v1_task_queues_statistics.py` · 1 operation
+Accessor: `client.taskrouter_v1_task_queues_statistics` · Source: `twilio/apis/taskrouter_v1_task_queues_statistics.py` · 1 operation
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,5 +19,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListTaskQueuesStatisticsResponse` | `twilio_sdk/models/list_task_queues_statistics_response.py` |
+| `ListTaskQueuesStatisticsResponse` | `twilio/models/list_task_queues_statistics_response.py` |
 

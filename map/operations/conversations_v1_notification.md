@@ -2,7 +2,7 @@
 
 # ConversationsV1Notification — operations
 
-Accessor: `client.conversations_v1_notification` · Source: `twilio_sdk/apis/conversations_v1_notification.py` · 2 operations
+Accessor: `client.conversations_v1_notification` · Source: `twilio/apis/conversations_v1_notification.py` · 2 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConversationsV1ServiceServiceConfigurationServiceNotification` | `twilio_sdk/models/conversations_v1_service_service_configuration_service_notification.py` |
+| `ConversationsV1ServiceServiceConfigurationServiceNotification` | `twilio/models/conversations_v1_service_service_configuration_service_notification.py` |
 
 ### client.conversations_v1_notification.update_service_notification
 
@@ -34,5 +34,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConversationsV1ServiceServiceConfigurationServiceNotification` | `twilio_sdk/models/conversations_v1_service_service_configuration_service_notification.py` |
+| `ConversationsV1ServiceServiceConfigurationServiceNotification` | `twilio/models/conversations_v1_service_service_configuration_service_notification.py` |
 

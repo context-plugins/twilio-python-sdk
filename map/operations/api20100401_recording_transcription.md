@@ -2,7 +2,7 @@
 
 # Api20100401RecordingTranscription — operations
 
-Accessor: `client.api20100401_recording_transcription` · Source: `twilio_sdk/apis/api20100401_recording_transcription.py` · 3 operations
+Accessor: `client.api20100401_recording_transcription` · Source: `twilio/apis/api20100401_recording_transcription.py` · 3 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -30,7 +30,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ApiV2010AccountRecordingRecordingTranscription` | `twilio_sdk/models/api_v2010_account_recording_recording_transcription.py` |
+| `ApiV2010AccountRecordingRecordingTranscription` | `twilio/models/api_v2010_account_recording_recording_transcription.py` |
 
 ### client.api20100401_recording_transcription.list_recording_transcription
 
@@ -45,5 +45,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListRecordingTranscriptionResponse` | `twilio_sdk/models/list_recording_transcription_response.py` |
+| `ListRecordingTranscriptionResponse` | `twilio/models/list_recording_transcription_response.py` |
 

@@ -2,7 +2,7 @@
 
 # TaskrouterV1Workflow — operations
 
-Accessor: `client.taskrouter_v1_workflow` · Source: `twilio_sdk/apis/taskrouter_v1_workflow.py` · 5 operations
+Accessor: `client.taskrouter_v1_workflow` · Source: `twilio/apis/taskrouter_v1_workflow.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -10,7 +10,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 - **Route**: `POST /v1/Workspaces/{WorkspaceSid}/Workflows`
 - **Server**: `default8`
-- **Signature**: `def create_workflow(workspace_sid: str, friendly_name: str, configuration: str, *, assignment_callback_url: AnyUrl | None = None, fallback_assignment_callback_url: AnyUrl | None = None, task_reservation_timeout: int | None = None, request_options: RequestOptionsOrDict | None = None)`
+- **Signature**: `def create_workflow(workspace_sid: str, friendly_name: str, configuration: str, *, assignment_callback_url: str | None = None, fallback_assignment_callback_url: str | None = None, task_reservation_timeout: int | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `workspace_sid`, `friendly_name`, `configuration`
 - **Params**: `workspace_sid` — path `WorkspaceSid` · `friendly_name` — form field `FriendlyName` · `configuration` — form field `Configuration` · `assignment_callback_url` — form field `AssignmentCallbackUrl` · `fallback_assignment_callback_url` — form field `FallbackAssignmentCallbackUrl` · `task_reservation_timeout` — form field `TaskReservationTimeout`
 - **Returns (parsed)**: `TaskrouterV1WorkspaceWorkflow`
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TaskrouterV1WorkspaceWorkflow` | `twilio_sdk/models/taskrouter_v1_workspace_workflow.py` |
+| `TaskrouterV1WorkspaceWorkflow` | `twilio/models/taskrouter_v1_workspace_workflow.py` |
 
 ### client.taskrouter_v1_workflow.delete_workflow
 
@@ -45,7 +45,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TaskrouterV1WorkspaceWorkflow` | `twilio_sdk/models/taskrouter_v1_workspace_workflow.py` |
+| `TaskrouterV1WorkspaceWorkflow` | `twilio/models/taskrouter_v1_workspace_workflow.py` |
 
 ### client.taskrouter_v1_workflow.list_workflow
 
@@ -60,13 +60,13 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListWorkflowResponse` | `twilio_sdk/models/list_workflow_response.py` |
+| `ListWorkflowResponse` | `twilio/models/list_workflow_response.py` |
 
 ### client.taskrouter_v1_workflow.update_workflow
 
 - **Route**: `POST /v1/Workspaces/{WorkspaceSid}/Workflows/{Sid}`
 - **Server**: `default8`
-- **Signature**: `def update_workflow(workspace_sid: str, sid: str, *, friendly_name: str | None = None, assignment_callback_url: AnyUrl | None = None, fallback_assignment_callback_url: AnyUrl | None = None, configuration: str | None = None, task_reservation_timeout: int | None = None, re_evaluate_tasks: str | None = None, request_options: RequestOptionsOrDict | None = None)`
+- **Signature**: `def update_workflow(workspace_sid: str, sid: str, *, friendly_name: str | None = None, assignment_callback_url: str | None = None, fallback_assignment_callback_url: str | None = None, configuration: str | None = None, task_reservation_timeout: int | None = None, re_evaluate_tasks: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `workspace_sid`, `sid`
 - **Params**: `workspace_sid` — path `WorkspaceSid` · `sid` — path `Sid` · `friendly_name` — form field `FriendlyName` · `assignment_callback_url` — form field `AssignmentCallbackUrl` · `fallback_assignment_callback_url` — form field `FallbackAssignmentCallbackUrl` · `configuration` — form field `Configuration` · `task_reservation_timeout` — form field `TaskReservationTimeout` · `re_evaluate_tasks` — form field `ReEvaluateTasks`
 - **Returns (parsed)**: `TaskrouterV1WorkspaceWorkflow`
@@ -75,5 +75,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TaskrouterV1WorkspaceWorkflow` | `twilio_sdk/models/taskrouter_v1_workspace_workflow.py` |
+| `TaskrouterV1WorkspaceWorkflow` | `twilio/models/taskrouter_v1_workspace_workflow.py` |
 

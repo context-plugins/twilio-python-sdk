@@ -2,7 +2,7 @@
 
 # MessagingV1TollfreeVerificationApi — operations
 
-Accessor: `client.messaging_v1_tollfree_verification_api` · Source: `twilio_sdk/apis/messaging_v1_tollfree_verification_api.py` · 5 operations
+Accessor: `client.messaging_v1_tollfree_verification_api` · Source: `twilio/apis/messaging_v1_tollfree_verification_api.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -19,12 +19,12 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TollfreeVerificationEnumUseCaseCategoryOrStr` | `twilio_sdk/models/enums/tollfree_verification_enum_use_case_category.py` |
-| `TollfreeVerificationEnumOptInTypeOrStr` | `twilio_sdk/models/enums/tollfree_verification_enum_opt_in_type.py` |
-| `TollfreeVerificationEnumBusinessRegistrationAuthorityOrStr` | `twilio_sdk/models/enums/tollfree_verification_enum_business_registration_authority.py` |
-| `TollfreeVerificationEnumBusinessTypeOrStr` | `twilio_sdk/models/enums/tollfree_verification_enum_business_type.py` |
-| `TollfreeVerificationEnumVettingProviderOrStr` | `twilio_sdk/models/enums/tollfree_verification_enum_vetting_provider.py` |
-| `MessagingV1TollfreeVerification` | `twilio_sdk/models/messaging_v1_tollfree_verification.py` |
+| `TollfreeVerificationEnumUseCaseCategoryOrStr` | `twilio/models/enums/tollfree_verification_enum_use_case_category.py` |
+| `TollfreeVerificationEnumOptInTypeOrStr` | `twilio/models/enums/tollfree_verification_enum_opt_in_type.py` |
+| `TollfreeVerificationEnumBusinessRegistrationAuthorityOrStr` | `twilio/models/enums/tollfree_verification_enum_business_registration_authority.py` |
+| `TollfreeVerificationEnumBusinessTypeOrStr` | `twilio/models/enums/tollfree_verification_enum_business_type.py` |
+| `TollfreeVerificationEnumVettingProviderOrStr` | `twilio/models/enums/tollfree_verification_enum_vetting_provider.py` |
+| `MessagingV1TollfreeVerification` | `twilio/models/messaging_v1_tollfree_verification.py` |
 
 ### client.messaging_v1_tollfree_verification_api.delete_tollfree_verification
 
@@ -50,7 +50,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `MessagingV1TollfreeVerification` | `twilio_sdk/models/messaging_v1_tollfree_verification.py` |
+| `MessagingV1TollfreeVerification` | `twilio/models/messaging_v1_tollfree_verification.py` |
 
 ### client.messaging_v1_tollfree_verification_api.list_tollfree_verification
 
@@ -64,8 +64,8 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TollfreeVerificationEnumStatusOrStr` | `twilio_sdk/models/enums/tollfree_verification_enum_status.py` |
-| `ListTollfreeVerificationResponse` | `twilio_sdk/models/list_tollfree_verification_response.py` |
+| `TollfreeVerificationEnumStatusOrStr` | `twilio/models/enums/tollfree_verification_enum_status.py` |
+| `ListTollfreeVerificationResponse` | `twilio/models/list_tollfree_verification_response.py` |
 
 ### client.messaging_v1_tollfree_verification_api.update_tollfree_verification
 
@@ -80,10 +80,10 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TollfreeVerificationEnumUseCaseCategoryOrStr` | `twilio_sdk/models/enums/tollfree_verification_enum_use_case_category.py` |
-| `TollfreeVerificationEnumOptInTypeOrStr` | `twilio_sdk/models/enums/tollfree_verification_enum_opt_in_type.py` |
-| `TollfreeVerificationEnumBusinessRegistrationAuthorityOrStr` | `twilio_sdk/models/enums/tollfree_verification_enum_business_registration_authority.py` |
-| `TollfreeVerificationEnumBusinessTypeOrStr` | `twilio_sdk/models/enums/tollfree_verification_enum_business_type.py` |
-| `TollfreeVerificationEnumVettingProviderOrStr` | `twilio_sdk/models/enums/tollfree_verification_enum_vetting_provider.py` |
-| `MessagingV1TollfreeVerification` | `twilio_sdk/models/messaging_v1_tollfree_verification.py` |
+| `TollfreeVerificationEnumUseCaseCategoryOrStr` | `twilio/models/enums/tollfree_verification_enum_use_case_category.py` |
+| `TollfreeVerificationEnumOptInTypeOrStr` | `twilio/models/enums/tollfree_verification_enum_opt_in_type.py` |
+| `TollfreeVerificationEnumBusinessRegistrationAuthorityOrStr` | `twilio/models/enums/tollfree_verification_enum_business_registration_authority.py` |
+| `TollfreeVerificationEnumBusinessTypeOrStr` | `twilio/models/enums/tollfree_verification_enum_business_type.py` |
+| `TollfreeVerificationEnumVettingProviderOrStr` | `twilio/models/enums/tollfree_verification_enum_vetting_provider.py` |
+| `MessagingV1TollfreeVerification` | `twilio/models/messaging_v1_tollfree_verification.py` |
 

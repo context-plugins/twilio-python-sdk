@@ -2,7 +2,7 @@
 
 # TrusthubV1TrustProducts — operations
 
-Accessor: `client.trusthub_v1_trust_products` · Source: `twilio_sdk/apis/trusthub_v1_trust_products.py` · 5 operations
+Accessor: `client.trusthub_v1_trust_products` · Source: `twilio/apis/trusthub_v1_trust_products.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -10,7 +10,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 - **Route**: `POST /v1/TrustProducts`
 - **Server**: `default9`
-- **Signature**: `def create_trust_product(friendly_name: str, email: str, policy_sid: str, *, status_callback: AnyUrl | None = None, request_options: RequestOptionsOrDict | None = None)`
+- **Signature**: `def create_trust_product(friendly_name: str, email: str, policy_sid: str, *, status_callback: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `friendly_name`, `email`, `policy_sid`
 - **Params**: `friendly_name` — form field `FriendlyName` · `email` — form field `Email` · `policy_sid` — form field `PolicySid` · `status_callback` — form field `StatusCallback`
 - **Returns (parsed)**: `TrusthubV1TrustProduct`
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TrusthubV1TrustProduct` | `twilio_sdk/models/trusthub_v1_trust_product.py` |
+| `TrusthubV1TrustProduct` | `twilio/models/trusthub_v1_trust_product.py` |
 
 ### client.trusthub_v1_trust_products.delete_trust_product
 
@@ -45,7 +45,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TrusthubV1TrustProduct` | `twilio_sdk/models/trusthub_v1_trust_product.py` |
+| `TrusthubV1TrustProduct` | `twilio/models/trusthub_v1_trust_product.py` |
 
 ### client.trusthub_v1_trust_products.list_trust_product
 
@@ -59,14 +59,14 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TrustProductEnumStatusOrStr` | `twilio_sdk/models/enums/trust_product_enum_status.py` |
-| `ListTrustProductResponse` | `twilio_sdk/models/list_trust_product_response.py` |
+| `TrustProductEnumStatusOrStr` | `twilio/models/enums/trust_product_enum_status.py` |
+| `ListTrustProductResponse` | `twilio/models/list_trust_product_response.py` |
 
 ### client.trusthub_v1_trust_products.update_trust_product
 
 - **Route**: `POST /v1/TrustProducts/{Sid}`
 - **Server**: `default9`
-- **Signature**: `def update_trust_product(sid: str, *, status: TrustProductEnumStatusOrStr | None = None, status_callback: AnyUrl | None = None, friendly_name: str | None = None, email: str | None = None, request_options: RequestOptionsOrDict | None = None)`
+- **Signature**: `def update_trust_product(sid: str, *, status: TrustProductEnumStatusOrStr | None = None, status_callback: str | None = None, friendly_name: str | None = None, email: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `sid`
 - **Params**: `sid` — path `Sid` · `status` — form field `Status` · `status_callback` — form field `StatusCallback` · `friendly_name` — form field `FriendlyName` · `email` — form field `Email`
 - **Returns (parsed)**: `TrusthubV1TrustProduct`
@@ -75,6 +75,6 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TrustProductEnumStatusOrStr` | `twilio_sdk/models/enums/trust_product_enum_status.py` |
-| `TrusthubV1TrustProduct` | `twilio_sdk/models/trusthub_v1_trust_product.py` |
+| `TrustProductEnumStatusOrStr` | `twilio/models/enums/trust_product_enum_status.py` |
+| `TrusthubV1TrustProduct` | `twilio/models/trusthub_v1_trust_product.py` |
 

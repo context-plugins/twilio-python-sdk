@@ -2,7 +2,7 @@
 
 # NumbersV2SupportingDocument — operations
 
-Accessor: `client.numbers_v2_supporting_document` · Source: `twilio_sdk/apis/numbers_v2_supporting_document.py` · 5 operations
+Accessor: `client.numbers_v2_supporting_document` · Source: `twilio/apis/numbers_v2_supporting_document.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `NumbersV2RegulatoryComplianceSupportingDocument` | `twilio_sdk/models/numbers_v2_regulatory_compliance_supporting_document.py` |
+| `NumbersV2RegulatoryComplianceSupportingDocument` | `twilio/models/numbers_v2_regulatory_compliance_supporting_document.py` |
 
 ### client.numbers_v2_supporting_document.delete_supporting_document
 
@@ -45,7 +45,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `NumbersV2RegulatoryComplianceSupportingDocument` | `twilio_sdk/models/numbers_v2_regulatory_compliance_supporting_document.py` |
+| `NumbersV2RegulatoryComplianceSupportingDocument` | `twilio/models/numbers_v2_regulatory_compliance_supporting_document.py` |
 
 ### client.numbers_v2_supporting_document.list_supporting_document
 
@@ -59,7 +59,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListSupportingDocumentResponse` | `twilio_sdk/models/list_supporting_document_response.py` |
+| `ListSupportingDocumentResponse` | `twilio/models/list_supporting_document_response.py` |
 
 ### client.numbers_v2_supporting_document.update_supporting_document
 
@@ -74,5 +74,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `NumbersV2RegulatoryComplianceSupportingDocument` | `twilio_sdk/models/numbers_v2_regulatory_compliance_supporting_document.py` |
+| `NumbersV2RegulatoryComplianceSupportingDocument` | `twilio/models/numbers_v2_regulatory_compliance_supporting_document.py` |
 

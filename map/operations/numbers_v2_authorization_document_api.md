@@ -2,7 +2,7 @@
 
 # NumbersV2AuthorizationDocumentApi — operations
 
-Accessor: `client.numbers_v2_authorization_document_api` · Source: `twilio_sdk/apis/numbers_v2_authorization_document_api.py` · 4 operations
+Accessor: `client.numbers_v2_authorization_document_api` · Source: `twilio/apis/numbers_v2_authorization_document_api.py` · 4 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `NumbersV2AuthorizationDocument` | `twilio_sdk/models/numbers_v2_authorization_document.py` |
+| `NumbersV2AuthorizationDocument` | `twilio/models/numbers_v2_authorization_document.py` |
 
 ### client.numbers_v2_authorization_document_api.delete_authorization_document
 
@@ -45,7 +45,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `NumbersV2AuthorizationDocument` | `twilio_sdk/models/numbers_v2_authorization_document.py` |
+| `NumbersV2AuthorizationDocument` | `twilio/models/numbers_v2_authorization_document.py` |
 
 ### client.numbers_v2_authorization_document_api.list_authorization_document
 
@@ -59,6 +59,6 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `AuthorizationDocumentEnumStatusOrStr` | `twilio_sdk/models/enums/authorization_document_enum_status.py` |
-| `ListAuthorizationDocumentResponse` | `twilio_sdk/models/list_authorization_document_response.py` |
+| `AuthorizationDocumentEnumStatusOrStr` | `twilio/models/enums/authorization_document_enum_status.py` |
+| `ListAuthorizationDocumentResponse` | `twilio/models/list_authorization_document_response.py` |
 

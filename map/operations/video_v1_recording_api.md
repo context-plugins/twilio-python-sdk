@@ -2,7 +2,7 @@
 
 # VideoV1RecordingApi — operations
 
-Accessor: `client.video_v1_recording_api` · Source: `twilio_sdk/apis/video_v1_recording_api.py` · 3 operations
+Accessor: `client.video_v1_recording_api` · Source: `twilio/apis/video_v1_recording_api.py` · 3 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -30,7 +30,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `VideoV1Recording` | `twilio_sdk/models/video_v1_recording.py` |
+| `VideoV1Recording` | `twilio/models/video_v1_recording.py` |
 
 ### client.video_v1_recording_api.list_recording2
 
@@ -44,7 +44,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `RecordingEnumStatus1OrStr` | `twilio_sdk/models/enums/recording_enum_status1.py` |
-| `RecordingEnumTypeOrStr` | `twilio_sdk/models/enums/recording_enum_type.py` |
-| `ListRecordingResponse1` | `twilio_sdk/models/list_recording_response1.py` |
+| `RecordingEnumStatus1OrStr` | `twilio/models/enums/recording_enum_status1.py` |
+| `RecordingEnumTypeOrStr` | `twilio/models/enums/recording_enum_type.py` |
+| `ListRecordingResponse1` | `twilio/models/list_recording_response1.py` |
 

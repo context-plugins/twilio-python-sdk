@@ -2,7 +2,7 @@
 
 # ConversationsV1UserConversation — operations
 
-Accessor: `client.conversations_v1_user_conversation` · Source: `twilio_sdk/apis/conversations_v1_user_conversation.py` · 8 operations
+Accessor: `client.conversations_v1_user_conversation` · Source: `twilio/apis/conversations_v1_user_conversation.py` · 8 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -41,7 +41,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConversationsV1ServiceServiceUserServiceUserConversation` | `twilio_sdk/models/conversations_v1_service_service_user_service_user_conversation.py` |
+| `ConversationsV1ServiceServiceUserServiceUserConversation` | `twilio/models/conversations_v1_service_service_user_service_user_conversation.py` |
 
 ### client.conversations_v1_user_conversation.fetch_user_conversation
 
@@ -56,7 +56,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConversationsV1UserUserConversation` | `twilio_sdk/models/conversations_v1_user_user_conversation.py` |
+| `ConversationsV1UserUserConversation` | `twilio/models/conversations_v1_user_user_conversation.py` |
 
 ### client.conversations_v1_user_conversation.list_service_user_conversation
 
@@ -71,7 +71,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListServiceUserConversationResponse` | `twilio_sdk/models/list_service_user_conversation_response.py` |
+| `ListServiceUserConversationResponse` | `twilio/models/list_service_user_conversation_response.py` |
 
 ### client.conversations_v1_user_conversation.list_user_conversation
 
@@ -86,7 +86,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListUserConversationResponse` | `twilio_sdk/models/list_user_conversation_response.py` |
+| `ListUserConversationResponse` | `twilio/models/list_user_conversation_response.py` |
 
 ### client.conversations_v1_user_conversation.update_service_user_conversation
 
@@ -101,8 +101,8 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ServiceUserConversationEnumNotificationLevelOrStr` | `twilio_sdk/models/enums/service_user_conversation_enum_notification_level.py` |
-| `ConversationsV1ServiceServiceUserServiceUserConversation` | `twilio_sdk/models/conversations_v1_service_service_user_service_user_conversation.py` |
+| `ServiceUserConversationEnumNotificationLevelOrStr` | `twilio/models/enums/service_user_conversation_enum_notification_level.py` |
+| `ConversationsV1ServiceServiceUserServiceUserConversation` | `twilio/models/conversations_v1_service_service_user_service_user_conversation.py` |
 
 ### client.conversations_v1_user_conversation.update_user_conversation
 
@@ -117,6 +117,6 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `UserConversationEnumNotificationLevelOrStr` | `twilio_sdk/models/enums/user_conversation_enum_notification_level.py` |
-| `ConversationsV1UserUserConversation` | `twilio_sdk/models/conversations_v1_user_user_conversation.py` |
+| `UserConversationEnumNotificationLevelOrStr` | `twilio/models/enums/user_conversation_enum_notification_level.py` |
+| `ConversationsV1UserUserConversation` | `twilio/models/conversations_v1_user_user_conversation.py` |
 

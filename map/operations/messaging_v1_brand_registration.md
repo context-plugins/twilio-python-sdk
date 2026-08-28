@@ -2,7 +2,7 @@
 
 # MessagingV1BrandRegistration — operations
 
-Accessor: `client.messaging_v1_brand_registration` · Source: `twilio_sdk/apis/messaging_v1_brand_registration.py` · 4 operations
+Accessor: `client.messaging_v1_brand_registration` · Source: `twilio/apis/messaging_v1_brand_registration.py` · 4 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `MessagingV1BrandRegistrations` | `twilio_sdk/models/messaging_v1_brand_registrations.py` |
+| `MessagingV1BrandRegistrations` | `twilio/models/messaging_v1_brand_registrations.py` |
 
 ### client.messaging_v1_brand_registration.fetch_brand_registrations
 
@@ -34,7 +34,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `MessagingV1BrandRegistrations` | `twilio_sdk/models/messaging_v1_brand_registrations.py` |
+| `MessagingV1BrandRegistrations` | `twilio/models/messaging_v1_brand_registrations.py` |
 
 ### client.messaging_v1_brand_registration.list_brand_registrations
 
@@ -48,7 +48,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListBrandRegistrationsResponse` | `twilio_sdk/models/list_brand_registrations_response.py` |
+| `ListBrandRegistrationsResponse` | `twilio/models/list_brand_registrations_response.py` |
 
 ### client.messaging_v1_brand_registration.update_brand_registrations
 
@@ -63,5 +63,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `MessagingV1BrandRegistrations` | `twilio_sdk/models/messaging_v1_brand_registrations.py` |
+| `MessagingV1BrandRegistrations` | `twilio/models/messaging_v1_brand_registrations.py` |
 

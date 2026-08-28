@@ -2,7 +2,7 @@
 
 # TrusthubV1CustomerProfiles — operations
 
-Accessor: `client.trusthub_v1_customer_profiles` · Source: `twilio_sdk/apis/trusthub_v1_customer_profiles.py` · 5 operations
+Accessor: `client.trusthub_v1_customer_profiles` · Source: `twilio/apis/trusthub_v1_customer_profiles.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -10,7 +10,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 - **Route**: `POST /v1/CustomerProfiles`
 - **Server**: `default9`
-- **Signature**: `def create_customer_profile(friendly_name: str, email: str, policy_sid: str, *, status_callback: AnyUrl | None = None, request_options: RequestOptionsOrDict | None = None)`
+- **Signature**: `def create_customer_profile(friendly_name: str, email: str, policy_sid: str, *, status_callback: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `friendly_name`, `email`, `policy_sid`
 - **Params**: `friendly_name` — form field `FriendlyName` · `email` — form field `Email` · `policy_sid` — form field `PolicySid` · `status_callback` — form field `StatusCallback`
 - **Returns (parsed)**: `TrusthubV1CustomerProfile`
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TrusthubV1CustomerProfile` | `twilio_sdk/models/trusthub_v1_customer_profile.py` |
+| `TrusthubV1CustomerProfile` | `twilio/models/trusthub_v1_customer_profile.py` |
 
 ### client.trusthub_v1_customer_profiles.delete_customer_profile
 
@@ -45,7 +45,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TrusthubV1CustomerProfile` | `twilio_sdk/models/trusthub_v1_customer_profile.py` |
+| `TrusthubV1CustomerProfile` | `twilio/models/trusthub_v1_customer_profile.py` |
 
 ### client.trusthub_v1_customer_profiles.list_customer_profile
 
@@ -59,14 +59,14 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `CustomerProfileEnumStatusOrStr` | `twilio_sdk/models/enums/customer_profile_enum_status.py` |
-| `ListCustomerProfileResponse` | `twilio_sdk/models/list_customer_profile_response.py` |
+| `CustomerProfileEnumStatusOrStr` | `twilio/models/enums/customer_profile_enum_status.py` |
+| `ListCustomerProfileResponse` | `twilio/models/list_customer_profile_response.py` |
 
 ### client.trusthub_v1_customer_profiles.update_customer_profile
 
 - **Route**: `POST /v1/CustomerProfiles/{Sid}`
 - **Server**: `default9`
-- **Signature**: `def update_customer_profile(sid: str, *, status: CustomerProfileEnumStatusOrStr | None = None, status_callback: AnyUrl | None = None, friendly_name: str | None = None, email: str | None = None, request_options: RequestOptionsOrDict | None = None)`
+- **Signature**: `def update_customer_profile(sid: str, *, status: CustomerProfileEnumStatusOrStr | None = None, status_callback: str | None = None, friendly_name: str | None = None, email: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `sid`
 - **Params**: `sid` — path `Sid` · `status` — form field `Status` · `status_callback` — form field `StatusCallback` · `friendly_name` — form field `FriendlyName` · `email` — form field `Email`
 - **Returns (parsed)**: `TrusthubV1CustomerProfile`
@@ -75,6 +75,6 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `CustomerProfileEnumStatusOrStr` | `twilio_sdk/models/enums/customer_profile_enum_status.py` |
-| `TrusthubV1CustomerProfile` | `twilio_sdk/models/trusthub_v1_customer_profile.py` |
+| `CustomerProfileEnumStatusOrStr` | `twilio/models/enums/customer_profile_enum_status.py` |
+| `TrusthubV1CustomerProfile` | `twilio/models/trusthub_v1_customer_profile.py` |
 

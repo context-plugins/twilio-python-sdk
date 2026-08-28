@@ -2,7 +2,7 @@
 
 # TrusthubV1ComplianceTollfreeInquiries — operations
 
-Accessor: `client.trusthub_v1_compliance_tollfree_inquiries` · Source: `twilio_sdk/apis/trusthub_v1_compliance_tollfree_inquiries.py` · 1 operation
+Accessor: `client.trusthub_v1_compliance_tollfree_inquiries` · Source: `twilio/apis/trusthub_v1_compliance_tollfree_inquiries.py` · 1 operation
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ComplianceTollfreeInquiryEnumOptInTypeOrStr` | `twilio_sdk/models/enums/compliance_tollfree_inquiry_enum_opt_in_type.py` |
-| `TollfreeVerificationEnumBusinessTypeOrStr` | `twilio_sdk/models/enums/tollfree_verification_enum_business_type.py` |
-| `TrusthubV1ComplianceTollfreeInquiry` | `twilio_sdk/models/trusthub_v1_compliance_tollfree_inquiry.py` |
+| `ComplianceTollfreeInquiryEnumOptInTypeOrStr` | `twilio/models/enums/compliance_tollfree_inquiry_enum_opt_in_type.py` |
+| `TollfreeVerificationEnumBusinessTypeOrStr` | `twilio/models/enums/tollfree_verification_enum_business_type.py` |
+| `TrusthubV1ComplianceTollfreeInquiry` | `twilio/models/trusthub_v1_compliance_tollfree_inquiry.py` |
 

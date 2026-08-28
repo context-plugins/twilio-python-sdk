@@ -2,7 +2,7 @@
 
 # Api20100401AllTime — operations
 
-Accessor: `client.api20100401_all_time` · Source: `twilio_sdk/apis/api20100401_all_time.py` · 1 operation
+Accessor: `client.api20100401_all_time` · Source: `twilio/apis/api20100401_all_time.py` · 1 operation
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,5 +19,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListUsageRecordAllTimeResponse` | `twilio_sdk/models/list_usage_record_all_time_response.py` |
+| `ListUsageRecordAllTimeResponse` | `twilio/models/list_usage_record_all_time_response.py` |
 

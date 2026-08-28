@@ -2,7 +2,7 @@
 
 # NumbersV2EndUser — operations
 
-Accessor: `client.numbers_v2_end_user` · Source: `twilio_sdk/apis/numbers_v2_end_user.py` · 5 operations
+Accessor: `client.numbers_v2_end_user` · Source: `twilio/apis/numbers_v2_end_user.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -19,8 +19,8 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `EndUserEnumTypeOrStr` | `twilio_sdk/models/enums/end_user_enum_type.py` |
-| `NumbersV2RegulatoryComplianceEndUser` | `twilio_sdk/models/numbers_v2_regulatory_compliance_end_user.py` |
+| `EndUserEnumTypeOrStr` | `twilio/models/enums/end_user_enum_type.py` |
+| `NumbersV2RegulatoryComplianceEndUser` | `twilio/models/numbers_v2_regulatory_compliance_end_user.py` |
 
 ### client.numbers_v2_end_user.delete_end_user
 
@@ -46,7 +46,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `NumbersV2RegulatoryComplianceEndUser` | `twilio_sdk/models/numbers_v2_regulatory_compliance_end_user.py` |
+| `NumbersV2RegulatoryComplianceEndUser` | `twilio/models/numbers_v2_regulatory_compliance_end_user.py` |
 
 ### client.numbers_v2_end_user.list_end_user
 
@@ -60,7 +60,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListEndUserResponse` | `twilio_sdk/models/list_end_user_response.py` |
+| `ListEndUserResponse` | `twilio/models/list_end_user_response.py` |
 
 ### client.numbers_v2_end_user.update_end_user
 
@@ -75,5 +75,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `NumbersV2RegulatoryComplianceEndUser` | `twilio_sdk/models/numbers_v2_regulatory_compliance_end_user.py` |
+| `NumbersV2RegulatoryComplianceEndUser` | `twilio/models/numbers_v2_regulatory_compliance_end_user.py` |
 

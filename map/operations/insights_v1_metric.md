@@ -2,7 +2,7 @@
 
 # InsightsV1Metric — operations
 
-Accessor: `client.insights_v1_metric` · Source: `twilio_sdk/apis/insights_v1_metric.py` · 1 operation
+Accessor: `client.insights_v1_metric` · Source: `twilio/apis/insights_v1_metric.py` · 1 operation
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `MetricEnumTwilioEdgeOrStr` | `twilio_sdk/models/enums/metric_enum_twilio_edge.py` |
-| `MetricEnumStreamDirectionOrStr` | `twilio_sdk/models/enums/metric_enum_stream_direction.py` |
-| `ListMetricResponse` | `twilio_sdk/models/list_metric_response.py` |
+| `MetricEnumTwilioEdgeOrStr` | `twilio/models/enums/metric_enum_twilio_edge.py` |
+| `MetricEnumStreamDirectionOrStr` | `twilio/models/enums/metric_enum_stream_direction.py` |
+| `ListMetricResponse` | `twilio/models/list_metric_response.py` |
 

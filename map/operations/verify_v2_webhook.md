@@ -2,7 +2,7 @@
 
 # VerifyV2Webhook — operations
 
-Accessor: `client.verify_v2_webhook` · Source: `twilio_sdk/apis/verify_v2_webhook.py` · 5 operations
+Accessor: `client.verify_v2_webhook` · Source: `twilio/apis/verify_v2_webhook.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -19,9 +19,9 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `WebhookEnumStatusOrStr` | `twilio_sdk/models/enums/webhook_enum_status.py` |
-| `WebhookEnumVersionOrStr` | `twilio_sdk/models/enums/webhook_enum_version.py` |
-| `VerifyV2ServiceWebhook` | `twilio_sdk/models/verify_v2_service_webhook.py` |
+| `WebhookEnumStatusOrStr` | `twilio/models/enums/webhook_enum_status.py` |
+| `WebhookEnumVersionOrStr` | `twilio/models/enums/webhook_enum_version.py` |
+| `VerifyV2ServiceWebhook` | `twilio/models/verify_v2_service_webhook.py` |
 
 ### client.verify_v2_webhook.delete_webhook
 
@@ -47,7 +47,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `VerifyV2ServiceWebhook` | `twilio_sdk/models/verify_v2_service_webhook.py` |
+| `VerifyV2ServiceWebhook` | `twilio/models/verify_v2_service_webhook.py` |
 
 ### client.verify_v2_webhook.list_webhook
 
@@ -62,7 +62,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListWebhookResponse` | `twilio_sdk/models/list_webhook_response.py` |
+| `ListWebhookResponse` | `twilio/models/list_webhook_response.py` |
 
 ### client.verify_v2_webhook.update_webhook
 
@@ -77,7 +77,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `WebhookEnumStatusOrStr` | `twilio_sdk/models/enums/webhook_enum_status.py` |
-| `WebhookEnumVersionOrStr` | `twilio_sdk/models/enums/webhook_enum_version.py` |
-| `VerifyV2ServiceWebhook` | `twilio_sdk/models/verify_v2_service_webhook.py` |
+| `WebhookEnumStatusOrStr` | `twilio/models/enums/webhook_enum_status.py` |
+| `WebhookEnumVersionOrStr` | `twilio/models/enums/webhook_enum_version.py` |
+| `VerifyV2ServiceWebhook` | `twilio/models/verify_v2_service_webhook.py` |
 

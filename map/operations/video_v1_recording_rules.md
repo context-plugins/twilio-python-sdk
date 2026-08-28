@@ -2,7 +2,7 @@
 
 # VideoV1RecordingRules — operations
 
-Accessor: `client.video_v1_recording_rules` · Source: `twilio_sdk/apis/video_v1_recording_rules.py` · 2 operations
+Accessor: `client.video_v1_recording_rules` · Source: `twilio/apis/video_v1_recording_rules.py` · 2 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `VideoV1RoomRoomRecordingRule` | `twilio_sdk/models/video_v1_room_room_recording_rule.py` |
+| `VideoV1RoomRoomRecordingRule` | `twilio/models/video_v1_room_room_recording_rule.py` |
 
 ### client.video_v1_recording_rules.update_room_recording_rule
 
@@ -34,5 +34,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `VideoV1RoomRoomRecordingRule` | `twilio_sdk/models/video_v1_room_room_recording_rule.py` |
+| `VideoV1RoomRoomRecordingRule` | `twilio/models/video_v1_room_room_recording_rule.py` |
 

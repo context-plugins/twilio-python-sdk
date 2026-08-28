@@ -1,0 +1,72 @@
+from __future__ import annotations
+
+from typing import Any
+
+from pydantic import Field
+from typing_extensions import NotRequired, TypedDict
+
+from ..core import UNSET, OptionalNullable, RFC3339DateTime, SdkBaseModel
+
+
+class StudioV1FlowEngagementStep(SdkBaseModel):
+    sid: OptionalNullable[str] = UNSET
+    """The unique string that we created to identify the Step resource."""
+
+    account_sid: OptionalNullable[str] = UNSET
+    """The SID of the `Account <https://www.twilio.com/docs/iam/api/account>`__ that created the Step resource."""
+
+    flow_sid: OptionalNullable[str] = UNSET
+    """The SID of the Flow."""
+
+    engagement_sid: OptionalNullable[str] = UNSET
+    """The SID of the Engagement."""
+
+    name: OptionalNullable[str] = UNSET
+    """The event that caused the Flow to transition to the Step."""
+
+    context: OptionalNullable[Any] = UNSET
+    """The current state of the Flow's Execution. As a flow executes, we save its state in this context. We save data
+    that your widgets can access as variables in configuration fields or in text areas as variable substitution."""
+
+    parent_step_sid: OptionalNullable[str] = UNSET
+    """The SID of the parent Step."""
+
+    transitioned_from: OptionalNullable[str] = UNSET
+    """The Widget that preceded the Widget for the Step."""
+
+    transitioned_to: OptionalNullable[str] = UNSET
+    """The Widget that will follow the Widget for the Step."""
+
+    type_: OptionalNullable[str] = Field(default=UNSET, alias="type")
+    """The type of the widget that was executed."""
+
+    date_created: OptionalNullable[RFC3339DateTime] = UNSET
+    """The date and time in GMT when the resource was created specified in `ISO 8601
+    <https://en.wikipedia.org/wiki/ISO_8601>`__ format."""
+
+    date_updated: OptionalNullable[RFC3339DateTime] = UNSET
+    """The date and time in GMT when the resource was last updated specified in `ISO 8601
+    <https://en.wikipedia.org/wiki/ISO_8601>`__ format."""
+
+    url: OptionalNullable[str] = UNSET
+    """The absolute URL of the resource."""
+
+    links: OptionalNullable[Any] = UNSET
+    """The URLs of related resources."""
+
+
+class StudioV1FlowEngagementStepDict(TypedDict):
+    sid: NotRequired[str | None]
+    account_sid: NotRequired[str | None]
+    flow_sid: NotRequired[str | None]
+    engagement_sid: NotRequired[str | None]
+    name: NotRequired[str | None]
+    context: NotRequired[Any | None]
+    parent_step_sid: NotRequired[str | None]
+    transitioned_from: NotRequired[str | None]
+    transitioned_to: NotRequired[str | None]
+    type_: NotRequired[str | None]
+    date_created: NotRequired[RFC3339DateTime | None]
+    date_updated: NotRequired[RFC3339DateTime | None]
+    url: NotRequired[str | None]
+    links: NotRequired[Any | None]

@@ -1,8 +1,8 @@
-# Twilio SDK SDK
+# Twilio SDK
 
 [![Built with APIMatic][apimatic-badge]][apimatic-url] [![License: MIT][license-badge]][license-url] [![Python 3.10+][python-badge]][python-url]
 
-The Twilio SDK SDK for Python provides access to the Twilio SDK REST APIs from Python applications.
+The Twilio SDK for Python provides access to the Twilio REST APIs from Python applications.
 
 > [!TIP]
 > **Looking for a specific signature, model, enum, or error type?** This SDK ships a generated
@@ -18,15 +18,15 @@ This is the public Twilio REST API., Manage configurations, conversations, parti
 Install the Python SDK from PyPI, with whichever package manager your project uses:
 
 ```bash
-pip install twilio-sdk
+pip install twilio
 ```
 
 ```bash
-uv add twilio-sdk
+uv add twilio
 ```
 
 ```bash
-poetry add twilio-sdk
+poetry add twilio
 ```
 
 ---
@@ -35,40 +35,38 @@ poetry add twilio-sdk
 
 ### Synchronous client
 
-Construct `TwilioSdkClient` with keyword arguments, and call `close()` when you are done. Every argument is optional; the full list is in the [SDK map](sdk-map.md).
+Construct `TwilioClient` with keyword arguments, and call `close()` when you are done. Every argument is optional; the full list is in the [SDK map](sdk-map.md).
 
 ```python
-from twilio_sdk import TwilioSdkClient
-from twilio_sdk.core import BasicAuthCredentials
+from twilio import TwilioClient
+from twilio.core import BasicAuthCredentials
 
-client = TwilioSdkClient(
-    account_sid_auth_token=BasicAuthCredentials(username="YOUR_USERNAME", password="YOUR_PASSWORD")
-)
+client = TwilioClient(account_sid_auth_token=BasicAuthCredentials(username="YOUR_USERNAME", password="YOUR_PASSWORD"))
 
 # TODO: call endpoints here -- see api-reference.md
 
 client.close()
 ```
 
-Alternatively, scope it -- `with TwilioSdkClient(...) as client:` closes the pool on exit; see [Best Practices](#best-practices).
+Alternatively, scope it -- `with TwilioClient(...) as client:` closes the pool on exit; see [Best Practices](#best-practices).
 
-`Client` is exported as an alias of `TwilioSdkClient`, so `from twilio_sdk import Client` also works.
+`Client` is exported as an alias of `TwilioClient`, so `from twilio import Client` also works.
 
 The SDK accepts every model-typed input in two interchangeable spellings, both type-checked: the typed model, or a plain dict with the same keys -- the `OrDict` and `Model | ModelDict` unions in the [SDK map](sdk-map.md). Pick whichever suits the call site: the dict form needs no import, while the model form adds a keyword-checked constructor and editor completion.
 
 ### Asynchronous client
 
-`AsyncTwilioSdkClient` mirrors `TwilioSdkClient` with **identical method names**, and every endpoint method is a coroutine. It takes the same arguments, with some differences -- for example, the transport argument is `custom_async_http_client`.
+`AsyncTwilioClient` mirrors `TwilioClient` with **identical method names**, and every endpoint method is a coroutine. It takes the same arguments, with some differences -- for example, the transport argument is `custom_async_http_client`.
 
 ```python
 from asyncio import run
 
-from twilio_sdk import AsyncTwilioSdkClient
-from twilio_sdk.core import BasicAuthCredentials
+from twilio import AsyncTwilioClient
+from twilio.core import BasicAuthCredentials
 
 
 async def main() -> None:
-    client = AsyncTwilioSdkClient(
+    client = AsyncTwilioClient(
         account_sid_auth_token=BasicAuthCredentials(username="YOUR_USERNAME", password="YOUR_PASSWORD")
     )
     # TODO: call endpoints here, awaiting each -- see api-reference.md
@@ -78,7 +76,7 @@ async def main() -> None:
 run(main())
 ```
 
-Alternatively, scope it -- `async with AsyncTwilioSdkClient(...) as client:` closes the pool on exit. Only the async spelling is `aclose`, matching httpx; see [Best Practices](#best-practices).
+Alternatively, scope it -- `async with AsyncTwilioClient(...) as client:` closes the pool on exit. Only the async spelling is `aclose`, matching httpx; see [Best Practices](#best-practices).
 
 `AsyncClient` is the exported alias. Each client accepts **only** its own transport argument; passing the other's is a `TypeError` at runtime and an error under mypy.
 
@@ -104,11 +102,11 @@ Consult the map before scanning or grepping the source: it answers call-level co
 ## Best Practices
 
 > [!TIP]
-> Use a **single `TwilioSdkClient` instance** for the lifetime of your application and reuse it across
+> Use a **single `TwilioClient` instance** for the lifetime of your application and reuse it across
 > all requests. Each instance owns its own connection pool, so an instance per request forfeits
 > connection reuse and leaks pools that are never closed.
 
-Match the disposal to the client's lifetime: an application-lifetime client is closed once at shutdown with `close()` / `aclose()`; where the lifetime fits a block, `with TwilioSdkClient() as client:` / `async with AsyncTwilioSdkClient() as client:` releases it automatically. Both are idempotent, but a closed client is not reusable: the next call raises. The client closes **whatever transport it holds**, including one you supplied via `custom_http_client` / `custom_async_http_client`; if you intend to reuse your own transport across clients, don't hand its lifetime to a `with` block.
+Match the disposal to the client's lifetime: an application-lifetime client is closed once at shutdown with `close()` / `aclose()`; where the lifetime fits a block, `with TwilioClient() as client:` / `async with AsyncTwilioClient() as client:` releases it automatically. Both are idempotent, but a closed client is not reusable: the next call raises. The client closes **whatever transport it holds**, including one you supplied via `custom_http_client` / `custom_async_http_client`; if you intend to reuse your own transport across clients, don't hand its lifetime to a `with` block.
 
 ## License
 

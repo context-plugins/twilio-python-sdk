@@ -2,7 +2,7 @@
 
 # ConversationsV1AddressConfiguration — operations
 
-Accessor: `client.conversations_v1_address_configuration` · Source: `twilio_sdk/apis/conversations_v1_address_configuration.py` · 5 operations
+Accessor: `client.conversations_v1_address_configuration` · Source: `twilio/apis/conversations_v1_address_configuration.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -19,10 +19,10 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConfigurationAddressEnumTypeOrStr` | `twilio_sdk/models/enums/configuration_address_enum_type.py` |
-| `ConfigurationAddressEnumAutoCreationTypeOrStr` | `twilio_sdk/models/enums/configuration_address_enum_auto_creation_type.py` |
-| `ConfigurationAddressEnumMethodOrStr` | `twilio_sdk/models/enums/configuration_address_enum_method.py` |
-| `ConversationsV1ConfigurationAddress` | `twilio_sdk/models/conversations_v1_configuration_address.py` |
+| `ConfigurationAddressEnumTypeOrStr` | `twilio/models/enums/configuration_address_enum_type.py` |
+| `ConfigurationAddressEnumAutoCreationTypeOrStr` | `twilio/models/enums/configuration_address_enum_auto_creation_type.py` |
+| `ConfigurationAddressEnumMethodOrStr` | `twilio/models/enums/configuration_address_enum_method.py` |
+| `ConversationsV1ConfigurationAddress` | `twilio/models/conversations_v1_configuration_address.py` |
 
 ### client.conversations_v1_address_configuration.delete_configuration_address
 
@@ -48,7 +48,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConversationsV1ConfigurationAddress` | `twilio_sdk/models/conversations_v1_configuration_address.py` |
+| `ConversationsV1ConfigurationAddress` | `twilio/models/conversations_v1_configuration_address.py` |
 
 ### client.conversations_v1_address_configuration.list_configuration_address
 
@@ -62,7 +62,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListConfigurationAddressResponse` | `twilio_sdk/models/list_configuration_address_response.py` |
+| `ListConfigurationAddressResponse` | `twilio/models/list_configuration_address_response.py` |
 
 ### client.conversations_v1_address_configuration.update_configuration_address
 
@@ -77,7 +77,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConfigurationAddressEnumAutoCreationTypeOrStr` | `twilio_sdk/models/enums/configuration_address_enum_auto_creation_type.py` |
-| `ConfigurationAddressEnumMethodOrStr` | `twilio_sdk/models/enums/configuration_address_enum_method.py` |
-| `ConversationsV1ConfigurationAddress` | `twilio_sdk/models/conversations_v1_configuration_address.py` |
+| `ConfigurationAddressEnumAutoCreationTypeOrStr` | `twilio/models/enums/configuration_address_enum_auto_creation_type.py` |
+| `ConfigurationAddressEnumMethodOrStr` | `twilio/models/enums/configuration_address_enum_method.py` |
+| `ConversationsV1ConfigurationAddress` | `twilio/models/conversations_v1_configuration_address.py` |
 

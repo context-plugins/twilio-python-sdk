@@ -2,7 +2,7 @@
 
 # Api20100401Notification — operations
 
-Accessor: `client.api20100401_notification` · Source: `twilio_sdk/apis/api20100401_notification.py` · 2 operations
+Accessor: `client.api20100401_notification` · Source: `twilio/apis/api20100401_notification.py` · 2 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ApiV2010AccountNotificationInstance` | `twilio_sdk/models/api_v2010_account_notification_instance.py` |
+| `ApiV2010AccountNotificationInstance` | `twilio/models/api_v2010_account_notification_instance.py` |
 
 ### client.api20100401_notification.list_notification
 
@@ -34,5 +34,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListNotificationResponse` | `twilio_sdk/models/list_notification_response.py` |
+| `ListNotificationResponse` | `twilio/models/list_notification_response.py` |
 

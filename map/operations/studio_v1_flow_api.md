@@ -2,7 +2,7 @@
 
 # StudioV1FlowApi — operations
 
-Accessor: `client.studio_v1_flow_api` · Source: `twilio_sdk/apis/studio_v1_flow_api.py` · 3 operations
+Accessor: `client.studio_v1_flow_api` · Source: `twilio/apis/studio_v1_flow_api.py` · 3 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -30,7 +30,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `StudioV1Flow` | `twilio_sdk/models/studio_v1_flow.py` |
+| `StudioV1Flow` | `twilio/models/studio_v1_flow.py` |
 
 ### client.studio_v1_flow_api.list_flow
 
@@ -44,5 +44,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListFlowResponse` | `twilio_sdk/models/list_flow_response.py` |
+| `ListFlowResponse` | `twilio/models/list_flow_response.py` |
 

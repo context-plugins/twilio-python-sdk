@@ -2,7 +2,7 @@
 
 # InsightsV1Annotation — operations
 
-Accessor: `client.insights_v1_annotation` · Source: `twilio_sdk/apis/insights_v1_annotation.py` · 2 operations
+Accessor: `client.insights_v1_annotation` · Source: `twilio/apis/insights_v1_annotation.py` · 2 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `InsightsV1CallAnnotation` | `twilio_sdk/models/insights_v1_call_annotation.py` |
+| `InsightsV1CallAnnotation` | `twilio/models/insights_v1_call_annotation.py` |
 
 ### client.insights_v1_annotation.update_annotation
 
@@ -34,7 +34,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `AnnotationEnumAnsweredByOrStr` | `twilio_sdk/models/enums/annotation_enum_answered_by.py` |
-| `AnnotationEnumConnectivityIssueOrStr` | `twilio_sdk/models/enums/annotation_enum_connectivity_issue.py` |
-| `InsightsV1CallAnnotation` | `twilio_sdk/models/insights_v1_call_annotation.py` |
+| `AnnotationEnumAnsweredByOrStr` | `twilio/models/enums/annotation_enum_answered_by.py` |
+| `AnnotationEnumConnectivityIssueOrStr` | `twilio/models/enums/annotation_enum_connectivity_issue.py` |
+| `InsightsV1CallAnnotation` | `twilio/models/insights_v1_call_annotation.py` |
 

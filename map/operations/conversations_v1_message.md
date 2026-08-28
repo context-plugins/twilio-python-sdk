@@ -2,7 +2,7 @@
 
 # ConversationsV1Message — operations
 
-Accessor: `client.conversations_v1_message` · Source: `twilio_sdk/apis/conversations_v1_message.py` · 10 operations
+Accessor: `client.conversations_v1_message` · Source: `twilio/apis/conversations_v1_message.py` · 10 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,8 +19,8 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConfirmationOrStr` | `twilio_sdk/models/enums/confirmation.py` |
-| `ConversationsV1ConversationConversationMessage` | `twilio_sdk/models/conversations_v1_conversation_conversation_message.py` |
+| `ConfirmationOrStr` | `twilio/models/enums/confirmation.py` |
+| `ConversationsV1ConversationConversationMessage` | `twilio/models/conversations_v1_conversation_conversation_message.py` |
 
 ### client.conversations_v1_message.create_service_conversation_message
 
@@ -35,8 +35,8 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConfirmationOrStr` | `twilio_sdk/models/enums/confirmation.py` |
-| `ConversationsV1ServiceServiceConversationServiceConversationMessage` | `twilio_sdk/models/conversations_v1_service_service_conversation_service_conversation_message.py` |
+| `ConfirmationOrStr` | `twilio/models/enums/confirmation.py` |
+| `ConversationsV1ServiceServiceConversationServiceConversationMessage` | `twilio/models/conversations_v1_service_service_conversation_service_conversation_message.py` |
 
 ### client.conversations_v1_message.delete_conversation_message
 
@@ -51,7 +51,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConfirmationOrStr` | `twilio_sdk/models/enums/confirmation.py` |
+| `ConfirmationOrStr` | `twilio/models/enums/confirmation.py` |
 
 ### client.conversations_v1_message.delete_service_conversation_message
 
@@ -66,7 +66,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConfirmationOrStr` | `twilio_sdk/models/enums/confirmation.py` |
+| `ConfirmationOrStr` | `twilio/models/enums/confirmation.py` |
 
 ### client.conversations_v1_message.fetch_conversation_message
 
@@ -81,7 +81,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConversationsV1ConversationConversationMessage` | `twilio_sdk/models/conversations_v1_conversation_conversation_message.py` |
+| `ConversationsV1ConversationConversationMessage` | `twilio/models/conversations_v1_conversation_conversation_message.py` |
 
 ### client.conversations_v1_message.fetch_service_conversation_message
 
@@ -96,7 +96,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConversationsV1ServiceServiceConversationServiceConversationMessage` | `twilio_sdk/models/conversations_v1_service_service_conversation_service_conversation_message.py` |
+| `ConversationsV1ServiceServiceConversationServiceConversationMessage` | `twilio/models/conversations_v1_service_service_conversation_service_conversation_message.py` |
 
 ### client.conversations_v1_message.list_conversation_message
 
@@ -111,8 +111,8 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ChallengeEnumListOrdersOrStr` | `twilio_sdk/models/enums/challenge_enum_list_orders.py` |
-| `ListConversationMessageResponse` | `twilio_sdk/models/list_conversation_message_response.py` |
+| `ChallengeEnumListOrdersOrStr` | `twilio/models/enums/challenge_enum_list_orders.py` |
+| `ListConversationMessageResponse` | `twilio/models/list_conversation_message_response.py` |
 
 ### client.conversations_v1_message.list_service_conversation_message
 
@@ -127,8 +127,8 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ChallengeEnumListOrdersOrStr` | `twilio_sdk/models/enums/challenge_enum_list_orders.py` |
-| `ListServiceConversationMessageResponse` | `twilio_sdk/models/list_service_conversation_message_response.py` |
+| `ChallengeEnumListOrdersOrStr` | `twilio/models/enums/challenge_enum_list_orders.py` |
+| `ListServiceConversationMessageResponse` | `twilio/models/list_service_conversation_message_response.py` |
 
 ### client.conversations_v1_message.update_conversation_message
 
@@ -143,8 +143,8 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConfirmationOrStr` | `twilio_sdk/models/enums/confirmation.py` |
-| `ConversationsV1ConversationConversationMessage` | `twilio_sdk/models/conversations_v1_conversation_conversation_message.py` |
+| `ConfirmationOrStr` | `twilio/models/enums/confirmation.py` |
+| `ConversationsV1ConversationConversationMessage` | `twilio/models/conversations_v1_conversation_conversation_message.py` |
 
 ### client.conversations_v1_message.update_service_conversation_message
 
@@ -159,6 +159,6 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConfirmationOrStr` | `twilio_sdk/models/enums/confirmation.py` |
-| `ConversationsV1ServiceServiceConversationServiceConversationMessage` | `twilio_sdk/models/conversations_v1_service_service_conversation_service_conversation_message.py` |
+| `ConfirmationOrStr` | `twilio/models/enums/confirmation.py` |
+| `ConversationsV1ServiceServiceConversationServiceConversationMessage` | `twilio/models/conversations_v1_service_service_conversation_service_conversation_message.py` |
 

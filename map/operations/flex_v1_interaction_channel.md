@@ -2,7 +2,7 @@
 
 # FlexV1InteractionChannel — operations
 
-Accessor: `client.flex_v1_interaction_channel` · Source: `twilio_sdk/apis/flex_v1_interaction_channel.py` · 3 operations
+Accessor: `client.flex_v1_interaction_channel` · Source: `twilio/apis/flex_v1_interaction_channel.py` · 3 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `FlexV1InteractionInteractionChannel` | `twilio_sdk/models/flex_v1_interaction_interaction_channel.py` |
+| `FlexV1InteractionInteractionChannel` | `twilio/models/flex_v1_interaction_interaction_channel.py` |
 
 ### client.flex_v1_interaction_channel.list_interaction_channel
 
@@ -34,7 +34,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListInteractionChannelResponse` | `twilio_sdk/models/list_interaction_channel_response.py` |
+| `ListInteractionChannelResponse` | `twilio/models/list_interaction_channel_response.py` |
 
 ### client.flex_v1_interaction_channel.update_interaction_channel
 
@@ -49,6 +49,6 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `InteractionChannelEnumUpdateChannelStatusOrStr` | `twilio_sdk/models/enums/interaction_channel_enum_update_channel_status.py` |
-| `FlexV1InteractionInteractionChannel` | `twilio_sdk/models/flex_v1_interaction_interaction_channel.py` |
+| `InteractionChannelEnumUpdateChannelStatusOrStr` | `twilio/models/enums/interaction_channel_enum_update_channel_status.py` |
+| `FlexV1InteractionInteractionChannel` | `twilio/models/flex_v1_interaction_interaction_channel.py` |
 

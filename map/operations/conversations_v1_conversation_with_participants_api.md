@@ -2,7 +2,7 @@
 
 # ConversationsV1ConversationWithParticipantsApi — operations
 
-Accessor: `client.conversations_v1_conversation_with_participants_api` · Source: `twilio_sdk/apis/conversations_v1_conversation_with_participants_api.py` · 2 operations
+Accessor: `client.conversations_v1_conversation_with_participants_api` · Source: `twilio/apis/conversations_v1_conversation_with_participants_api.py` · 2 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -18,9 +18,9 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConfirmationOrStr` | `twilio_sdk/models/enums/confirmation.py` |
-| `ConversationWithParticipantsEnumStateOrStr` | `twilio_sdk/models/enums/conversation_with_participants_enum_state.py` |
-| `ConversationsV1ConversationWithParticipants` | `twilio_sdk/models/conversations_v1_conversation_with_participants.py` |
+| `ConfirmationOrStr` | `twilio/models/enums/confirmation.py` |
+| `ConversationWithParticipantsEnumStateOrStr` | `twilio/models/enums/conversation_with_participants_enum_state.py` |
+| `ConversationsV1ConversationWithParticipants` | `twilio/models/conversations_v1_conversation_with_participants.py` |
 
 ### client.conversations_v1_conversation_with_participants_api.create_service_conversation_with_participants
 
@@ -35,7 +35,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConfirmationOrStr` | `twilio_sdk/models/enums/confirmation.py` |
-| `ServiceConversationWithParticipantsEnumStateOrStr` | `twilio_sdk/models/enums/service_conversation_with_participants_enum_state.py` |
-| `ConversationsV1ServiceServiceConversationWithParticipants` | `twilio_sdk/models/conversations_v1_service_service_conversation_with_participants.py` |
+| `ConfirmationOrStr` | `twilio/models/enums/confirmation.py` |
+| `ServiceConversationWithParticipantsEnumStateOrStr` | `twilio/models/enums/service_conversation_with_participants_enum_state.py` |
+| `ConversationsV1ServiceServiceConversationWithParticipants` | `twilio/models/conversations_v1_service_service_conversation_with_participants.py` |
 

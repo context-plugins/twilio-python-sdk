@@ -2,7 +2,7 @@
 
 # TaskrouterV1TaskQueue — operations
 
-Accessor: `client.taskrouter_v1_task_queue` · Source: `twilio_sdk/apis/taskrouter_v1_task_queue.py` · 5 operations
+Accessor: `client.taskrouter_v1_task_queue` · Source: `twilio/apis/taskrouter_v1_task_queue.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -19,8 +19,8 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TaskQueueEnumTaskOrderOrStr` | `twilio_sdk/models/enums/task_queue_enum_task_order.py` |
-| `TaskrouterV1WorkspaceTaskQueue` | `twilio_sdk/models/taskrouter_v1_workspace_task_queue.py` |
+| `TaskQueueEnumTaskOrderOrStr` | `twilio/models/enums/task_queue_enum_task_order.py` |
+| `TaskrouterV1WorkspaceTaskQueue` | `twilio/models/taskrouter_v1_workspace_task_queue.py` |
 
 ### client.taskrouter_v1_task_queue.delete_task_queue
 
@@ -46,7 +46,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TaskrouterV1WorkspaceTaskQueue` | `twilio_sdk/models/taskrouter_v1_workspace_task_queue.py` |
+| `TaskrouterV1WorkspaceTaskQueue` | `twilio/models/taskrouter_v1_workspace_task_queue.py` |
 
 ### client.taskrouter_v1_task_queue.list_task_queue
 
@@ -61,7 +61,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListTaskQueueResponse` | `twilio_sdk/models/list_task_queue_response.py` |
+| `ListTaskQueueResponse` | `twilio/models/list_task_queue_response.py` |
 
 ### client.taskrouter_v1_task_queue.update_task_queue
 
@@ -76,6 +76,6 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TaskQueueEnumTaskOrderOrStr` | `twilio_sdk/models/enums/task_queue_enum_task_order.py` |
-| `TaskrouterV1WorkspaceTaskQueue` | `twilio_sdk/models/taskrouter_v1_workspace_task_queue.py` |
+| `TaskQueueEnumTaskOrderOrStr` | `twilio/models/enums/task_queue_enum_task_order.py` |
+| `TaskrouterV1WorkspaceTaskQueue` | `twilio/models/taskrouter_v1_workspace_task_queue.py` |
 

@@ -2,7 +2,7 @@
 
 # ProxyV1PhoneNumber — operations
 
-Accessor: `client.proxy_v1_phone_number` · Source: `twilio_sdk/apis/proxy_v1_phone_number.py` · 5 operations
+Accessor: `client.proxy_v1_phone_number` · Source: `twilio/apis/proxy_v1_phone_number.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ProxyV1ServicePhoneNumber` | `twilio_sdk/models/proxy_v1_service_phone_number.py` |
+| `ProxyV1ServicePhoneNumber` | `twilio/models/proxy_v1_service_phone_number.py` |
 
 ### client.proxy_v1_phone_number.delete_phone_number2
 
@@ -45,7 +45,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ProxyV1ServicePhoneNumber` | `twilio_sdk/models/proxy_v1_service_phone_number.py` |
+| `ProxyV1ServicePhoneNumber` | `twilio/models/proxy_v1_service_phone_number.py` |
 
 ### client.proxy_v1_phone_number.list_phone_number2
 
@@ -60,7 +60,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListPhoneNumberResponse1` | `twilio_sdk/models/list_phone_number_response1.py` |
+| `ListPhoneNumberResponse1` | `twilio/models/list_phone_number_response1.py` |
 
 ### client.proxy_v1_phone_number.update_phone_number
 
@@ -75,5 +75,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ProxyV1ServicePhoneNumber` | `twilio_sdk/models/proxy_v1_service_phone_number.py` |
+| `ProxyV1ServicePhoneNumber` | `twilio/models/proxy_v1_service_phone_number.py` |
 

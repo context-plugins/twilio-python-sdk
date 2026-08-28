@@ -2,7 +2,7 @@
 
 # ConversationsV1Participant — operations
 
-Accessor: `client.conversations_v1_participant` · Source: `twilio_sdk/apis/conversations_v1_participant.py` · 10 operations
+Accessor: `client.conversations_v1_participant` · Source: `twilio/apis/conversations_v1_participant.py` · 10 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,8 +19,8 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConfirmationOrStr` | `twilio_sdk/models/enums/confirmation.py` |
-| `ConversationsV1ConversationConversationParticipant` | `twilio_sdk/models/conversations_v1_conversation_conversation_participant.py` |
+| `ConfirmationOrStr` | `twilio/models/enums/confirmation.py` |
+| `ConversationsV1ConversationConversationParticipant` | `twilio/models/conversations_v1_conversation_conversation_participant.py` |
 
 ### client.conversations_v1_participant.create_service_conversation_participant
 
@@ -35,8 +35,8 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConfirmationOrStr` | `twilio_sdk/models/enums/confirmation.py` |
-| `ConversationsV1ServiceServiceConversationServiceConversationParticipant` | `twilio_sdk/models/conversations_v1_service_service_conversation_service_conversation_participant.py` |
+| `ConfirmationOrStr` | `twilio/models/enums/confirmation.py` |
+| `ConversationsV1ServiceServiceConversationServiceConversationParticipant` | `twilio/models/conversations_v1_service_service_conversation_service_conversation_participant.py` |
 
 ### client.conversations_v1_participant.delete_conversation_participant
 
@@ -51,7 +51,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConfirmationOrStr` | `twilio_sdk/models/enums/confirmation.py` |
+| `ConfirmationOrStr` | `twilio/models/enums/confirmation.py` |
 
 ### client.conversations_v1_participant.delete_service_conversation_participant
 
@@ -66,7 +66,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConfirmationOrStr` | `twilio_sdk/models/enums/confirmation.py` |
+| `ConfirmationOrStr` | `twilio/models/enums/confirmation.py` |
 
 ### client.conversations_v1_participant.fetch_conversation_participant
 
@@ -81,7 +81,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConversationsV1ConversationConversationParticipant` | `twilio_sdk/models/conversations_v1_conversation_conversation_participant.py` |
+| `ConversationsV1ConversationConversationParticipant` | `twilio/models/conversations_v1_conversation_conversation_participant.py` |
 
 ### client.conversations_v1_participant.fetch_service_conversation_participant
 
@@ -96,7 +96,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConversationsV1ServiceServiceConversationServiceConversationParticipant` | `twilio_sdk/models/conversations_v1_service_service_conversation_service_conversation_participant.py` |
+| `ConversationsV1ServiceServiceConversationServiceConversationParticipant` | `twilio/models/conversations_v1_service_service_conversation_service_conversation_participant.py` |
 
 ### client.conversations_v1_participant.list_conversation_participant
 
@@ -111,7 +111,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListConversationParticipantResponse` | `twilio_sdk/models/list_conversation_participant_response.py` |
+| `ListConversationParticipantResponse` | `twilio/models/list_conversation_participant_response.py` |
 
 ### client.conversations_v1_participant.list_service_conversation_participant
 
@@ -126,7 +126,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListServiceConversationParticipantResponse` | `twilio_sdk/models/list_service_conversation_participant_response.py` |
+| `ListServiceConversationParticipantResponse` | `twilio/models/list_service_conversation_participant_response.py` |
 
 ### client.conversations_v1_participant.update_conversation_participant
 
@@ -141,8 +141,8 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConfirmationOrStr` | `twilio_sdk/models/enums/confirmation.py` |
-| `ConversationsV1ConversationConversationParticipant` | `twilio_sdk/models/conversations_v1_conversation_conversation_participant.py` |
+| `ConfirmationOrStr` | `twilio/models/enums/confirmation.py` |
+| `ConversationsV1ConversationConversationParticipant` | `twilio/models/conversations_v1_conversation_conversation_participant.py` |
 
 ### client.conversations_v1_participant.update_service_conversation_participant
 
@@ -157,6 +157,6 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConfirmationOrStr` | `twilio_sdk/models/enums/confirmation.py` |
-| `ConversationsV1ServiceServiceConversationServiceConversationParticipant` | `twilio_sdk/models/conversations_v1_service_service_conversation_service_conversation_participant.py` |
+| `ConfirmationOrStr` | `twilio/models/enums/confirmation.py` |
+| `ConversationsV1ServiceServiceConversationServiceConversationParticipant` | `twilio/models/conversations_v1_service_service_conversation_service_conversation_participant.py` |
 

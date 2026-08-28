@@ -2,7 +2,7 @@
 
 # ConversationsV1Webhook — operations
 
-Accessor: `client.conversations_v1_webhook` · Source: `twilio_sdk/apis/conversations_v1_webhook.py` · 14 operations
+Accessor: `client.conversations_v1_webhook` · Source: `twilio/apis/conversations_v1_webhook.py` · 14 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -19,9 +19,9 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConversationScopedWebhookEnumTargetOrStr` | `twilio_sdk/models/enums/conversation_scoped_webhook_enum_target.py` |
-| `ConversationScopedWebhookEnumMethodOrStr` | `twilio_sdk/models/enums/conversation_scoped_webhook_enum_method.py` |
-| `ConversationsV1ConversationConversationScopedWebhook` | `twilio_sdk/models/conversations_v1_conversation_conversation_scoped_webhook.py` |
+| `ConversationScopedWebhookEnumTargetOrStr` | `twilio/models/enums/conversation_scoped_webhook_enum_target.py` |
+| `ConversationScopedWebhookEnumMethodOrStr` | `twilio/models/enums/conversation_scoped_webhook_enum_method.py` |
+| `ConversationsV1ConversationConversationScopedWebhook` | `twilio/models/conversations_v1_conversation_conversation_scoped_webhook.py` |
 
 ### client.conversations_v1_webhook.create_service_conversation_scoped_webhook
 
@@ -36,9 +36,9 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ServiceConversationScopedWebhookEnumTargetOrStr` | `twilio_sdk/models/enums/service_conversation_scoped_webhook_enum_target.py` |
-| `ServiceConversationScopedWebhookEnumMethodOrStr` | `twilio_sdk/models/enums/service_conversation_scoped_webhook_enum_method.py` |
-| `ConversationsV1ServiceServiceConversationServiceConversationScopedWebhook` | `twilio_sdk/models/conversations_v1_service_service_conversation_service_conversation_scoped_webhook.py` |
+| `ServiceConversationScopedWebhookEnumTargetOrStr` | `twilio/models/enums/service_conversation_scoped_webhook_enum_target.py` |
+| `ServiceConversationScopedWebhookEnumMethodOrStr` | `twilio/models/enums/service_conversation_scoped_webhook_enum_method.py` |
+| `ConversationsV1ServiceServiceConversationServiceConversationScopedWebhook` | `twilio/models/conversations_v1_service_service_conversation_service_conversation_scoped_webhook.py` |
 
 ### client.conversations_v1_webhook.delete_conversation_scoped_webhook
 
@@ -73,7 +73,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConversationsV1ConfigurationConfigurationWebhook` | `twilio_sdk/models/conversations_v1_configuration_configuration_webhook.py` |
+| `ConversationsV1ConfigurationConfigurationWebhook` | `twilio/models/conversations_v1_configuration_configuration_webhook.py` |
 
 ### client.conversations_v1_webhook.fetch_conversation_scoped_webhook
 
@@ -88,7 +88,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConversationsV1ConversationConversationScopedWebhook` | `twilio_sdk/models/conversations_v1_conversation_conversation_scoped_webhook.py` |
+| `ConversationsV1ConversationConversationScopedWebhook` | `twilio/models/conversations_v1_conversation_conversation_scoped_webhook.py` |
 
 ### client.conversations_v1_webhook.fetch_service_conversation_scoped_webhook
 
@@ -103,7 +103,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConversationsV1ServiceServiceConversationServiceConversationScopedWebhook` | `twilio_sdk/models/conversations_v1_service_service_conversation_service_conversation_scoped_webhook.py` |
+| `ConversationsV1ServiceServiceConversationServiceConversationScopedWebhook` | `twilio/models/conversations_v1_service_service_conversation_service_conversation_scoped_webhook.py` |
 
 ### client.conversations_v1_webhook.fetch_service_webhook_configuration
 
@@ -118,7 +118,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConversationsV1ServiceServiceConfigurationServiceWebhookConfiguration` | `twilio_sdk/models/conversations_v1_service_service_configuration_service_webhook_configuration.py` |
+| `ConversationsV1ServiceServiceConfigurationServiceWebhookConfiguration` | `twilio/models/conversations_v1_service_service_configuration_service_webhook_configuration.py` |
 
 ### client.conversations_v1_webhook.list_conversation_scoped_webhook
 
@@ -133,7 +133,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListConversationScopedWebhookResponse` | `twilio_sdk/models/list_conversation_scoped_webhook_response.py` |
+| `ListConversationScopedWebhookResponse` | `twilio/models/list_conversation_scoped_webhook_response.py` |
 
 ### client.conversations_v1_webhook.list_service_conversation_scoped_webhook
 
@@ -148,7 +148,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListServiceConversationScopedWebhookResponse` | `twilio_sdk/models/list_service_conversation_scoped_webhook_response.py` |
+| `ListServiceConversationScopedWebhookResponse` | `twilio/models/list_service_conversation_scoped_webhook_response.py` |
 
 ### client.conversations_v1_webhook.update_configuration_webhook
 
@@ -162,8 +162,8 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConfigurationWebhookEnumTargetOrStr` | `twilio_sdk/models/enums/configuration_webhook_enum_target.py` |
-| `ConversationsV1ConfigurationConfigurationWebhook` | `twilio_sdk/models/conversations_v1_configuration_configuration_webhook.py` |
+| `ConfigurationWebhookEnumTargetOrStr` | `twilio/models/enums/configuration_webhook_enum_target.py` |
+| `ConversationsV1ConfigurationConfigurationWebhook` | `twilio/models/conversations_v1_configuration_configuration_webhook.py` |
 
 ### client.conversations_v1_webhook.update_conversation_scoped_webhook
 
@@ -178,8 +178,8 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConversationScopedWebhookEnumMethodOrStr` | `twilio_sdk/models/enums/conversation_scoped_webhook_enum_method.py` |
-| `ConversationsV1ConversationConversationScopedWebhook` | `twilio_sdk/models/conversations_v1_conversation_conversation_scoped_webhook.py` |
+| `ConversationScopedWebhookEnumMethodOrStr` | `twilio/models/enums/conversation_scoped_webhook_enum_method.py` |
+| `ConversationsV1ConversationConversationScopedWebhook` | `twilio/models/conversations_v1_conversation_conversation_scoped_webhook.py` |
 
 ### client.conversations_v1_webhook.update_service_conversation_scoped_webhook
 
@@ -194,14 +194,14 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ServiceConversationScopedWebhookEnumMethodOrStr` | `twilio_sdk/models/enums/service_conversation_scoped_webhook_enum_method.py` |
-| `ConversationsV1ServiceServiceConversationServiceConversationScopedWebhook` | `twilio_sdk/models/conversations_v1_service_service_conversation_service_conversation_scoped_webhook.py` |
+| `ServiceConversationScopedWebhookEnumMethodOrStr` | `twilio/models/enums/service_conversation_scoped_webhook_enum_method.py` |
+| `ConversationsV1ServiceServiceConversationServiceConversationScopedWebhook` | `twilio/models/conversations_v1_service_service_conversation_service_conversation_scoped_webhook.py` |
 
 ### client.conversations_v1_webhook.update_service_webhook_configuration
 
 - **Route**: `POST /v1/Services/{ChatServiceSid}/Configuration/Webhooks`
 - **Server**: `default7`
-- **Signature**: `def update_service_webhook_configuration(chat_service_sid: str, *, pre_webhook_url: AnyUrl | None = None, post_webhook_url: AnyUrl | None = None, filters: list[str] | None = None, method: str | None = None, request_options: RequestOptionsOrDict | None = None)`
+- **Signature**: `def update_service_webhook_configuration(chat_service_sid: str, *, pre_webhook_url: str | None = None, post_webhook_url: str | None = None, filters: list[str] | None = None, method: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `chat_service_sid`
 - **Params**: `chat_service_sid` — path `ChatServiceSid` · `pre_webhook_url` — form field `PreWebhookUrl` · `post_webhook_url` — form field `PostWebhookUrl` · `filters` — form field `Filters` · `method` — form field `Method`
 - **Returns (parsed)**: `ConversationsV1ServiceServiceConfigurationServiceWebhookConfiguration`
@@ -210,5 +210,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConversationsV1ServiceServiceConfigurationServiceWebhookConfiguration` | `twilio_sdk/models/conversations_v1_service_service_configuration_service_webhook_configuration.py` |
+| `ConversationsV1ServiceServiceConfigurationServiceWebhookConfiguration` | `twilio/models/conversations_v1_service_service_configuration_service_webhook_configuration.py` |
 

@@ -2,7 +2,7 @@
 
 # ConversationsV1UserApi — operations
 
-Accessor: `client.conversations_v1_user_api` · Source: `twilio_sdk/apis/conversations_v1_user_api.py` · 10 operations
+Accessor: `client.conversations_v1_user_api` · Source: `twilio/apis/conversations_v1_user_api.py` · 10 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,8 +19,8 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConfirmationOrStr` | `twilio_sdk/models/enums/confirmation.py` |
-| `ConversationsV1ServiceServiceUser` | `twilio_sdk/models/conversations_v1_service_service_user.py` |
+| `ConfirmationOrStr` | `twilio/models/enums/confirmation.py` |
+| `ConversationsV1ServiceServiceUser` | `twilio/models/conversations_v1_service_service_user.py` |
 
 ### client.conversations_v1_user_api.create_user
 
@@ -35,8 +35,8 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConfirmationOrStr` | `twilio_sdk/models/enums/confirmation.py` |
-| `ConversationsV1User` | `twilio_sdk/models/conversations_v1_user.py` |
+| `ConfirmationOrStr` | `twilio/models/enums/confirmation.py` |
+| `ConversationsV1User` | `twilio/models/conversations_v1_user.py` |
 
 ### client.conversations_v1_user_api.delete_service_user
 
@@ -51,7 +51,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConfirmationOrStr` | `twilio_sdk/models/enums/confirmation.py` |
+| `ConfirmationOrStr` | `twilio/models/enums/confirmation.py` |
 
 ### client.conversations_v1_user_api.delete_user
 
@@ -66,7 +66,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConfirmationOrStr` | `twilio_sdk/models/enums/confirmation.py` |
+| `ConfirmationOrStr` | `twilio/models/enums/confirmation.py` |
 
 ### client.conversations_v1_user_api.fetch_service_user
 
@@ -81,7 +81,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConversationsV1ServiceServiceUser` | `twilio_sdk/models/conversations_v1_service_service_user.py` |
+| `ConversationsV1ServiceServiceUser` | `twilio/models/conversations_v1_service_service_user.py` |
 
 ### client.conversations_v1_user_api.fetch_user
 
@@ -96,7 +96,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConversationsV1User` | `twilio_sdk/models/conversations_v1_user.py` |
+| `ConversationsV1User` | `twilio/models/conversations_v1_user.py` |
 
 ### client.conversations_v1_user_api.list_service_user
 
@@ -111,7 +111,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListServiceUserResponse` | `twilio_sdk/models/list_service_user_response.py` |
+| `ListServiceUserResponse` | `twilio/models/list_service_user_response.py` |
 
 ### client.conversations_v1_user_api.list_user
 
@@ -125,7 +125,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListUserResponse` | `twilio_sdk/models/list_user_response.py` |
+| `ListUserResponse` | `twilio/models/list_user_response.py` |
 
 ### client.conversations_v1_user_api.update_service_user
 
@@ -140,8 +140,8 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConfirmationOrStr` | `twilio_sdk/models/enums/confirmation.py` |
-| `ConversationsV1ServiceServiceUser` | `twilio_sdk/models/conversations_v1_service_service_user.py` |
+| `ConfirmationOrStr` | `twilio/models/enums/confirmation.py` |
+| `ConversationsV1ServiceServiceUser` | `twilio/models/conversations_v1_service_service_user.py` |
 
 ### client.conversations_v1_user_api.update_user
 
@@ -156,6 +156,6 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConfirmationOrStr` | `twilio_sdk/models/enums/confirmation.py` |
-| `ConversationsV1User` | `twilio_sdk/models/conversations_v1_user.py` |
+| `ConfirmationOrStr` | `twilio/models/enums/confirmation.py` |
+| `ConversationsV1User` | `twilio/models/conversations_v1_user.py` |
 

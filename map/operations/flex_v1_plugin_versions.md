@@ -2,7 +2,7 @@
 
 # FlexV1PluginVersions — operations
 
-Accessor: `client.flex_v1_plugin_versions` · Source: `twilio_sdk/apis/flex_v1_plugin_versions.py` · 3 operations
+Accessor: `client.flex_v1_plugin_versions` · Source: `twilio/apis/flex_v1_plugin_versions.py` · 3 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -10,7 +10,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 - **Route**: `POST /v1/PluginService/Plugins/{PluginSid}/Versions`
 - **Server**: `default13`
-- **Signature**: `def create_plugin_version(plugin_sid: str, version: str, plugin_url: AnyUrl, *, flex_metadata: str | None = None, changelog: str | None = None, private: bool | None = None, cli_version: str | None = None, validate_status: str | None = None, request_options: RequestOptionsOrDict | None = None)`
+- **Signature**: `def create_plugin_version(plugin_sid: str, version: str, plugin_url: str, *, flex_metadata: str | None = None, changelog: str | None = None, private: bool | None = None, cli_version: str | None = None, validate_status: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `plugin_sid`, `version`, `plugin_url`
 - **Params**: `plugin_sid` — path `PluginSid` · `flex_metadata` — header `Flex-Metadata` · `version` — form field `Version` · `plugin_url` — form field `PluginUrl` · `changelog` — form field `Changelog` · `private` — form field `Private` · `cli_version` — form field `CliVersion` · `validate_status` — form field `ValidateStatus`
 - **Returns (parsed)**: `FlexV1PluginPluginVersion`
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `FlexV1PluginPluginVersion` | `twilio_sdk/models/flex_v1_plugin_plugin_version.py` |
+| `FlexV1PluginPluginVersion` | `twilio/models/flex_v1_plugin_plugin_version.py` |
 
 ### client.flex_v1_plugin_versions.fetch_plugin_version
 
@@ -34,7 +34,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `FlexV1PluginPluginVersion` | `twilio_sdk/models/flex_v1_plugin_plugin_version.py` |
+| `FlexV1PluginPluginVersion` | `twilio/models/flex_v1_plugin_plugin_version.py` |
 
 ### client.flex_v1_plugin_versions.list_plugin_version
 
@@ -49,5 +49,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListPluginVersionResponse` | `twilio_sdk/models/list_plugin_version_response.py` |
+| `ListPluginVersionResponse` | `twilio/models/list_plugin_version_response.py` |
 

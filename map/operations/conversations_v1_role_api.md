@@ -2,7 +2,7 @@
 
 # ConversationsV1RoleApi — operations
 
-Accessor: `client.conversations_v1_role_api` · Source: `twilio_sdk/apis/conversations_v1_role_api.py` · 10 operations
+Accessor: `client.conversations_v1_role_api` · Source: `twilio/apis/conversations_v1_role_api.py` · 10 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -19,8 +19,8 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `RoleEnumRoleTypeOrStr` | `twilio_sdk/models/enums/role_enum_role_type.py` |
-| `ConversationsV1Role` | `twilio_sdk/models/conversations_v1_role.py` |
+| `RoleEnumRoleTypeOrStr` | `twilio/models/enums/role_enum_role_type.py` |
+| `ConversationsV1Role` | `twilio/models/conversations_v1_role.py` |
 
 ### client.conversations_v1_role_api.create_service_role
 
@@ -35,8 +35,8 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ServiceRoleEnumRoleTypeOrStr` | `twilio_sdk/models/enums/service_role_enum_role_type.py` |
-| `ConversationsV1ServiceServiceRole` | `twilio_sdk/models/conversations_v1_service_service_role.py` |
+| `ServiceRoleEnumRoleTypeOrStr` | `twilio/models/enums/service_role_enum_role_type.py` |
+| `ConversationsV1ServiceServiceRole` | `twilio/models/conversations_v1_service_service_role.py` |
 
 ### client.conversations_v1_role_api.delete_role
 
@@ -73,7 +73,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConversationsV1Role` | `twilio_sdk/models/conversations_v1_role.py` |
+| `ConversationsV1Role` | `twilio/models/conversations_v1_role.py` |
 
 ### client.conversations_v1_role_api.fetch_service_role
 
@@ -88,7 +88,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConversationsV1ServiceServiceRole` | `twilio_sdk/models/conversations_v1_service_service_role.py` |
+| `ConversationsV1ServiceServiceRole` | `twilio/models/conversations_v1_service_service_role.py` |
 
 ### client.conversations_v1_role_api.list_role
 
@@ -102,7 +102,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListRoleResponse` | `twilio_sdk/models/list_role_response.py` |
+| `ListRoleResponse` | `twilio/models/list_role_response.py` |
 
 ### client.conversations_v1_role_api.list_service_role
 
@@ -117,7 +117,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListServiceRoleResponse` | `twilio_sdk/models/list_service_role_response.py` |
+| `ListServiceRoleResponse` | `twilio/models/list_service_role_response.py` |
 
 ### client.conversations_v1_role_api.update_role
 
@@ -132,7 +132,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConversationsV1Role` | `twilio_sdk/models/conversations_v1_role.py` |
+| `ConversationsV1Role` | `twilio/models/conversations_v1_role.py` |
 
 ### client.conversations_v1_role_api.update_service_role
 
@@ -147,5 +147,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConversationsV1ServiceServiceRole` | `twilio_sdk/models/conversations_v1_service_service_role.py` |
+| `ConversationsV1ServiceServiceRole` | `twilio/models/conversations_v1_service_service_role.py` |
 

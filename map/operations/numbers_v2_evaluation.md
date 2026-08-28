@@ -2,7 +2,7 @@
 
 # NumbersV2Evaluation — operations
 
-Accessor: `client.numbers_v2_evaluation` · Source: `twilio_sdk/apis/numbers_v2_evaluation.py` · 3 operations
+Accessor: `client.numbers_v2_evaluation` · Source: `twilio/apis/numbers_v2_evaluation.py` · 3 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `NumbersV2RegulatoryComplianceBundleEvaluation` | `twilio_sdk/models/numbers_v2_regulatory_compliance_bundle_evaluation.py` |
+| `NumbersV2RegulatoryComplianceBundleEvaluation` | `twilio/models/numbers_v2_regulatory_compliance_bundle_evaluation.py` |
 
 ### client.numbers_v2_evaluation.fetch_evaluation
 
@@ -34,7 +34,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `NumbersV2RegulatoryComplianceBundleEvaluation` | `twilio_sdk/models/numbers_v2_regulatory_compliance_bundle_evaluation.py` |
+| `NumbersV2RegulatoryComplianceBundleEvaluation` | `twilio/models/numbers_v2_regulatory_compliance_bundle_evaluation.py` |
 
 ### client.numbers_v2_evaluation.list_evaluation
 
@@ -49,5 +49,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListEvaluationResponse` | `twilio_sdk/models/list_evaluation_response.py` |
+| `ListEvaluationResponse` | `twilio/models/list_evaluation_response.py` |
 

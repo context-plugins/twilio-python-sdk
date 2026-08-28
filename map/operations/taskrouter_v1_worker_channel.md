@@ -2,7 +2,7 @@
 
 # TaskrouterV1WorkerChannel — operations
 
-Accessor: `client.taskrouter_v1_worker_channel` · Source: `twilio_sdk/apis/taskrouter_v1_worker_channel.py` · 3 operations
+Accessor: `client.taskrouter_v1_worker_channel` · Source: `twilio/apis/taskrouter_v1_worker_channel.py` · 3 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TaskrouterV1WorkspaceWorkerWorkerChannel` | `twilio_sdk/models/taskrouter_v1_workspace_worker_worker_channel.py` |
+| `TaskrouterV1WorkspaceWorkerWorkerChannel` | `twilio/models/taskrouter_v1_workspace_worker_worker_channel.py` |
 
 ### client.taskrouter_v1_worker_channel.list_worker_channel
 
@@ -34,7 +34,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListWorkerChannelResponse` | `twilio_sdk/models/list_worker_channel_response.py` |
+| `ListWorkerChannelResponse` | `twilio/models/list_worker_channel_response.py` |
 
 ### client.taskrouter_v1_worker_channel.update_worker_channel
 
@@ -49,5 +49,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TaskrouterV1WorkspaceWorkerWorkerChannel` | `twilio_sdk/models/taskrouter_v1_workspace_worker_worker_channel.py` |
+| `TaskrouterV1WorkspaceWorkerWorkerChannel` | `twilio/models/taskrouter_v1_workspace_worker_worker_channel.py` |
 

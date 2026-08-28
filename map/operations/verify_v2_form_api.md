@@ -2,7 +2,7 @@
 
 # VerifyV2FormApi — operations
 
-Accessor: `client.verify_v2_form_api` · Source: `twilio_sdk/apis/verify_v2_form_api.py` · 1 operation
+Accessor: `client.verify_v2_form_api` · Source: `twilio/apis/verify_v2_form_api.py` · 1 operation
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,6 +19,6 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `FormEnumFormTypesOrStr` | `twilio_sdk/models/enums/form_enum_form_types.py` |
-| `VerifyV2Form` | `twilio_sdk/models/verify_v2_form.py` |
+| `FormEnumFormTypesOrStr` | `twilio/models/enums/form_enum_form_types.py` |
+| `VerifyV2Form` | `twilio/models/verify_v2_form.py` |
 

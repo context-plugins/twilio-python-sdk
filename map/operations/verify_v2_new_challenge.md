@@ -2,7 +2,7 @@
 
 # VerifyV2NewChallenge — operations
 
-Accessor: `client.verify_v2_new_challenge` · Source: `twilio_sdk/apis/verify_v2_new_challenge.py` · 1 operation
+Accessor: `client.verify_v2_new_challenge` · Source: `twilio/apis/verify_v2_new_challenge.py` · 1 operation
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `CreatePasskeysChallengeRequest` | `twilio_sdk/models/create_passkeys_challenge_request.py` |
-| `CreatePasskeysChallengeRequestDict` | `twilio_sdk/models/create_passkeys_challenge_request.py` |
-| `V2ServicesPasskeysChallengesResponse` | `twilio_sdk/models/v2_services_passkeys_challenges_response.py` |
+| `CreatePasskeysChallengeRequest` | `twilio/models/create_passkeys_challenge_request.py` |
+| `CreatePasskeysChallengeRequestDict` | `twilio/models/create_passkeys_challenge_request.py` |
+| `V2ServicesPasskeysChallengesResponse` | `twilio/models/v2_services_passkeys_challenges_response.py` |
 

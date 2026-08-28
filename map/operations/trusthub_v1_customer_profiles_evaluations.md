@@ -2,7 +2,7 @@
 
 # TrusthubV1CustomerProfilesEvaluations — operations
 
-Accessor: `client.trusthub_v1_customer_profiles_evaluations` · Source: `twilio_sdk/apis/trusthub_v1_customer_profiles_evaluations.py` · 3 operations
+Accessor: `client.trusthub_v1_customer_profiles_evaluations` · Source: `twilio/apis/trusthub_v1_customer_profiles_evaluations.py` · 3 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TrusthubV1CustomerProfileCustomerProfileEvaluation` | `twilio_sdk/models/trusthub_v1_customer_profile_customer_profile_evaluation.py` |
+| `TrusthubV1CustomerProfileCustomerProfileEvaluation` | `twilio/models/trusthub_v1_customer_profile_customer_profile_evaluation.py` |
 
 ### client.trusthub_v1_customer_profiles_evaluations.fetch_customer_profile_evaluation
 
@@ -34,7 +34,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TrusthubV1CustomerProfileCustomerProfileEvaluation` | `twilio_sdk/models/trusthub_v1_customer_profile_customer_profile_evaluation.py` |
+| `TrusthubV1CustomerProfileCustomerProfileEvaluation` | `twilio/models/trusthub_v1_customer_profile_customer_profile_evaluation.py` |
 
 ### client.trusthub_v1_customer_profiles_evaluations.list_customer_profile_evaluation
 
@@ -49,5 +49,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListCustomerProfileEvaluationResponse` | `twilio_sdk/models/list_customer_profile_evaluation_response.py` |
+| `ListCustomerProfileEvaluationResponse` | `twilio/models/list_customer_profile_evaluation_response.py` |
 

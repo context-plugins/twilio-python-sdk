@@ -2,7 +2,7 @@
 
 # SyncV1StreamMessage — operations
 
-Accessor: `client.sync_v1_stream_message` · Source: `twilio_sdk/apis/sync_v1_stream_message.py` · 1 operation
+Accessor: `client.sync_v1_stream_message` · Source: `twilio/apis/sync_v1_stream_message.py` · 1 operation
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,5 +19,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `SyncV1ServiceSyncStreamStreamMessage` | `twilio_sdk/models/sync_v1_service_sync_stream_stream_message.py` |
+| `SyncV1ServiceSyncStreamStreamMessage` | `twilio/models/sync_v1_service_sync_stream_stream_message.py` |
 

@@ -2,7 +2,7 @@
 
 # MessagingV1ShortCode — operations
 
-Accessor: `client.messaging_v1_short_code` · Source: `twilio_sdk/apis/messaging_v1_short_code.py` · 4 operations
+Accessor: `client.messaging_v1_short_code` · Source: `twilio/apis/messaging_v1_short_code.py` · 4 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `MessagingV1ServiceShortCode` | `twilio_sdk/models/messaging_v1_service_short_code.py` |
+| `MessagingV1ServiceShortCode` | `twilio/models/messaging_v1_service_short_code.py` |
 
 ### client.messaging_v1_short_code.delete_short_code
 
@@ -45,7 +45,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `MessagingV1ServiceShortCode` | `twilio_sdk/models/messaging_v1_service_short_code.py` |
+| `MessagingV1ServiceShortCode` | `twilio/models/messaging_v1_service_short_code.py` |
 
 ### client.messaging_v1_short_code.list_short_code2
 
@@ -60,5 +60,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListShortCodeResponse1` | `twilio_sdk/models/list_short_code_response1.py` |
+| `ListShortCodeResponse1` | `twilio/models/list_short_code_response1.py` |
 

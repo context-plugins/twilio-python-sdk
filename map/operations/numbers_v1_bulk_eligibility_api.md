@@ -2,7 +2,7 @@
 
 # NumbersV1BulkEligibilityApi — operations
 
-Accessor: `client.numbers_v1_bulk_eligibility_api` · Source: `twilio_sdk/apis/numbers_v1_bulk_eligibility_api.py` · 2 operations
+Accessor: `client.numbers_v1_bulk_eligibility_api` · Source: `twilio/apis/numbers_v1_bulk_eligibility_api.py` · 2 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -18,7 +18,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `NumbersV1BulkEligibility` | `twilio_sdk/models/numbers_v1_bulk_eligibility.py` |
+| `NumbersV1BulkEligibility` | `twilio/models/numbers_v1_bulk_eligibility.py` |
 
 ### client.numbers_v1_bulk_eligibility_api.fetch_bulk_eligibility
 
@@ -33,5 +33,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `NumbersV1BulkEligibility` | `twilio_sdk/models/numbers_v1_bulk_eligibility.py` |
+| `NumbersV1BulkEligibility` | `twilio/models/numbers_v1_bulk_eligibility.py` |
 

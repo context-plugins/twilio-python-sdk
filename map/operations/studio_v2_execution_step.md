@@ -2,7 +2,7 @@
 
 # StudioV2ExecutionStep — operations
 
-Accessor: `client.studio_v2_execution_step` · Source: `twilio_sdk/apis/studio_v2_execution_step.py` · 2 operations
+Accessor: `client.studio_v2_execution_step` · Source: `twilio/apis/studio_v2_execution_step.py` · 2 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `StudioV1FlowExecutionExecutionStep` | `twilio_sdk/models/studio_v1_flow_execution_execution_step.py` |
+| `StudioV1FlowExecutionExecutionStep` | `twilio/models/studio_v1_flow_execution_execution_step.py` |
 
 ### client.studio_v2_execution_step.list_execution_step2
 
@@ -34,5 +34,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListExecutionStepResponse` | `twilio_sdk/models/list_execution_step_response.py` |
+| `ListExecutionStepResponse` | `twilio/models/list_execution_step_response.py` |
 

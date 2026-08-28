@@ -2,7 +2,7 @@
 
 # VerifyV2RateLimit — operations
 
-Accessor: `client.verify_v2_rate_limit` · Source: `twilio_sdk/apis/verify_v2_rate_limit.py` · 5 operations
+Accessor: `client.verify_v2_rate_limit` · Source: `twilio/apis/verify_v2_rate_limit.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `VerifyV2ServiceRateLimit` | `twilio_sdk/models/verify_v2_service_rate_limit.py` |
+| `VerifyV2ServiceRateLimit` | `twilio/models/verify_v2_service_rate_limit.py` |
 
 ### client.verify_v2_rate_limit.delete_rate_limit
 
@@ -45,7 +45,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `VerifyV2ServiceRateLimit` | `twilio_sdk/models/verify_v2_service_rate_limit.py` |
+| `VerifyV2ServiceRateLimit` | `twilio/models/verify_v2_service_rate_limit.py` |
 
 ### client.verify_v2_rate_limit.list_rate_limit
 
@@ -60,7 +60,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListRateLimitResponse` | `twilio_sdk/models/list_rate_limit_response.py` |
+| `ListRateLimitResponse` | `twilio/models/list_rate_limit_response.py` |
 
 ### client.verify_v2_rate_limit.update_rate_limit
 
@@ -75,5 +75,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `VerifyV2ServiceRateLimit` | `twilio_sdk/models/verify_v2_service_rate_limit.py` |
+| `VerifyV2ServiceRateLimit` | `twilio/models/verify_v2_service_rate_limit.py` |
 

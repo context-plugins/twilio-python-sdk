@@ -2,7 +2,7 @@
 
 # MessagingV1BrandVetting — operations
 
-Accessor: `client.messaging_v1_brand_vetting` · Source: `twilio_sdk/apis/messaging_v1_brand_vetting.py` · 3 operations
+Accessor: `client.messaging_v1_brand_vetting` · Source: `twilio/apis/messaging_v1_brand_vetting.py` · 3 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,8 +19,8 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `BrandVettingEnumVettingProviderOrStr` | `twilio_sdk/models/enums/brand_vetting_enum_vetting_provider.py` |
-| `MessagingV1BrandRegistrationsBrandVetting` | `twilio_sdk/models/messaging_v1_brand_registrations_brand_vetting.py` |
+| `BrandVettingEnumVettingProviderOrStr` | `twilio/models/enums/brand_vetting_enum_vetting_provider.py` |
+| `MessagingV1BrandRegistrationsBrandVetting` | `twilio/models/messaging_v1_brand_registrations_brand_vetting.py` |
 
 ### client.messaging_v1_brand_vetting.fetch_brand_vetting
 
@@ -35,7 +35,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `MessagingV1BrandRegistrationsBrandVetting` | `twilio_sdk/models/messaging_v1_brand_registrations_brand_vetting.py` |
+| `MessagingV1BrandRegistrationsBrandVetting` | `twilio/models/messaging_v1_brand_registrations_brand_vetting.py` |
 
 ### client.messaging_v1_brand_vetting.list_brand_vetting
 
@@ -50,6 +50,6 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `BrandVettingEnumVettingProviderOrStr` | `twilio_sdk/models/enums/brand_vetting_enum_vetting_provider.py` |
-| `ListBrandVettingResponse` | `twilio_sdk/models/list_brand_vetting_response.py` |
+| `BrandVettingEnumVettingProviderOrStr` | `twilio/models/enums/brand_vetting_enum_vetting_provider.py` |
+| `ListBrandVettingResponse` | `twilio/models/list_brand_vetting_response.py` |
 

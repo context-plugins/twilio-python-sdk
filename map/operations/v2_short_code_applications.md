@@ -2,7 +2,7 @@
 
 # V2ShortCodeApplications — operations
 
-Accessor: `client.v2_short_code_applications` · Source: `twilio_sdk/apis/v2_short_code_applications.py` · 3 operations
+Accessor: `client.v2_short_code_applications` · Source: `twilio/apis/v2_short_code_applications.py` · 3 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,9 +19,9 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `CreateShortCodeApplicationRequest` | `twilio_sdk/models/create_short_code_application_request.py` |
-| `CreateShortCodeApplicationRequestDict` | `twilio_sdk/models/create_short_code_application_request.py` |
-| `CreateShortCodeApplicationResponse` | `twilio_sdk/models/create_short_code_application_response.py` |
+| `CreateShortCodeApplicationRequest` | `twilio/models/create_short_code_application_request.py` |
+| `CreateShortCodeApplicationRequestDict` | `twilio/models/create_short_code_application_request.py` |
+| `CreateShortCodeApplicationResponse` | `twilio/models/create_short_code_application_response.py` |
 
 ### client.v2_short_code_applications.fetch_short_code_application
 
@@ -36,7 +36,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ShortCodeApplication` | `twilio_sdk/models/short_code_application.py` |
+| `ShortCodeApplication` | `twilio/models/short_code_application.py` |
 
 ### client.v2_short_code_applications.list_short_code_applications
 
@@ -50,5 +50,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ShortCodeApplicationResponsePage` | `twilio_sdk/models/short_code_application_response_page.py` |
+| `ShortCodeApplicationResponsePage` | `twilio/models/short_code_application_response_page.py` |
 

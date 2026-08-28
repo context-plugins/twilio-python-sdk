@@ -2,7 +2,7 @@
 
 # Api20100401NewSigningKey — operations
 
-Accessor: `client.api20100401_new_signing_key` · Source: `twilio_sdk/apis/api20100401_new_signing_key.py` · 1 operation
+Accessor: `client.api20100401_new_signing_key` · Source: `twilio/apis/api20100401_new_signing_key.py` · 1 operation
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,5 +19,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ApiV2010AccountNewSigningKey` | `twilio_sdk/models/api_v2010_account_new_signing_key.py` |
+| `ApiV2010AccountNewSigningKey` | `twilio/models/api_v2010_account_new_signing_key.py` |
 

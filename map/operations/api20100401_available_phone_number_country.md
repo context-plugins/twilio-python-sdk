@@ -2,7 +2,7 @@
 
 # Api20100401AvailablePhoneNumberCountry — operations
 
-Accessor: `client.api20100401_available_phone_number_country` · Source: `twilio_sdk/apis/api20100401_available_phone_number_country.py` · 2 operations
+Accessor: `client.api20100401_available_phone_number_country` · Source: `twilio/apis/api20100401_available_phone_number_country.py` · 2 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ApiV2010AccountAvailablePhoneNumberCountry` | `twilio_sdk/models/api_v2010_account_available_phone_number_country.py` |
+| `ApiV2010AccountAvailablePhoneNumberCountry` | `twilio/models/api_v2010_account_available_phone_number_country.py` |
 
 ### client.api20100401_available_phone_number_country.list_available_phone_number_country
 
@@ -34,5 +34,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListAvailablePhoneNumberCountryResponse` | `twilio_sdk/models/list_available_phone_number_country_response.py` |
+| `ListAvailablePhoneNumberCountryResponse` | `twilio/models/list_available_phone_number_country_response.py` |
 

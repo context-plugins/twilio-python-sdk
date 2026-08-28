@@ -2,7 +2,7 @@
 
 # ProxyV1Session — operations
 
-Accessor: `client.proxy_v1_session` · Source: `twilio_sdk/apis/proxy_v1_session.py` · 5 operations
+Accessor: `client.proxy_v1_session` · Source: `twilio/apis/proxy_v1_session.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -19,9 +19,9 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `SessionEnumModeOrStr` | `twilio_sdk/models/enums/session_enum_mode.py` |
-| `SessionEnumStatusOrStr` | `twilio_sdk/models/enums/session_enum_status.py` |
-| `ProxyV1ServiceSession` | `twilio_sdk/models/proxy_v1_service_session.py` |
+| `SessionEnumModeOrStr` | `twilio/models/enums/session_enum_mode.py` |
+| `SessionEnumStatusOrStr` | `twilio/models/enums/session_enum_status.py` |
+| `ProxyV1ServiceSession` | `twilio/models/proxy_v1_service_session.py` |
 
 ### client.proxy_v1_session.delete_session
 
@@ -47,7 +47,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ProxyV1ServiceSession` | `twilio_sdk/models/proxy_v1_service_session.py` |
+| `ProxyV1ServiceSession` | `twilio/models/proxy_v1_service_session.py` |
 
 ### client.proxy_v1_session.list_session
 
@@ -62,7 +62,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListSessionResponse` | `twilio_sdk/models/list_session_response.py` |
+| `ListSessionResponse` | `twilio/models/list_session_response.py` |
 
 ### client.proxy_v1_session.update_session
 
@@ -77,6 +77,6 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `SessionEnumStatusOrStr` | `twilio_sdk/models/enums/session_enum_status.py` |
-| `ProxyV1ServiceSession` | `twilio_sdk/models/proxy_v1_service_session.py` |
+| `SessionEnumStatusOrStr` | `twilio/models/enums/session_enum_status.py` |
+| `ProxyV1ServiceSession` | `twilio/models/proxy_v1_service_session.py` |
 

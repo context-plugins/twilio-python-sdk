@@ -2,7 +2,7 @@
 
 # ConversationsV1ConversationApi — operations
 
-Accessor: `client.conversations_v1_conversation_api` · Source: `twilio_sdk/apis/conversations_v1_conversation_api.py` · 10 operations
+Accessor: `client.conversations_v1_conversation_api` · Source: `twilio/apis/conversations_v1_conversation_api.py` · 10 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -18,9 +18,9 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConfirmationOrStr` | `twilio_sdk/models/enums/confirmation.py` |
-| `ConversationEnumStateOrStr` | `twilio_sdk/models/enums/conversation_enum_state.py` |
-| `ConversationsV1Conversation` | `twilio_sdk/models/conversations_v1_conversation.py` |
+| `ConfirmationOrStr` | `twilio/models/enums/confirmation.py` |
+| `ConversationEnumStateOrStr` | `twilio/models/enums/conversation_enum_state.py` |
+| `ConversationsV1Conversation` | `twilio/models/conversations_v1_conversation.py` |
 
 ### client.conversations_v1_conversation_api.create_service_conversation
 
@@ -35,9 +35,9 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConfirmationOrStr` | `twilio_sdk/models/enums/confirmation.py` |
-| `ServiceConversationEnumStateOrStr` | `twilio_sdk/models/enums/service_conversation_enum_state.py` |
-| `ConversationsV1ServiceServiceConversation` | `twilio_sdk/models/conversations_v1_service_service_conversation.py` |
+| `ConfirmationOrStr` | `twilio/models/enums/confirmation.py` |
+| `ServiceConversationEnumStateOrStr` | `twilio/models/enums/service_conversation_enum_state.py` |
+| `ConversationsV1ServiceServiceConversation` | `twilio/models/conversations_v1_service_service_conversation.py` |
 
 ### client.conversations_v1_conversation_api.delete_conversation
 
@@ -52,7 +52,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConfirmationOrStr` | `twilio_sdk/models/enums/confirmation.py` |
+| `ConfirmationOrStr` | `twilio/models/enums/confirmation.py` |
 
 ### client.conversations_v1_conversation_api.delete_service_conversation
 
@@ -67,7 +67,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConfirmationOrStr` | `twilio_sdk/models/enums/confirmation.py` |
+| `ConfirmationOrStr` | `twilio/models/enums/confirmation.py` |
 
 ### client.conversations_v1_conversation_api.fetch_conversation
 
@@ -82,7 +82,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConversationsV1Conversation` | `twilio_sdk/models/conversations_v1_conversation.py` |
+| `ConversationsV1Conversation` | `twilio/models/conversations_v1_conversation.py` |
 
 ### client.conversations_v1_conversation_api.fetch_service_conversation
 
@@ -97,7 +97,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConversationsV1ServiceServiceConversation` | `twilio_sdk/models/conversations_v1_service_service_conversation.py` |
+| `ConversationsV1ServiceServiceConversation` | `twilio/models/conversations_v1_service_service_conversation.py` |
 
 ### client.conversations_v1_conversation_api.list_conversation
 
@@ -111,8 +111,8 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConversationEnumStateOrStr` | `twilio_sdk/models/enums/conversation_enum_state.py` |
-| `ListConversationResponse` | `twilio_sdk/models/list_conversation_response.py` |
+| `ConversationEnumStateOrStr` | `twilio/models/enums/conversation_enum_state.py` |
+| `ListConversationResponse` | `twilio/models/list_conversation_response.py` |
 
 ### client.conversations_v1_conversation_api.list_service_conversation
 
@@ -127,8 +127,8 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ServiceConversationEnumStateOrStr` | `twilio_sdk/models/enums/service_conversation_enum_state.py` |
-| `ListServiceConversationResponse` | `twilio_sdk/models/list_service_conversation_response.py` |
+| `ServiceConversationEnumStateOrStr` | `twilio/models/enums/service_conversation_enum_state.py` |
+| `ListServiceConversationResponse` | `twilio/models/list_service_conversation_response.py` |
 
 ### client.conversations_v1_conversation_api.update_conversation
 
@@ -143,9 +143,9 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConfirmationOrStr` | `twilio_sdk/models/enums/confirmation.py` |
-| `ConversationEnumStateOrStr` | `twilio_sdk/models/enums/conversation_enum_state.py` |
-| `ConversationsV1Conversation` | `twilio_sdk/models/conversations_v1_conversation.py` |
+| `ConfirmationOrStr` | `twilio/models/enums/confirmation.py` |
+| `ConversationEnumStateOrStr` | `twilio/models/enums/conversation_enum_state.py` |
+| `ConversationsV1Conversation` | `twilio/models/conversations_v1_conversation.py` |
 
 ### client.conversations_v1_conversation_api.update_service_conversation
 
@@ -160,7 +160,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConfirmationOrStr` | `twilio_sdk/models/enums/confirmation.py` |
-| `ServiceConversationEnumStateOrStr` | `twilio_sdk/models/enums/service_conversation_enum_state.py` |
-| `ConversationsV1ServiceServiceConversation` | `twilio_sdk/models/conversations_v1_service_service_conversation.py` |
+| `ConfirmationOrStr` | `twilio/models/enums/confirmation.py` |
+| `ServiceConversationEnumStateOrStr` | `twilio/models/enums/service_conversation_enum_state.py` |
+| `ConversationsV1ServiceServiceConversation` | `twilio/models/conversations_v1_service_service_conversation.py` |
 

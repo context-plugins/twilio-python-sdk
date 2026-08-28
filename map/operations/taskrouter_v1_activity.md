@@ -2,7 +2,7 @@
 
 # TaskrouterV1Activity — operations
 
-Accessor: `client.taskrouter_v1_activity` · Source: `twilio_sdk/apis/taskrouter_v1_activity.py` · 5 operations
+Accessor: `client.taskrouter_v1_activity` · Source: `twilio/apis/taskrouter_v1_activity.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TaskrouterV1WorkspaceActivity` | `twilio_sdk/models/taskrouter_v1_workspace_activity.py` |
+| `TaskrouterV1WorkspaceActivity` | `twilio/models/taskrouter_v1_workspace_activity.py` |
 
 ### client.taskrouter_v1_activity.delete_activity
 
@@ -45,7 +45,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TaskrouterV1WorkspaceActivity` | `twilio_sdk/models/taskrouter_v1_workspace_activity.py` |
+| `TaskrouterV1WorkspaceActivity` | `twilio/models/taskrouter_v1_workspace_activity.py` |
 
 ### client.taskrouter_v1_activity.list_activity
 
@@ -60,7 +60,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListActivityResponse` | `twilio_sdk/models/list_activity_response.py` |
+| `ListActivityResponse` | `twilio/models/list_activity_response.py` |
 
 ### client.taskrouter_v1_activity.update_activity
 
@@ -75,5 +75,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TaskrouterV1WorkspaceActivity` | `twilio_sdk/models/taskrouter_v1_workspace_activity.py` |
+| `TaskrouterV1WorkspaceActivity` | `twilio/models/taskrouter_v1_workspace_activity.py` |
 

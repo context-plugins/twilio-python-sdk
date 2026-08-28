@@ -2,7 +2,7 @@
 
 # SyncV1SyncMapItem — operations
 
-Accessor: `client.sync_v1_sync_map_item` · Source: `twilio_sdk/apis/sync_v1_sync_map_item.py` · 5 operations
+Accessor: `client.sync_v1_sync_map_item` · Source: `twilio/apis/sync_v1_sync_map_item.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `SyncV1ServiceSyncMapSyncMapItem` | `twilio_sdk/models/sync_v1_service_sync_map_sync_map_item.py` |
+| `SyncV1ServiceSyncMapSyncMapItem` | `twilio/models/sync_v1_service_sync_map_sync_map_item.py` |
 
 ### client.sync_v1_sync_map_item.delete_sync_map_item
 
@@ -45,7 +45,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `SyncV1ServiceSyncMapSyncMapItem` | `twilio_sdk/models/sync_v1_service_sync_map_sync_map_item.py` |
+| `SyncV1ServiceSyncMapSyncMapItem` | `twilio/models/sync_v1_service_sync_map_sync_map_item.py` |
 
 ### client.sync_v1_sync_map_item.list_sync_map_item
 
@@ -60,9 +60,9 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ChallengeEnumListOrdersOrStr` | `twilio_sdk/models/enums/challenge_enum_list_orders.py` |
-| `SyncMapItemEnumQueryFromBoundTypeOrStr` | `twilio_sdk/models/enums/sync_map_item_enum_query_from_bound_type.py` |
-| `ListSyncMapItemResponse` | `twilio_sdk/models/list_sync_map_item_response.py` |
+| `ChallengeEnumListOrdersOrStr` | `twilio/models/enums/challenge_enum_list_orders.py` |
+| `SyncMapItemEnumQueryFromBoundTypeOrStr` | `twilio/models/enums/sync_map_item_enum_query_from_bound_type.py` |
+| `ListSyncMapItemResponse` | `twilio/models/list_sync_map_item_response.py` |
 
 ### client.sync_v1_sync_map_item.update_sync_map_item
 
@@ -77,5 +77,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `SyncV1ServiceSyncMapSyncMapItem` | `twilio_sdk/models/sync_v1_service_sync_map_sync_map_item.py` |
+| `SyncV1ServiceSyncMapSyncMapItem` | `twilio/models/sync_v1_service_sync_map_sync_map_item.py` |
 

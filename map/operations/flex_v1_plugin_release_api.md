@@ -2,7 +2,7 @@
 
 # FlexV1PluginReleaseApi — operations
 
-Accessor: `client.flex_v1_plugin_release_api` · Source: `twilio_sdk/apis/flex_v1_plugin_release_api.py` · 3 operations
+Accessor: `client.flex_v1_plugin_release_api` · Source: `twilio/apis/flex_v1_plugin_release_api.py` · 3 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `FlexV1PluginRelease` | `twilio_sdk/models/flex_v1_plugin_release.py` |
+| `FlexV1PluginRelease` | `twilio/models/flex_v1_plugin_release.py` |
 
 ### client.flex_v1_plugin_release_api.fetch_plugin_release
 
@@ -34,7 +34,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `FlexV1PluginRelease` | `twilio_sdk/models/flex_v1_plugin_release.py` |
+| `FlexV1PluginRelease` | `twilio/models/flex_v1_plugin_release.py` |
 
 ### client.flex_v1_plugin_release_api.list_plugin_release
 
@@ -48,5 +48,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListPluginReleaseResponse` | `twilio_sdk/models/list_plugin_release_response.py` |
+| `ListPluginReleaseResponse` | `twilio/models/list_plugin_release_response.py` |
 

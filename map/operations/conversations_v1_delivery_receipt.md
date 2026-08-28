@@ -2,7 +2,7 @@
 
 # ConversationsV1DeliveryReceipt — operations
 
-Accessor: `client.conversations_v1_delivery_receipt` · Source: `twilio_sdk/apis/conversations_v1_delivery_receipt.py` · 4 operations
+Accessor: `client.conversations_v1_delivery_receipt` · Source: `twilio/apis/conversations_v1_delivery_receipt.py` · 4 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConversationsV1ConversationConversationMessageConversationMessageReceipt` | `twilio_sdk/models/conversations_v1_conversation_conversation_message_conversation_message_receipt.py` |
+| `ConversationsV1ConversationConversationMessageConversationMessageReceipt` | `twilio/models/conversations_v1_conversation_conversation_message_conversation_message_receipt.py` |
 
 ### client.conversations_v1_delivery_receipt.fetch_service_conversation_message_receipt
 
@@ -34,7 +34,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ServiceConversationMessageReceipt` | `twilio_sdk/models/service_conversation_message_receipt.py` |
+| `ServiceConversationMessageReceipt` | `twilio/models/service_conversation_message_receipt.py` |
 
 ### client.conversations_v1_delivery_receipt.list_conversation_message_receipt
 
@@ -49,7 +49,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListConversationMessageReceiptResponse` | `twilio_sdk/models/list_conversation_message_receipt_response.py` |
+| `ListConversationMessageReceiptResponse` | `twilio/models/list_conversation_message_receipt_response.py` |
 
 ### client.conversations_v1_delivery_receipt.list_service_conversation_message_receipt
 
@@ -64,5 +64,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListServiceConversationMessageReceiptResponse` | `twilio_sdk/models/list_service_conversation_message_receipt_response.py` |
+| `ListServiceConversationMessageReceiptResponse` | `twilio/models/list_service_conversation_message_receipt_response.py` |
 

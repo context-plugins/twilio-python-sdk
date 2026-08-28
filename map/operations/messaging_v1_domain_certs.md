@@ -2,7 +2,7 @@
 
 # MessagingV1DomainCerts — operations
 
-Accessor: `client.messaging_v1_domain_certs` · Source: `twilio_sdk/apis/messaging_v1_domain_certs.py` · 3 operations
+Accessor: `client.messaging_v1_domain_certs` · Source: `twilio/apis/messaging_v1_domain_certs.py` · 3 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -30,7 +30,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `MessagingV1DomainCertV4` | `twilio_sdk/models/messaging_v1_domain_cert_v4.py` |
+| `MessagingV1DomainCertV4` | `twilio/models/messaging_v1_domain_cert_v4.py` |
 
 ### client.messaging_v1_domain_certs.update_domain_cert_v4
 
@@ -45,5 +45,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `MessagingV1DomainCertV4` | `twilio_sdk/models/messaging_v1_domain_cert_v4.py` |
+| `MessagingV1DomainCertV4` | `twilio/models/messaging_v1_domain_cert_v4.py` |
 

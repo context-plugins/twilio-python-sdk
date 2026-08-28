@@ -2,7 +2,7 @@
 
 # TaskrouterV1TaskChannel — operations
 
-Accessor: `client.taskrouter_v1_task_channel` · Source: `twilio_sdk/apis/taskrouter_v1_task_channel.py` · 5 operations
+Accessor: `client.taskrouter_v1_task_channel` · Source: `twilio/apis/taskrouter_v1_task_channel.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TaskrouterV1WorkspaceTaskChannel` | `twilio_sdk/models/taskrouter_v1_workspace_task_channel.py` |
+| `TaskrouterV1WorkspaceTaskChannel` | `twilio/models/taskrouter_v1_workspace_task_channel.py` |
 
 ### client.taskrouter_v1_task_channel.delete_task_channel
 
@@ -45,7 +45,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TaskrouterV1WorkspaceTaskChannel` | `twilio_sdk/models/taskrouter_v1_workspace_task_channel.py` |
+| `TaskrouterV1WorkspaceTaskChannel` | `twilio/models/taskrouter_v1_workspace_task_channel.py` |
 
 ### client.taskrouter_v1_task_channel.list_task_channel
 
@@ -60,7 +60,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListTaskChannelResponse` | `twilio_sdk/models/list_task_channel_response.py` |
+| `ListTaskChannelResponse` | `twilio/models/list_task_channel_response.py` |
 
 ### client.taskrouter_v1_task_channel.update_task_channel
 
@@ -75,5 +75,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TaskrouterV1WorkspaceTaskChannel` | `twilio_sdk/models/taskrouter_v1_workspace_task_channel.py` |
+| `TaskrouterV1WorkspaceTaskChannel` | `twilio/models/taskrouter_v1_workspace_task_channel.py` |
 

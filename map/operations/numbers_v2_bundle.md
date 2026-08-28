@@ -2,7 +2,7 @@
 
 # NumbersV2Bundle — operations
 
-Accessor: `client.numbers_v2_bundle` · Source: `twilio_sdk/apis/numbers_v2_bundle.py` · 5 operations
+Accessor: `client.numbers_v2_bundle` · Source: `twilio/apis/numbers_v2_bundle.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -10,7 +10,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 - **Route**: `POST /v2/RegulatoryCompliance/Bundles`
 - **Server**: `default5`
-- **Signature**: `def create_bundle(friendly_name: str, email: str, *, status_callback: AnyUrl | None = None, regulation_sid: str | None = None, iso_country: str | None = None, end_user_type: BundleEnumEndUserTypeOrStr | None = None, number_type: str | None = None, is_test: bool | None = None, request_options: RequestOptionsOrDict | None = None)`
+- **Signature**: `def create_bundle(friendly_name: str, email: str, *, status_callback: str | None = None, regulation_sid: str | None = None, iso_country: str | None = None, end_user_type: BundleEnumEndUserTypeOrStr | None = None, number_type: str | None = None, is_test: bool | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `friendly_name`, `email`
 - **Params**: `friendly_name` — form field `FriendlyName` · `email` — form field `Email` · `status_callback` — form field `StatusCallback` · `regulation_sid` — form field `RegulationSid` · `iso_country` — form field `IsoCountry` · `end_user_type` — form field `EndUserType` · `number_type` — form field `NumberType` · `is_test` — form field `IsTest`
 - **Returns (parsed)**: `NumbersV2RegulatoryComplianceBundle`
@@ -19,8 +19,8 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `BundleEnumEndUserTypeOrStr` | `twilio_sdk/models/enums/bundle_enum_end_user_type.py` |
-| `NumbersV2RegulatoryComplianceBundle` | `twilio_sdk/models/numbers_v2_regulatory_compliance_bundle.py` |
+| `BundleEnumEndUserTypeOrStr` | `twilio/models/enums/bundle_enum_end_user_type.py` |
+| `NumbersV2RegulatoryComplianceBundle` | `twilio/models/numbers_v2_regulatory_compliance_bundle.py` |
 
 ### client.numbers_v2_bundle.delete_bundle
 
@@ -46,7 +46,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `NumbersV2RegulatoryComplianceBundle` | `twilio_sdk/models/numbers_v2_regulatory_compliance_bundle.py` |
+| `NumbersV2RegulatoryComplianceBundle` | `twilio/models/numbers_v2_regulatory_compliance_bundle.py` |
 
 ### client.numbers_v2_bundle.list_bundle
 
@@ -60,17 +60,17 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `BundleEnumStatusOrStr` | `twilio_sdk/models/enums/bundle_enum_status.py` |
-| `BundleEnumEndUserTypeOrStr` | `twilio_sdk/models/enums/bundle_enum_end_user_type.py` |
-| `BundleEnumSortByOrStr` | `twilio_sdk/models/enums/bundle_enum_sort_by.py` |
-| `BundleEnumSortDirectionOrStr` | `twilio_sdk/models/enums/bundle_enum_sort_direction.py` |
-| `ListBundleResponse` | `twilio_sdk/models/list_bundle_response.py` |
+| `BundleEnumStatusOrStr` | `twilio/models/enums/bundle_enum_status.py` |
+| `BundleEnumEndUserTypeOrStr` | `twilio/models/enums/bundle_enum_end_user_type.py` |
+| `BundleEnumSortByOrStr` | `twilio/models/enums/bundle_enum_sort_by.py` |
+| `BundleEnumSortDirectionOrStr` | `twilio/models/enums/bundle_enum_sort_direction.py` |
+| `ListBundleResponse` | `twilio/models/list_bundle_response.py` |
 
 ### client.numbers_v2_bundle.update_bundle
 
 - **Route**: `POST /v2/RegulatoryCompliance/Bundles/{Sid}`
 - **Server**: `default5`
-- **Signature**: `def update_bundle(sid: str, *, status: BundleEnumStatusOrStr | None = None, status_callback: AnyUrl | None = None, friendly_name: str | None = None, email: str | None = None, request_options: RequestOptionsOrDict | None = None)`
+- **Signature**: `def update_bundle(sid: str, *, status: BundleEnumStatusOrStr | None = None, status_callback: str | None = None, friendly_name: str | None = None, email: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `sid`
 - **Params**: `sid` — path `Sid` · `status` — form field `Status` · `status_callback` — form field `StatusCallback` · `friendly_name` — form field `FriendlyName` · `email` — form field `Email`
 - **Returns (parsed)**: `NumbersV2RegulatoryComplianceBundle`
@@ -79,6 +79,6 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `BundleEnumStatusOrStr` | `twilio_sdk/models/enums/bundle_enum_status.py` |
-| `NumbersV2RegulatoryComplianceBundle` | `twilio_sdk/models/numbers_v2_regulatory_compliance_bundle.py` |
+| `BundleEnumStatusOrStr` | `twilio/models/enums/bundle_enum_status.py` |
+| `NumbersV2RegulatoryComplianceBundle` | `twilio/models/numbers_v2_regulatory_compliance_bundle.py` |
 

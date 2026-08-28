@@ -2,7 +2,7 @@
 
 # FlexV1InteractionTransfer — operations
 
-Accessor: `client.flex_v1_interaction_transfer` · Source: `twilio_sdk/apis/flex_v1_interaction_transfer.py` · 3 operations
+Accessor: `client.flex_v1_interaction_transfer` · Source: `twilio/apis/flex_v1_interaction_transfer.py` · 3 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `FlexV1InteractionInteractionChannelInteractionTransfer` | `twilio_sdk/models/flex_v1_interaction_interaction_channel_interaction_transfer.py` |
+| `FlexV1InteractionInteractionChannelInteractionTransfer` | `twilio/models/flex_v1_interaction_interaction_channel_interaction_transfer.py` |
 
 ### client.flex_v1_interaction_transfer.fetch_interaction_transfer
 
@@ -34,7 +34,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `FlexV1InteractionInteractionChannelInteractionTransfer` | `twilio_sdk/models/flex_v1_interaction_interaction_channel_interaction_transfer.py` |
+| `FlexV1InteractionInteractionChannelInteractionTransfer` | `twilio/models/flex_v1_interaction_interaction_channel_interaction_transfer.py` |
 
 ### client.flex_v1_interaction_transfer.update_interaction_transfer
 
@@ -49,5 +49,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `FlexV1InteractionInteractionChannelInteractionTransfer` | `twilio_sdk/models/flex_v1_interaction_interaction_channel_interaction_transfer.py` |
+| `FlexV1InteractionInteractionChannelInteractionTransfer` | `twilio/models/flex_v1_interaction_interaction_channel_interaction_transfer.py` |
 

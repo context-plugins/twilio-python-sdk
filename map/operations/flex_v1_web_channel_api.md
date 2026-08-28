@@ -2,7 +2,7 @@
 
 # FlexV1WebChannelApi — operations
 
-Accessor: `client.flex_v1_web_channel_api` · Source: `twilio_sdk/apis/flex_v1_web_channel_api.py` · 5 operations
+Accessor: `client.flex_v1_web_channel_api` · Source: `twilio/apis/flex_v1_web_channel_api.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `FlexV1WebChannel` | `twilio_sdk/models/flex_v1_web_channel.py` |
+| `FlexV1WebChannel` | `twilio/models/flex_v1_web_channel.py` |
 
 ### client.flex_v1_web_channel_api.delete_web_channel
 
@@ -45,7 +45,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `FlexV1WebChannel` | `twilio_sdk/models/flex_v1_web_channel.py` |
+| `FlexV1WebChannel` | `twilio/models/flex_v1_web_channel.py` |
 
 ### client.flex_v1_web_channel_api.list_web_channel
 
@@ -59,7 +59,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListWebChannelResponse` | `twilio_sdk/models/list_web_channel_response.py` |
+| `ListWebChannelResponse` | `twilio/models/list_web_channel_response.py` |
 
 ### client.flex_v1_web_channel_api.update_web_channel
 
@@ -74,6 +74,6 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `WebChannelEnumChatStatusOrStr` | `twilio_sdk/models/enums/web_channel_enum_chat_status.py` |
-| `FlexV1WebChannel` | `twilio_sdk/models/flex_v1_web_channel.py` |
+| `WebChannelEnumChatStatusOrStr` | `twilio/models/enums/web_channel_enum_chat_status.py` |
+| `FlexV1WebChannel` | `twilio/models/flex_v1_web_channel.py` |
 

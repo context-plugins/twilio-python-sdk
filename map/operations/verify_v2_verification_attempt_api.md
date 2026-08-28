@@ -2,7 +2,7 @@
 
 # VerifyV2VerificationAttemptApi — operations
 
-Accessor: `client.verify_v2_verification_attempt_api` · Source: `twilio_sdk/apis/verify_v2_verification_attempt_api.py` · 2 operations
+Accessor: `client.verify_v2_verification_attempt_api` · Source: `twilio/apis/verify_v2_verification_attempt_api.py` · 2 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `VerifyV2VerificationAttempt` | `twilio_sdk/models/verify_v2_verification_attempt.py` |
+| `VerifyV2VerificationAttempt` | `twilio/models/verify_v2_verification_attempt.py` |
 
 ### client.verify_v2_verification_attempt_api.list_verification_attempt
 
@@ -33,7 +33,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `VerificationAttemptEnumChannelsOrStr` | `twilio_sdk/models/enums/verification_attempt_enum_channels.py` |
-| `VerificationAttemptEnumConversionStatusOrStr` | `twilio_sdk/models/enums/verification_attempt_enum_conversion_status.py` |
-| `ListVerificationAttemptResponse` | `twilio_sdk/models/list_verification_attempt_response.py` |
+| `VerificationAttemptEnumChannelsOrStr` | `twilio/models/enums/verification_attempt_enum_channels.py` |
+| `VerificationAttemptEnumConversionStatusOrStr` | `twilio/models/enums/verification_attempt_enum_conversion_status.py` |
+| `ListVerificationAttemptResponse` | `twilio/models/list_verification_attempt_response.py` |
 

@@ -2,7 +2,7 @@
 
 # FlexV1InsightsAssessmentsCommentApi — operations
 
-Accessor: `client.flex_v1_insights_assessments_comment_api` · Source: `twilio_sdk/apis/flex_v1_insights_assessments_comment_api.py` · 2 operations
+Accessor: `client.flex_v1_insights_assessments_comment_api` · Source: `twilio/apis/flex_v1_insights_assessments_comment_api.py` · 2 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `FlexV1InsightsAssessmentsComment` | `twilio_sdk/models/flex_v1_insights_assessments_comment.py` |
+| `FlexV1InsightsAssessmentsComment` | `twilio/models/flex_v1_insights_assessments_comment.py` |
 
 ### client.flex_v1_insights_assessments_comment_api.list_insights_assessments_comment
 
@@ -33,5 +33,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListInsightsAssessmentsCommentResponse` | `twilio_sdk/models/list_insights_assessments_comment_response.py` |
+| `ListInsightsAssessmentsCommentResponse` | `twilio/models/list_insights_assessments_comment_response.py` |
 

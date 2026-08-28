@@ -2,7 +2,7 @@
 
 # Api20100401AssignedAddOnExtension — operations
 
-Accessor: `client.api20100401_assigned_add_on_extension` · Source: `twilio_sdk/apis/api20100401_assigned_add_on_extension.py` · 2 operations
+Accessor: `client.api20100401_assigned_add_on_extension` · Source: `twilio/apis/api20100401_assigned_add_on_extension.py` · 2 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `IncomingPhoneNumberAssignedAddOnExtension` | `twilio_sdk/models/incoming_phone_number_assigned_add_on_extension.py` |
+| `IncomingPhoneNumberAssignedAddOnExtension` | `twilio/models/incoming_phone_number_assigned_add_on_extension.py` |
 
 ### client.api20100401_assigned_add_on_extension.list_incoming_phone_number_assigned_add_on_extension
 
@@ -34,5 +34,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListIncomingPhoneNumberAssignedAddOnExtensionResponse` | `twilio_sdk/models/list_incoming_phone_number_assigned_add_on_extension_response.py` |
+| `ListIncomingPhoneNumberAssignedAddOnExtensionResponse` | `twilio/models/list_incoming_phone_number_assigned_add_on_extension_response.py` |
 

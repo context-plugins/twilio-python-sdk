@@ -2,7 +2,7 @@
 
 # StudioV2FlowApi — operations
 
-Accessor: `client.studio_v2_flow_api` · Source: `twilio_sdk/apis/studio_v2_flow_api.py` · 5 operations
+Accessor: `client.studio_v2_flow_api` · Source: `twilio/apis/studio_v2_flow_api.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -19,8 +19,8 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `FlowEnumStatusOrStr` | `twilio_sdk/models/enums/flow_enum_status.py` |
-| `StudioV2Flow` | `twilio_sdk/models/studio_v2_flow.py` |
+| `FlowEnumStatusOrStr` | `twilio/models/enums/flow_enum_status.py` |
+| `StudioV2Flow` | `twilio/models/studio_v2_flow.py` |
 
 ### client.studio_v2_flow_api.delete_flow2
 
@@ -46,7 +46,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `StudioV2Flow` | `twilio_sdk/models/studio_v2_flow.py` |
+| `StudioV2Flow` | `twilio/models/studio_v2_flow.py` |
 
 ### client.studio_v2_flow_api.list_flow2
 
@@ -60,7 +60,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListFlowResponse1` | `twilio_sdk/models/list_flow_response1.py` |
+| `ListFlowResponse1` | `twilio/models/list_flow_response1.py` |
 
 ### client.studio_v2_flow_api.update_flow
 
@@ -75,6 +75,6 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `FlowEnumStatusOrStr` | `twilio_sdk/models/enums/flow_enum_status.py` |
-| `StudioV2Flow` | `twilio_sdk/models/studio_v2_flow.py` |
+| `FlowEnumStatusOrStr` | `twilio/models/enums/flow_enum_status.py` |
+| `StudioV2Flow` | `twilio/models/studio_v2_flow.py` |
 

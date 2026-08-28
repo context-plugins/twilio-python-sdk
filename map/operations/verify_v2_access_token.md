@@ -2,7 +2,7 @@
 
 # VerifyV2AccessToken — operations
 
-Accessor: `client.verify_v2_access_token` · Source: `twilio_sdk/apis/verify_v2_access_token.py` · 2 operations
+Accessor: `client.verify_v2_access_token` · Source: `twilio/apis/verify_v2_access_token.py` · 2 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,8 +19,8 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `AccessTokenEnumFactorTypesOrStr` | `twilio_sdk/models/enums/access_token_enum_factor_types.py` |
-| `VerifyV2ServiceAccessToken` | `twilio_sdk/models/verify_v2_service_access_token.py` |
+| `AccessTokenEnumFactorTypesOrStr` | `twilio/models/enums/access_token_enum_factor_types.py` |
+| `VerifyV2ServiceAccessToken` | `twilio/models/verify_v2_service_access_token.py` |
 
 ### client.verify_v2_access_token.fetch_access_token
 
@@ -35,5 +35,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `VerifyV2ServiceAccessToken` | `twilio_sdk/models/verify_v2_service_access_token.py` |
+| `VerifyV2ServiceAccessToken` | `twilio/models/verify_v2_service_access_token.py` |
 

@@ -2,7 +2,7 @@
 
 # ConversationsV2ConversationApi — operations
 
-Accessor: `client.conversations_v2_conversation_api` · Source: `twilio_sdk/apis/conversations_v2_conversation_api.py` · 6 operations
+Accessor: `client.conversations_v2_conversation_api` · Source: `twilio/apis/conversations_v2_conversation_api.py` · 6 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,11 +19,11 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `V2ConversationsRequest` | `twilio_sdk/models/v2_conversations_request.py` |
-| `V2ConversationsRequestDict` | `twilio_sdk/models/v2_conversations_request.py` |
-| `ConversationsV2Conversation` | `twilio_sdk/models/conversations_v2_conversation.py` |
-| `CreateConversationWithConfigErrorBody` | `twilio_sdk/errors/create_conversation_with_config_error.py` |
-| `AccountsCallsRecordingsSidJson201041408Error1` | `twilio_sdk/models/accounts_calls_recordings_sid_json201041408_error1.py` |
+| `V2ConversationsRequest` | `twilio/models/v2_conversations_request.py` |
+| `V2ConversationsRequestDict` | `twilio/models/v2_conversations_request.py` |
+| `ConversationsV2Conversation` | `twilio/models/conversations_v2_conversation.py` |
+| `CreateConversationWithConfigErrorBody` | `twilio/errors/create_conversation_with_config_error.py` |
+| `AccountsCallsRecordingsSidJson201041408Error1` | `twilio/models/accounts_calls_recordings_sid_json201041408_error1.py` |
 
 ### client.conversations_v2_conversation_api.delete_conversation_async
 
@@ -39,9 +39,9 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConversationsV2OperationAccepted` | `twilio_sdk/models/conversations_v2_operation_accepted.py` |
-| `DeleteConversationAsyncErrorBody` | `twilio_sdk/errors/delete_conversation_async_error.py` |
-| `AccountsCallsRecordingsSidJson201041408Error1` | `twilio_sdk/models/accounts_calls_recordings_sid_json201041408_error1.py` |
+| `ConversationsV2OperationAccepted` | `twilio/models/conversations_v2_operation_accepted.py` |
+| `DeleteConversationAsyncErrorBody` | `twilio/errors/delete_conversation_async_error.py` |
+| `AccountsCallsRecordingsSidJson201041408Error1` | `twilio/models/accounts_calls_recordings_sid_json201041408_error1.py` |
 
 ### client.conversations_v2_conversation_api.fetch_conversation2
 
@@ -57,9 +57,9 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConversationsV2Conversation` | `twilio_sdk/models/conversations_v2_conversation.py` |
-| `FetchConversation2ErrorBody` | `twilio_sdk/errors/fetch_conversation2_error.py` |
-| `AccountsCallsRecordingsSidJson201041408Error1` | `twilio_sdk/models/accounts_calls_recordings_sid_json201041408_error1.py` |
+| `ConversationsV2Conversation` | `twilio/models/conversations_v2_conversation.py` |
+| `FetchConversation2ErrorBody` | `twilio/errors/fetch_conversation2_error.py` |
+| `AccountsCallsRecordingsSidJson201041408Error1` | `twilio/models/accounts_calls_recordings_sid_json201041408_error1.py` |
 
 ### client.conversations_v2_conversation_api.list_conversation_by_account
 
@@ -74,10 +74,10 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `Status31OrStr` | `twilio_sdk/models/enums/status31.py` |
-| `V2ConversationsResponse` | `twilio_sdk/models/v2_conversations_response.py` |
-| `ListConversationByAccountErrorBody` | `twilio_sdk/errors/list_conversation_by_account_error.py` |
-| `AccountsCallsRecordingsSidJson201041408Error1` | `twilio_sdk/models/accounts_calls_recordings_sid_json201041408_error1.py` |
+| `Status31OrStr` | `twilio/models/enums/status31.py` |
+| `V2ConversationsResponse` | `twilio/models/v2_conversations_response.py` |
+| `ListConversationByAccountErrorBody` | `twilio/errors/list_conversation_by_account_error.py` |
+| `AccountsCallsRecordingsSidJson201041408Error1` | `twilio/models/accounts_calls_recordings_sid_json201041408_error1.py` |
 
 ### client.conversations_v2_conversation_api.patch_conversation_by_id
 
@@ -93,11 +93,11 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `V2ConversationsRequest2` | `twilio_sdk/models/v2_conversations_request2.py` |
-| `V2ConversationsRequest2Dict` | `twilio_sdk/models/v2_conversations_request2.py` |
-| `ConversationsV2Conversation` | `twilio_sdk/models/conversations_v2_conversation.py` |
-| `PatchConversationByIdErrorBody` | `twilio_sdk/errors/patch_conversation_by_id_error.py` |
-| `AccountsCallsRecordingsSidJson201041408Error1` | `twilio_sdk/models/accounts_calls_recordings_sid_json201041408_error1.py` |
+| `V2ConversationsRequest2` | `twilio/models/v2_conversations_request2.py` |
+| `V2ConversationsRequest2Dict` | `twilio/models/v2_conversations_request2.py` |
+| `ConversationsV2Conversation` | `twilio/models/conversations_v2_conversation.py` |
+| `PatchConversationByIdErrorBody` | `twilio/errors/patch_conversation_by_id_error.py` |
+| `AccountsCallsRecordingsSidJson201041408Error1` | `twilio/models/accounts_calls_recordings_sid_json201041408_error1.py` |
 
 ### client.conversations_v2_conversation_api.update_conversation_by_id
 
@@ -113,9 +113,9 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `V2ConversationsRequest1` | `twilio_sdk/models/v2_conversations_request1.py` |
-| `V2ConversationsRequest1Dict` | `twilio_sdk/models/v2_conversations_request1.py` |
-| `ConversationsV2Conversation` | `twilio_sdk/models/conversations_v2_conversation.py` |
-| `UpdateConversationByIdErrorBody` | `twilio_sdk/errors/update_conversation_by_id_error.py` |
-| `AccountsCallsRecordingsSidJson201041408Error1` | `twilio_sdk/models/accounts_calls_recordings_sid_json201041408_error1.py` |
+| `V2ConversationsRequest1` | `twilio/models/v2_conversations_request1.py` |
+| `V2ConversationsRequest1Dict` | `twilio/models/v2_conversations_request1.py` |
+| `ConversationsV2Conversation` | `twilio/models/conversations_v2_conversation.py` |
+| `UpdateConversationByIdErrorBody` | `twilio/errors/update_conversation_by_id_error.py` |
+| `AccountsCallsRecordingsSidJson201041408Error1` | `twilio/models/accounts_calls_recordings_sid_json201041408_error1.py` |
 

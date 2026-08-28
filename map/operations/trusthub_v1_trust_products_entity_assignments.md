@@ -2,7 +2,7 @@
 
 # TrusthubV1TrustProductsEntityAssignments — operations
 
-Accessor: `client.trusthub_v1_trust_products_entity_assignments` · Source: `twilio_sdk/apis/trusthub_v1_trust_products_entity_assignments.py` · 4 operations
+Accessor: `client.trusthub_v1_trust_products_entity_assignments` · Source: `twilio/apis/trusthub_v1_trust_products_entity_assignments.py` · 4 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TrusthubV1TrustProductTrustProductEntityAssignment` | `twilio_sdk/models/trusthub_v1_trust_product_trust_product_entity_assignment.py` |
+| `TrusthubV1TrustProductTrustProductEntityAssignment` | `twilio/models/trusthub_v1_trust_product_trust_product_entity_assignment.py` |
 
 ### client.trusthub_v1_trust_products_entity_assignments.delete_trust_product_entity_assignment
 
@@ -45,7 +45,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TrusthubV1TrustProductTrustProductEntityAssignment` | `twilio_sdk/models/trusthub_v1_trust_product_trust_product_entity_assignment.py` |
+| `TrusthubV1TrustProductTrustProductEntityAssignment` | `twilio/models/trusthub_v1_trust_product_trust_product_entity_assignment.py` |
 
 ### client.trusthub_v1_trust_products_entity_assignments.list_trust_product_entity_assignment
 
@@ -60,5 +60,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListTrustProductEntityAssignmentResponse` | `twilio_sdk/models/list_trust_product_entity_assignment_response.py` |
+| `ListTrustProductEntityAssignmentResponse` | `twilio/models/list_trust_product_entity_assignment_response.py` |
 

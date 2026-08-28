@@ -2,7 +2,7 @@
 
 # Api20100401CallRecording — operations
 
-Accessor: `client.api20100401_call_recording` · Source: `twilio_sdk/apis/api20100401_call_recording.py` · 5 operations
+Accessor: `client.api20100401_call_recording` · Source: `twilio/apis/api20100401_call_recording.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -10,7 +10,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 - **Route**: `POST /2010-04-01/Accounts/{AccountSid}/Calls/{CallSid}/Recordings.json`
 - **Server**: `default`
-- **Signature**: `def create_call_recording(account_sid: str, call_sid: str, *, recording_status_callback_event: list[str] | None = None, recording_status_callback: AnyUrl | None = None, recording_status_callback_method: RecordingStatusCallbackMethod1OrStr | None = None, trim: str | None = None, recording_channels: str | None = None, recording_track: str | None = None, recording_configuration_id: str | None = None, request_options: RequestOptionsOrDict | None = None)`
+- **Signature**: `def create_call_recording(account_sid: str, call_sid: str, *, recording_status_callback_event: list[str] | None = None, recording_status_callback: str | None = None, recording_status_callback_method: RecordingStatusCallbackMethod1OrStr | None = None, trim: str | None = None, recording_channels: str | None = None, recording_track: str | None = None, recording_configuration_id: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `account_sid`, `call_sid`
 - **Params**: `account_sid` — path `AccountSid` · `call_sid` — path `CallSid` · `recording_status_callback_event` — form field `RecordingStatusCallbackEvent` · `recording_status_callback` — form field `RecordingStatusCallback` · `recording_status_callback_method` — form field `RecordingStatusCallbackMethod` · `trim` — form field `Trim` · `recording_channels` — form field `RecordingChannels` · `recording_track` — form field `RecordingTrack` · `recording_configuration_id` — form field `RecordingConfigurationId`
 - **Returns (parsed)**: `ApiV2010AccountCallCallRecording`
@@ -19,8 +19,8 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `RecordingStatusCallbackMethod1OrStr` | `twilio_sdk/models/enums/recording_status_callback_method1.py` |
-| `ApiV2010AccountCallCallRecording` | `twilio_sdk/models/api_v2010_account_call_call_recording.py` |
+| `RecordingStatusCallbackMethod1OrStr` | `twilio/models/enums/recording_status_callback_method1.py` |
+| `ApiV2010AccountCallCallRecording` | `twilio/models/api_v2010_account_call_call_recording.py` |
 
 ### client.api20100401_call_recording.delete_call_recording
 
@@ -46,7 +46,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ApiV2010AccountCallCallRecording` | `twilio_sdk/models/api_v2010_account_call_call_recording.py` |
+| `ApiV2010AccountCallCallRecording` | `twilio/models/api_v2010_account_call_call_recording.py` |
 
 ### client.api20100401_call_recording.list_call_recording
 
@@ -61,7 +61,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListCallRecordingResponse` | `twilio_sdk/models/list_call_recording_response.py` |
+| `ListCallRecordingResponse` | `twilio/models/list_call_recording_response.py` |
 
 ### client.api20100401_call_recording.update_call_recording
 
@@ -77,8 +77,8 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `CallRecordingEnumStatusOrStr` | `twilio_sdk/models/enums/call_recording_enum_status.py` |
-| `ApiV2010AccountCallCallRecording` | `twilio_sdk/models/api_v2010_account_call_call_recording.py` |
-| `UpdateCallRecordingErrorBody` | `twilio_sdk/errors/update_call_recording_error.py` |
-| `AccountsCallsRecordingsSidJson201041408Error1` | `twilio_sdk/models/accounts_calls_recordings_sid_json201041408_error1.py` |
+| `CallRecordingEnumStatusOrStr` | `twilio/models/enums/call_recording_enum_status.py` |
+| `ApiV2010AccountCallCallRecording` | `twilio/models/api_v2010_account_call_call_recording.py` |
+| `UpdateCallRecordingErrorBody` | `twilio/errors/update_call_recording_error.py` |
+| `AccountsCallsRecordingsSidJson201041408Error1` | `twilio/models/accounts_calls_recordings_sid_json201041408_error1.py` |
 

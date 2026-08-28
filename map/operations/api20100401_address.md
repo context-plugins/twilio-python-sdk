@@ -2,7 +2,7 @@
 
 # Api20100401Address — operations
 
-Accessor: `client.api20100401_address` · Source: `twilio_sdk/apis/api20100401_address.py` · 5 operations
+Accessor: `client.api20100401_address` · Source: `twilio/apis/api20100401_address.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ApiV2010AccountAddress` | `twilio_sdk/models/api_v2010_account_address.py` |
+| `ApiV2010AccountAddress` | `twilio/models/api_v2010_account_address.py` |
 
 ### client.api20100401_address.delete_address
 
@@ -45,7 +45,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ApiV2010AccountAddress` | `twilio_sdk/models/api_v2010_account_address.py` |
+| `ApiV2010AccountAddress` | `twilio/models/api_v2010_account_address.py` |
 
 ### client.api20100401_address.list_address
 
@@ -60,7 +60,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListAddressResponse` | `twilio_sdk/models/list_address_response.py` |
+| `ListAddressResponse` | `twilio/models/list_address_response.py` |
 
 ### client.api20100401_address.update_address
 
@@ -75,5 +75,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ApiV2010AccountAddress` | `twilio_sdk/models/api_v2010_account_address.py` |
+| `ApiV2010AccountAddress` | `twilio/models/api_v2010_account_address.py` |
 

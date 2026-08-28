@@ -2,7 +2,7 @@
 
 # StudioV2Execution — operations
 
-Accessor: `client.studio_v2_execution` · Source: `twilio_sdk/apis/studio_v2_execution.py` · 5 operations
+Accessor: `client.studio_v2_execution` · Source: `twilio/apis/studio_v2_execution.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `StudioV2FlowExecution` | `twilio_sdk/models/studio_v2_flow_execution.py` |
+| `StudioV2FlowExecution` | `twilio/models/studio_v2_flow_execution.py` |
 
 ### client.studio_v2_execution.delete_execution2
 
@@ -45,7 +45,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `StudioV2FlowExecution` | `twilio_sdk/models/studio_v2_flow_execution.py` |
+| `StudioV2FlowExecution` | `twilio/models/studio_v2_flow_execution.py` |
 
 ### client.studio_v2_execution.list_execution2
 
@@ -60,8 +60,8 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `EngagementEnumStatusOrStr` | `twilio_sdk/models/enums/engagement_enum_status.py` |
-| `ListExecutionResponse1` | `twilio_sdk/models/list_execution_response1.py` |
+| `EngagementEnumStatusOrStr` | `twilio/models/enums/engagement_enum_status.py` |
+| `ListExecutionResponse1` | `twilio/models/list_execution_response1.py` |
 
 ### client.studio_v2_execution.update_execution2
 
@@ -76,6 +76,6 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `EngagementEnumStatusOrStr` | `twilio_sdk/models/enums/engagement_enum_status.py` |
-| `StudioV2FlowExecution` | `twilio_sdk/models/studio_v2_flow_execution.py` |
+| `EngagementEnumStatusOrStr` | `twilio/models/enums/engagement_enum_status.py` |
+| `StudioV2FlowExecution` | `twilio/models/studio_v2_flow_execution.py` |
 

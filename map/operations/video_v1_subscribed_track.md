@@ -2,7 +2,7 @@
 
 # VideoV1SubscribedTrack — operations
 
-Accessor: `client.video_v1_subscribed_track` · Source: `twilio_sdk/apis/video_v1_subscribed_track.py` · 2 operations
+Accessor: `client.video_v1_subscribed_track` · Source: `twilio/apis/video_v1_subscribed_track.py` · 2 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `VideoV1RoomRoomParticipantRoomParticipantSubscribedTrack` | `twilio_sdk/models/video_v1_room_room_participant_room_participant_subscribed_track.py` |
+| `VideoV1RoomRoomParticipantRoomParticipantSubscribedTrack` | `twilio/models/video_v1_room_room_participant_room_participant_subscribed_track.py` |
 
 ### client.video_v1_subscribed_track.list_room_participant_subscribed_track
 
@@ -34,5 +34,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListRoomParticipantSubscribedTrackResponse` | `twilio_sdk/models/list_room_participant_subscribed_track_response.py` |
+| `ListRoomParticipantSubscribedTrackResponse` | `twilio/models/list_room_participant_subscribed_track_response.py` |
 

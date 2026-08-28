@@ -2,7 +2,7 @@
 
 # TrusthubV1SupportingDocumentApi — operations
 
-Accessor: `client.trusthub_v1_supporting_document_api` · Source: `twilio_sdk/apis/trusthub_v1_supporting_document_api.py` · 5 operations
+Accessor: `client.trusthub_v1_supporting_document_api` · Source: `twilio/apis/trusthub_v1_supporting_document_api.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TrusthubV1SupportingDocument` | `twilio_sdk/models/trusthub_v1_supporting_document.py` |
+| `TrusthubV1SupportingDocument` | `twilio/models/trusthub_v1_supporting_document.py` |
 
 ### client.trusthub_v1_supporting_document_api.delete_supporting_document2
 
@@ -45,7 +45,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TrusthubV1SupportingDocument` | `twilio_sdk/models/trusthub_v1_supporting_document.py` |
+| `TrusthubV1SupportingDocument` | `twilio/models/trusthub_v1_supporting_document.py` |
 
 ### client.trusthub_v1_supporting_document_api.list_supporting_document2
 
@@ -59,7 +59,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListSupportingDocumentResponse1` | `twilio_sdk/models/list_supporting_document_response1.py` |
+| `ListSupportingDocumentResponse1` | `twilio/models/list_supporting_document_response1.py` |
 
 ### client.trusthub_v1_supporting_document_api.update_supporting_document2
 
@@ -74,5 +74,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TrusthubV1SupportingDocument` | `twilio_sdk/models/trusthub_v1_supporting_document.py` |
+| `TrusthubV1SupportingDocument` | `twilio/models/trusthub_v1_supporting_document.py` |
 

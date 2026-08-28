@@ -2,7 +2,7 @@
 
 # MessagingV1UsecaseApi — operations
 
-Accessor: `client.messaging_v1_usecase_api` · Source: `twilio_sdk/apis/messaging_v1_usecase_api.py` · 1 operation
+Accessor: `client.messaging_v1_usecase_api` · Source: `twilio/apis/messaging_v1_usecase_api.py` · 1 operation
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -17,5 +17,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `MessagingV1Usecase` | `twilio_sdk/models/messaging_v1_usecase.py` |
+| `MessagingV1Usecase` | `twilio/models/messaging_v1_usecase.py` |
 

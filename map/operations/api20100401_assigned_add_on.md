@@ -2,7 +2,7 @@
 
 # Api20100401AssignedAddOn — operations
 
-Accessor: `client.api20100401_assigned_add_on` · Source: `twilio_sdk/apis/api20100401_assigned_add_on.py` · 4 operations
+Accessor: `client.api20100401_assigned_add_on` · Source: `twilio/apis/api20100401_assigned_add_on.py` · 4 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ApiV2010AccountIncomingPhoneNumberIncomingPhoneNumberAssignedAddOn` | `twilio_sdk/models/api_v2010_account_incoming_phone_number_incoming_phone_number_assigned_add_on.py` |
+| `ApiV2010AccountIncomingPhoneNumberIncomingPhoneNumberAssignedAddOn` | `twilio/models/api_v2010_account_incoming_phone_number_incoming_phone_number_assigned_add_on.py` |
 
 ### client.api20100401_assigned_add_on.delete_incoming_phone_number_assigned_add_on
 
@@ -45,7 +45,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ApiV2010AccountIncomingPhoneNumberIncomingPhoneNumberAssignedAddOn` | `twilio_sdk/models/api_v2010_account_incoming_phone_number_incoming_phone_number_assigned_add_on.py` |
+| `ApiV2010AccountIncomingPhoneNumberIncomingPhoneNumberAssignedAddOn` | `twilio/models/api_v2010_account_incoming_phone_number_incoming_phone_number_assigned_add_on.py` |
 
 ### client.api20100401_assigned_add_on.list_incoming_phone_number_assigned_add_on
 
@@ -60,5 +60,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListIncomingPhoneNumberAssignedAddOnResponse` | `twilio_sdk/models/list_incoming_phone_number_assigned_add_on_response.py` |
+| `ListIncomingPhoneNumberAssignedAddOnResponse` | `twilio/models/list_incoming_phone_number_assigned_add_on_response.py` |
 

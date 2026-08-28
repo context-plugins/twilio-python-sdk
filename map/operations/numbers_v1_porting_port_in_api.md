@@ -2,7 +2,7 @@
 
 # NumbersV1PortingPortInApi — operations
 
-Accessor: `client.numbers_v1_porting_port_in_api` · Source: `twilio_sdk/apis/numbers_v1_porting_port_in_api.py` · 4 operations
+Accessor: `client.numbers_v1_porting_port_in_api` · Source: `twilio/apis/numbers_v1_porting_port_in_api.py` · 4 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -19,9 +19,9 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `PortInRequest` | `twilio_sdk/models/port_in_request.py` |
-| `PortInRequestDict` | `twilio_sdk/models/port_in_request.py` |
-| `NumbersV1PortingPortIn` | `twilio_sdk/models/numbers_v1_porting_port_in.py` |
+| `PortInRequest` | `twilio/models/port_in_request.py` |
+| `PortInRequestDict` | `twilio/models/port_in_request.py` |
+| `NumbersV1PortingPortIn` | `twilio/models/numbers_v1_porting_port_in.py` |
 
 ### client.numbers_v1_porting_port_in_api.delete_porting_port_in
 
@@ -47,7 +47,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `NumbersV1PortingPortIn` | `twilio_sdk/models/numbers_v1_porting_port_in.py` |
+| `NumbersV1PortingPortIn` | `twilio/models/numbers_v1_porting_port_in.py` |
 
 ### client.numbers_v1_porting_port_in_api.list_port_in_requests
 
@@ -61,5 +61,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListPortInRequestsResponse` | `twilio_sdk/models/list_port_in_requests_response.py` |
+| `ListPortInRequestsResponse` | `twilio/models/list_port_in_requests_response.py` |
 

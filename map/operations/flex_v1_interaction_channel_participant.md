@@ -2,7 +2,7 @@
 
 # FlexV1InteractionChannelParticipant — operations
 
-Accessor: `client.flex_v1_interaction_channel_participant` · Source: `twilio_sdk/apis/flex_v1_interaction_channel_participant.py` · 3 operations
+Accessor: `client.flex_v1_interaction_channel_participant` · Source: `twilio/apis/flex_v1_interaction_channel_participant.py` · 3 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,8 +19,8 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `InteractionChannelParticipantEnumTypeOrStr` | `twilio_sdk/models/enums/interaction_channel_participant_enum_type.py` |
-| `FlexV1InteractionInteractionChannelInteractionChannelParticipant` | `twilio_sdk/models/flex_v1_interaction_interaction_channel_interaction_channel_participant.py` |
+| `InteractionChannelParticipantEnumTypeOrStr` | `twilio/models/enums/interaction_channel_participant_enum_type.py` |
+| `FlexV1InteractionInteractionChannelInteractionChannelParticipant` | `twilio/models/flex_v1_interaction_interaction_channel_interaction_channel_participant.py` |
 
 ### client.flex_v1_interaction_channel_participant.list_interaction_channel_participant
 
@@ -35,7 +35,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListInteractionChannelParticipantResponse` | `twilio_sdk/models/list_interaction_channel_participant_response.py` |
+| `ListInteractionChannelParticipantResponse` | `twilio/models/list_interaction_channel_participant_response.py` |
 
 ### client.flex_v1_interaction_channel_participant.update_interaction_channel_participant
 
@@ -50,6 +50,6 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `InteractionChannelParticipantEnumStatusOrStr` | `twilio_sdk/models/enums/interaction_channel_participant_enum_status.py` |
-| `FlexV1InteractionInteractionChannelInteractionChannelParticipant` | `twilio_sdk/models/flex_v1_interaction_interaction_channel_interaction_channel_participant.py` |
+| `InteractionChannelParticipantEnumStatusOrStr` | `twilio/models/enums/interaction_channel_participant_enum_status.py` |
+| `FlexV1InteractionInteractionChannelInteractionChannelParticipant` | `twilio/models/flex_v1_interaction_interaction_channel_interaction_channel_participant.py` |
 

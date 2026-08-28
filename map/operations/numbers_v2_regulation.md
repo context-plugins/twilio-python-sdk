@@ -2,7 +2,7 @@
 
 # NumbersV2Regulation — operations
 
-Accessor: `client.numbers_v2_regulation` · Source: `twilio_sdk/apis/numbers_v2_regulation.py` · 2 operations
+Accessor: `client.numbers_v2_regulation` · Source: `twilio/apis/numbers_v2_regulation.py` · 2 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `NumbersV2RegulatoryComplianceRegulation` | `twilio_sdk/models/numbers_v2_regulatory_compliance_regulation.py` |
+| `NumbersV2RegulatoryComplianceRegulation` | `twilio/models/numbers_v2_regulatory_compliance_regulation.py` |
 
 ### client.numbers_v2_regulation.list_regulation
 
@@ -33,6 +33,6 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `RegulationEnumEndUserTypeOrStr` | `twilio_sdk/models/enums/regulation_enum_end_user_type.py` |
-| `ListRegulationResponse` | `twilio_sdk/models/list_regulation_response.py` |
+| `RegulationEnumEndUserTypeOrStr` | `twilio/models/enums/regulation_enum_end_user_type.py` |
+| `ListRegulationResponse` | `twilio/models/list_regulation_response.py` |
 

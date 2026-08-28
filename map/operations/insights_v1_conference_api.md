@@ -2,7 +2,7 @@
 
 # InsightsV1ConferenceApi — operations
 
-Accessor: `client.insights_v1_conference_api` · Source: `twilio_sdk/apis/insights_v1_conference_api.py` · 2 operations
+Accessor: `client.insights_v1_conference_api` · Source: `twilio/apis/insights_v1_conference_api.py` · 2 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `InsightsV1Conference` | `twilio_sdk/models/insights_v1_conference.py` |
+| `InsightsV1Conference` | `twilio/models/insights_v1_conference.py` |
 
 ### client.insights_v1_conference_api.list_conference2
 
@@ -33,5 +33,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListConferenceResponse1` | `twilio_sdk/models/list_conference_response1.py` |
+| `ListConferenceResponse1` | `twilio/models/list_conference_response1.py` |
 

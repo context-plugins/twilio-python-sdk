@@ -2,7 +2,7 @@
 
 # TaskrouterV1Event — operations
 
-Accessor: `client.taskrouter_v1_event` · Source: `twilio_sdk/apis/taskrouter_v1_event.py` · 2 operations
+Accessor: `client.taskrouter_v1_event` · Source: `twilio/apis/taskrouter_v1_event.py` · 2 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TaskrouterV1WorkspaceEvent` | `twilio_sdk/models/taskrouter_v1_workspace_event.py` |
+| `TaskrouterV1WorkspaceEvent` | `twilio/models/taskrouter_v1_workspace_event.py` |
 
 ### client.taskrouter_v1_event.list_event
 
@@ -34,5 +34,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListEventResponse` | `twilio_sdk/models/list_event_response.py` |
+| `ListEventResponse` | `twilio/models/list_event_response.py` |
 

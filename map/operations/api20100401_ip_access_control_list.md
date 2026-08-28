@@ -2,7 +2,7 @@
 
 # Api20100401IpAccessControlList — operations
 
-Accessor: `client.api20100401_ip_access_control_list` · Source: `twilio_sdk/apis/api20100401_ip_access_control_list.py` · 5 operations
+Accessor: `client.api20100401_ip_access_control_list` · Source: `twilio/apis/api20100401_ip_access_control_list.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ApiV2010AccountSipSipIpAccessControlList` | `twilio_sdk/models/api_v2010_account_sip_sip_ip_access_control_list.py` |
+| `ApiV2010AccountSipSipIpAccessControlList` | `twilio/models/api_v2010_account_sip_sip_ip_access_control_list.py` |
 
 ### client.api20100401_ip_access_control_list.delete_sip_ip_access_control_list
 
@@ -45,7 +45,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ApiV2010AccountSipSipIpAccessControlList` | `twilio_sdk/models/api_v2010_account_sip_sip_ip_access_control_list.py` |
+| `ApiV2010AccountSipSipIpAccessControlList` | `twilio/models/api_v2010_account_sip_sip_ip_access_control_list.py` |
 
 ### client.api20100401_ip_access_control_list.list_sip_ip_access_control_list
 
@@ -60,7 +60,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListSipIpAccessControlListResponse` | `twilio_sdk/models/list_sip_ip_access_control_list_response.py` |
+| `ListSipIpAccessControlListResponse` | `twilio/models/list_sip_ip_access_control_list_response.py` |
 
 ### client.api20100401_ip_access_control_list.update_sip_ip_access_control_list
 
@@ -75,5 +75,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ApiV2010AccountSipSipIpAccessControlList` | `twilio_sdk/models/api_v2010_account_sip_sip_ip_access_control_list.py` |
+| `ApiV2010AccountSipSipIpAccessControlList` | `twilio/models/api_v2010_account_sip_sip_ip_access_control_list.py` |
 

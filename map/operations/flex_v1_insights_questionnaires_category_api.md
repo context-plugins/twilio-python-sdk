@@ -2,7 +2,7 @@
 
 # FlexV1InsightsQuestionnairesCategoryApi — operations
 
-Accessor: `client.flex_v1_insights_questionnaires_category_api` · Source: `twilio_sdk/apis/flex_v1_insights_questionnaires_category_api.py` · 4 operations
+Accessor: `client.flex_v1_insights_questionnaires_category_api` · Source: `twilio/apis/flex_v1_insights_questionnaires_category_api.py` · 4 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `FlexV1InsightsQuestionnairesCategory` | `twilio_sdk/models/flex_v1_insights_questionnaires_category.py` |
+| `FlexV1InsightsQuestionnairesCategory` | `twilio/models/flex_v1_insights_questionnaires_category.py` |
 
 ### client.flex_v1_insights_questionnaires_category_api.delete_insights_questionnaires_category
 
@@ -44,7 +44,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListInsightsQuestionnairesCategoryResponse` | `twilio_sdk/models/list_insights_questionnaires_category_response.py` |
+| `ListInsightsQuestionnairesCategoryResponse` | `twilio/models/list_insights_questionnaires_category_response.py` |
 
 ### client.flex_v1_insights_questionnaires_category_api.update_insights_questionnaires_category
 
@@ -59,5 +59,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `FlexV1InsightsQuestionnairesCategory` | `twilio_sdk/models/flex_v1_insights_questionnaires_category.py` |
+| `FlexV1InsightsQuestionnairesCategory` | `twilio/models/flex_v1_insights_questionnaires_category.py` |
 

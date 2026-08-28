@@ -2,7 +2,7 @@
 
 # TrusthubV1CustomerProfilesChannelEndpointAssignment — operations
 
-Accessor: `client.trusthub_v1_customer_profiles_channel_endpoint_assignment` · Source: `twilio_sdk/apis/trusthub_v1_customer_profiles_channel_endpoint_assignment.py` · 4 operations
+Accessor: `client.trusthub_v1_customer_profiles_channel_endpoint_assignment` · Source: `twilio/apis/trusthub_v1_customer_profiles_channel_endpoint_assignment.py` · 4 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TrusthubV1CustomerProfileCustomerProfileChannelEndpointAssignment` | `twilio_sdk/models/trusthub_v1_customer_profile_customer_profile_channel_endpoint_assignment.py` |
+| `TrusthubV1CustomerProfileCustomerProfileChannelEndpointAssignment` | `twilio/models/trusthub_v1_customer_profile_customer_profile_channel_endpoint_assignment.py` |
 
 ### client.trusthub_v1_customer_profiles_channel_endpoint_assignment.delete_customer_profile_channel_endpoint_assignment
 
@@ -45,7 +45,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TrusthubV1CustomerProfileCustomerProfileChannelEndpointAssignment` | `twilio_sdk/models/trusthub_v1_customer_profile_customer_profile_channel_endpoint_assignment.py` |
+| `TrusthubV1CustomerProfileCustomerProfileChannelEndpointAssignment` | `twilio/models/trusthub_v1_customer_profile_customer_profile_channel_endpoint_assignment.py` |
 
 ### client.trusthub_v1_customer_profiles_channel_endpoint_assignment.list_customer_profile_channel_endpoint_assignment
 
@@ -60,5 +60,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListCustomerProfileChannelEndpointAssignmentResponse` | `twilio_sdk/models/list_customer_profile_channel_endpoint_assignment_response.py` |
+| `ListCustomerProfileChannelEndpointAssignmentResponse` | `twilio/models/list_customer_profile_channel_endpoint_assignment_response.py` |
 

@@ -2,7 +2,7 @@
 
 # Contentv1ContentApi — operations
 
-Accessor: `client.contentv1_content_api` · Source: `twilio_sdk/apis/contentv1_content_api.py` · 5 operations
+Accessor: `client.contentv1_content_api` · Source: `twilio/apis/contentv1_content_api.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -19,9 +19,9 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ContentCreateRequest` | `twilio_sdk/models/content_create_request.py` |
-| `ContentCreateRequestDict` | `twilio_sdk/models/content_create_request.py` |
-| `ContentV1Content` | `twilio_sdk/models/content_v1_content.py` |
+| `ContentCreateRequest` | `twilio/models/content_create_request.py` |
+| `ContentCreateRequestDict` | `twilio/models/content_create_request.py` |
+| `ContentV1Content` | `twilio/models/content_v1_content.py` |
 
 ### client.contentv1_content_api.delete_content
 
@@ -47,7 +47,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ContentV1Content` | `twilio_sdk/models/content_v1_content.py` |
+| `ContentV1Content` | `twilio/models/content_v1_content.py` |
 
 ### client.contentv1_content_api.list_content
 
@@ -61,7 +61,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListContentResponse` | `twilio_sdk/models/list_content_response.py` |
+| `ListContentResponse` | `twilio/models/list_content_response.py` |
 
 ### client.contentv1_content_api.update_content
 
@@ -76,7 +76,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ContentUpdateRequest` | `twilio_sdk/models/content_update_request.py` |
-| `ContentUpdateRequestDict` | `twilio_sdk/models/content_update_request.py` |
-| `ContentV1Content` | `twilio_sdk/models/content_v1_content.py` |
+| `ContentUpdateRequest` | `twilio/models/content_update_request.py` |
+| `ContentUpdateRequestDict` | `twilio/models/content_update_request.py` |
+| `ContentV1Content` | `twilio/models/content_v1_content.py` |
 

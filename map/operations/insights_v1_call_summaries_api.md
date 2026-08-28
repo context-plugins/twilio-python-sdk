@@ -2,7 +2,7 @@
 
 # InsightsV1CallSummariesApi — operations
 
-Accessor: `client.insights_v1_call_summaries_api` · Source: `twilio_sdk/apis/insights_v1_call_summaries_api.py` · 1 operation
+Accessor: `client.insights_v1_call_summaries_api` · Source: `twilio/apis/insights_v1_call_summaries_api.py` · 1 operation
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -18,8 +18,8 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `CallSummariesEnumProcessingStateRequestOrStr` | `twilio_sdk/models/enums/call_summaries_enum_processing_state_request.py` |
-| `CallSummariesEnumSortByOrStr` | `twilio_sdk/models/enums/call_summaries_enum_sort_by.py` |
-| `CallSummariesEnumAnsweredByOrStr` | `twilio_sdk/models/enums/call_summaries_enum_answered_by.py` |
-| `ListCallSummariesResponse` | `twilio_sdk/models/list_call_summaries_response.py` |
+| `CallSummariesEnumProcessingStateRequestOrStr` | `twilio/models/enums/call_summaries_enum_processing_state_request.py` |
+| `CallSummariesEnumSortByOrStr` | `twilio/models/enums/call_summaries_enum_sort_by.py` |
+| `CallSummariesEnumAnsweredByOrStr` | `twilio/models/enums/call_summaries_enum_answered_by.py` |
+| `ListCallSummariesResponse` | `twilio/models/list_call_summaries_response.py` |
 

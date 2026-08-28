@@ -2,7 +2,7 @@
 
 # VerifyV2Verification — operations
 
-Accessor: `client.verify_v2_verification` · Source: `twilio_sdk/apis/verify_v2_verification.py` · 3 operations
+Accessor: `client.verify_v2_verification` · Source: `twilio/apis/verify_v2_verification.py` · 3 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -20,10 +20,10 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `MessageEnumRiskCheckOrStr` | `twilio_sdk/models/enums/message_enum_risk_check.py` |
-| `VerifyV2ServiceVerification` | `twilio_sdk/models/verify_v2_service_verification.py` |
-| `CreateVerificationErrorBody` | `twilio_sdk/errors/create_verification_error.py` |
-| `AccountsCallsRecordingsSidJson201041408Error1` | `twilio_sdk/models/accounts_calls_recordings_sid_json201041408_error1.py` |
+| `MessageEnumRiskCheckOrStr` | `twilio/models/enums/message_enum_risk_check.py` |
+| `VerifyV2ServiceVerification` | `twilio/models/verify_v2_service_verification.py` |
+| `CreateVerificationErrorBody` | `twilio/errors/create_verification_error.py` |
+| `AccountsCallsRecordingsSidJson201041408Error1` | `twilio/models/accounts_calls_recordings_sid_json201041408_error1.py` |
 
 ### client.verify_v2_verification.fetch_verification
 
@@ -38,7 +38,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `VerifyV2ServiceVerification` | `twilio_sdk/models/verify_v2_service_verification.py` |
+| `VerifyV2ServiceVerification` | `twilio/models/verify_v2_service_verification.py` |
 
 ### client.verify_v2_verification.update_verification
 
@@ -53,6 +53,6 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `VerificationEnumStatusOrStr` | `twilio_sdk/models/enums/verification_enum_status.py` |
-| `VerifyV2ServiceVerification` | `twilio_sdk/models/verify_v2_service_verification.py` |
+| `VerificationEnumStatusOrStr` | `twilio/models/enums/verification_enum_status.py` |
+| `VerifyV2ServiceVerification` | `twilio/models/verify_v2_service_verification.py` |
 

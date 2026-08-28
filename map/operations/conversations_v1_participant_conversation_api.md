@@ -2,7 +2,7 @@
 
 # ConversationsV1ParticipantConversationApi — operations
 
-Accessor: `client.conversations_v1_participant_conversation_api` · Source: `twilio_sdk/apis/conversations_v1_participant_conversation_api.py` · 2 operations
+Accessor: `client.conversations_v1_participant_conversation_api` · Source: `twilio/apis/conversations_v1_participant_conversation_api.py` · 2 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -18,7 +18,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListParticipantConversationResponse` | `twilio_sdk/models/list_participant_conversation_response.py` |
+| `ListParticipantConversationResponse` | `twilio/models/list_participant_conversation_response.py` |
 
 ### client.conversations_v1_participant_conversation_api.list_service_participant_conversation
 
@@ -33,5 +33,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListServiceParticipantConversationResponse` | `twilio_sdk/models/list_service_participant_conversation_response.py` |
+| `ListServiceParticipantConversationResponse` | `twilio/models/list_service_participant_conversation_response.py` |
 

@@ -2,7 +2,7 @@
 
 # FlexV2WebChannels — operations
 
-Accessor: `client.flex_v2_web_channels` · Source: `twilio_sdk/apis/flex_v2_web_channels.py` · 1 operation
+Accessor: `client.flex_v2_web_channels` · Source: `twilio/apis/flex_v2_web_channels.py` · 1 operation
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,5 +19,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `FlexV2WebChannel` | `twilio_sdk/models/flex_v2_web_channel.py` |
+| `FlexV2WebChannel` | `twilio/models/flex_v2_web_channel.py` |
 

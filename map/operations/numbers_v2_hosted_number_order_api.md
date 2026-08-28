@@ -2,7 +2,7 @@
 
 # NumbersV2HostedNumberOrderApi — operations
 
-Accessor: `client.numbers_v2_hosted_number_order_api` · Source: `twilio_sdk/apis/numbers_v2_hosted_number_order_api.py` · 5 operations
+Accessor: `client.numbers_v2_hosted_number_order_api` · Source: `twilio/apis/numbers_v2_hosted_number_order_api.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -10,7 +10,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 - **Route**: `POST /v2/HostedNumber/Orders`
 - **Server**: `default5`
-- **Signature**: `def create_hosted_number_order(phone_number: str, contact_phone_number: str, address_sid: str, email: str, *, account_sid: str | None = None, friendly_name: str | None = None, cc_emails: list[str] | None = None, sms_url: AnyUrl | None = None, sms_method: AmdStatusCallbackMethodOrStr | None = None, sms_fallback_url: AnyUrl | None = None, sms_capability: bool | None = None, sms_fallback_method: AmdStatusCallbackMethodOrStr | None = None, status_callback_url: AnyUrl | None = None, status_callback_method: AmdStatusCallbackMethodOrStr | None = None, sms_application_sid: str | None = None, contact_title: str | None = None, request_options: RequestOptionsOrDict | None = None)`
+- **Signature**: `def create_hosted_number_order(phone_number: str, contact_phone_number: str, address_sid: str, email: str, *, account_sid: str | None = None, friendly_name: str | None = None, cc_emails: list[str] | None = None, sms_url: str | None = None, sms_method: AmdStatusCallbackMethodOrStr | None = None, sms_fallback_url: str | None = None, sms_capability: bool | None = None, sms_fallback_method: AmdStatusCallbackMethodOrStr | None = None, status_callback_url: str | None = None, status_callback_method: AmdStatusCallbackMethodOrStr | None = None, sms_application_sid: str | None = None, contact_title: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `phone_number`, `contact_phone_number`, `address_sid`, `email`
 - **Params**: `phone_number` — form field `PhoneNumber` · `contact_phone_number` — form field `ContactPhoneNumber` · `address_sid` — form field `AddressSid` · `email` — form field `Email` · `account_sid` — form field `AccountSid` · `friendly_name` — form field `FriendlyName` · `cc_emails` — form field `CcEmails` · `sms_url` — form field `SmsUrl` · `sms_method` — form field `SmsMethod` · `sms_fallback_url` — form field `SmsFallbackUrl` · `sms_capability` — form field `SmsCapability` · `sms_fallback_method` — form field `SmsFallbackMethod` · `status_callback_url` — form field `StatusCallbackUrl` · `status_callback_method` — form field `StatusCallbackMethod` · `sms_application_sid` — form field `SmsApplicationSid` · `contact_title` — form field `ContactTitle`
 - **Returns (parsed)**: `NumbersV2HostedNumberOrder`
@@ -19,8 +19,8 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `AmdStatusCallbackMethodOrStr` | `twilio_sdk/models/enums/amd_status_callback_method.py` |
-| `NumbersV2HostedNumberOrder` | `twilio_sdk/models/numbers_v2_hosted_number_order.py` |
+| `AmdStatusCallbackMethodOrStr` | `twilio/models/enums/amd_status_callback_method.py` |
+| `NumbersV2HostedNumberOrder` | `twilio/models/numbers_v2_hosted_number_order.py` |
 
 ### client.numbers_v2_hosted_number_order_api.delete_hosted_number_order
 
@@ -46,7 +46,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `NumbersV2HostedNumberOrder` | `twilio_sdk/models/numbers_v2_hosted_number_order.py` |
+| `NumbersV2HostedNumberOrder` | `twilio/models/numbers_v2_hosted_number_order.py` |
 
 ### client.numbers_v2_hosted_number_order_api.list_hosted_number_order
 
@@ -60,8 +60,8 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `DependentOrderEnumStatusOrStr` | `twilio_sdk/models/enums/dependent_order_enum_status.py` |
-| `ListHostedNumberOrderResponse` | `twilio_sdk/models/list_hosted_number_order_response.py` |
+| `DependentOrderEnumStatusOrStr` | `twilio/models/enums/dependent_order_enum_status.py` |
+| `ListHostedNumberOrderResponse` | `twilio/models/list_hosted_number_order_response.py` |
 
 ### client.numbers_v2_hosted_number_order_api.update_hosted_number_order
 
@@ -76,6 +76,6 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `DependentOrderEnumStatusOrStr` | `twilio_sdk/models/enums/dependent_order_enum_status.py` |
-| `NumbersV2HostedNumberOrder` | `twilio_sdk/models/numbers_v2_hosted_number_order.py` |
+| `DependentOrderEnumStatusOrStr` | `twilio/models/enums/dependent_order_enum_status.py` |
+| `NumbersV2HostedNumberOrder` | `twilio/models/numbers_v2_hosted_number_order.py` |
 

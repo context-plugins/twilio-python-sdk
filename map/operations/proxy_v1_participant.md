@@ -2,7 +2,7 @@
 
 # ProxyV1Participant — operations
 
-Accessor: `client.proxy_v1_participant` · Source: `twilio_sdk/apis/proxy_v1_participant.py` · 4 operations
+Accessor: `client.proxy_v1_participant` · Source: `twilio/apis/proxy_v1_participant.py` · 4 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ProxyV1ServiceSessionParticipant` | `twilio_sdk/models/proxy_v1_service_session_participant.py` |
+| `ProxyV1ServiceSessionParticipant` | `twilio/models/proxy_v1_service_session_participant.py` |
 
 ### client.proxy_v1_participant.delete_participant2
 
@@ -45,7 +45,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ProxyV1ServiceSessionParticipant` | `twilio_sdk/models/proxy_v1_service_session_participant.py` |
+| `ProxyV1ServiceSessionParticipant` | `twilio/models/proxy_v1_service_session_participant.py` |
 
 ### client.proxy_v1_participant.list_participant2
 
@@ -60,5 +60,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListParticipantResponse1` | `twilio_sdk/models/list_participant_response1.py` |
+| `ListParticipantResponse1` | `twilio/models/list_participant_response1.py` |
 

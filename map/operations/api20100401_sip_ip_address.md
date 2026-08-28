@@ -2,7 +2,7 @@
 
 # Api20100401SipIpAddress — operations
 
-Accessor: `client.api20100401_sip_ip_address` · Source: `twilio_sdk/apis/api20100401_sip_ip_address.py` · 5 operations
+Accessor: `client.api20100401_sip_ip_address` · Source: `twilio/apis/api20100401_sip_ip_address.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ApiV2010AccountSipSipIpAccessControlListSipIpAddress` | `twilio_sdk/models/api_v2010_account_sip_sip_ip_access_control_list_sip_ip_address.py` |
+| `ApiV2010AccountSipSipIpAccessControlListSipIpAddress` | `twilio/models/api_v2010_account_sip_sip_ip_access_control_list_sip_ip_address.py` |
 
 ### client.api20100401_sip_ip_address.delete_sip_ip_address
 
@@ -45,7 +45,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ApiV2010AccountSipSipIpAccessControlListSipIpAddress` | `twilio_sdk/models/api_v2010_account_sip_sip_ip_access_control_list_sip_ip_address.py` |
+| `ApiV2010AccountSipSipIpAccessControlListSipIpAddress` | `twilio/models/api_v2010_account_sip_sip_ip_access_control_list_sip_ip_address.py` |
 
 ### client.api20100401_sip_ip_address.list_sip_ip_address
 
@@ -60,7 +60,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListSipIpAddressResponse` | `twilio_sdk/models/list_sip_ip_address_response.py` |
+| `ListSipIpAddressResponse` | `twilio/models/list_sip_ip_address_response.py` |
 
 ### client.api20100401_sip_ip_address.update_sip_ip_address
 
@@ -75,5 +75,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ApiV2010AccountSipSipIpAccessControlListSipIpAddress` | `twilio_sdk/models/api_v2010_account_sip_sip_ip_access_control_list_sip_ip_address.py` |
+| `ApiV2010AccountSipSipIpAccessControlListSipIpAddress` | `twilio/models/api_v2010_account_sip_sip_ip_access_control_list_sip_ip_address.py` |
 

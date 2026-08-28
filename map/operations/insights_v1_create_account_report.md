@@ -2,7 +2,7 @@
 
 # InsightsV1CreateAccountReport — operations
 
-Accessor: `client.insights_v1_create_account_report` · Source: `twilio_sdk/apis/insights_v1_create_account_report.py` · 1 operation
+Accessor: `client.insights_v1_create_account_report` · Source: `twilio/apis/insights_v1_create_account_report.py` · 1 operation
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -18,7 +18,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `InsightsV2CreateAccountReportRequest` | `twilio_sdk/models/insights_v2_create_account_report_request.py` |
-| `InsightsV2CreateAccountReportRequestDict` | `twilio_sdk/models/insights_v2_create_account_report_request.py` |
-| `InsightsV2CreateReportResponse` | `twilio_sdk/models/insights_v2_create_report_response.py` |
+| `InsightsV2CreateAccountReportRequest` | `twilio/models/insights_v2_create_account_report_request.py` |
+| `InsightsV2CreateAccountReportRequestDict` | `twilio/models/insights_v2_create_account_report_request.py` |
+| `InsightsV2CreateReportResponse` | `twilio/models/insights_v2_create_report_response.py` |
 

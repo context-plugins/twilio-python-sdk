@@ -2,7 +2,7 @@
 
 # StudioV1Execution — operations
 
-Accessor: `client.studio_v1_execution` · Source: `twilio_sdk/apis/studio_v1_execution.py` · 5 operations
+Accessor: `client.studio_v1_execution` · Source: `twilio/apis/studio_v1_execution.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `StudioV1FlowExecution` | `twilio_sdk/models/studio_v1_flow_execution.py` |
+| `StudioV1FlowExecution` | `twilio/models/studio_v1_flow_execution.py` |
 
 ### client.studio_v1_execution.delete_execution
 
@@ -45,7 +45,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `StudioV1FlowExecution` | `twilio_sdk/models/studio_v1_flow_execution.py` |
+| `StudioV1FlowExecution` | `twilio/models/studio_v1_flow_execution.py` |
 
 ### client.studio_v1_execution.list_execution
 
@@ -60,7 +60,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListExecutionResponse` | `twilio_sdk/models/list_execution_response.py` |
+| `ListExecutionResponse` | `twilio/models/list_execution_response.py` |
 
 ### client.studio_v1_execution.update_execution
 
@@ -75,6 +75,6 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ExecutionEnumStatusOrStr` | `twilio_sdk/models/enums/execution_enum_status.py` |
-| `StudioV1FlowExecution` | `twilio_sdk/models/studio_v1_flow_execution.py` |
+| `ExecutionEnumStatusOrStr` | `twilio/models/enums/execution_enum_status.py` |
+| `StudioV1FlowExecution` | `twilio/models/studio_v1_flow_execution.py` |
 

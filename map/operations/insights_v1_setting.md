@@ -2,7 +2,7 @@
 
 # InsightsV1Setting — operations
 
-Accessor: `client.insights_v1_setting` · Source: `twilio_sdk/apis/insights_v1_setting.py` · 2 operations
+Accessor: `client.insights_v1_setting` · Source: `twilio/apis/insights_v1_setting.py` · 2 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -18,7 +18,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `InsightsV1AccountSettings` | `twilio_sdk/models/insights_v1_account_settings.py` |
+| `InsightsV1AccountSettings` | `twilio/models/insights_v1_account_settings.py` |
 
 ### client.insights_v1_setting.update_account_settings
 
@@ -32,5 +32,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `InsightsV1AccountSettings` | `twilio_sdk/models/insights_v1_account_settings.py` |
+| `InsightsV1AccountSettings` | `twilio/models/insights_v1_account_settings.py` |
 

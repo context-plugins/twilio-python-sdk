@@ -2,7 +2,7 @@
 
 # MessagingV2ChannelsSender — operations
 
-Accessor: `client.messaging_v2_channels_sender` · Source: `twilio_sdk/apis/messaging_v2_channels_sender.py` · 5 operations
+Accessor: `client.messaging_v2_channels_sender` · Source: `twilio/apis/messaging_v2_channels_sender.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -19,9 +19,9 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `MessagingV2ChannelsSenderRequestsCreate` | `twilio_sdk/models/messaging_v2_channels_sender_requests_create.py` |
-| `MessagingV2ChannelsSenderRequestsCreateDict` | `twilio_sdk/models/messaging_v2_channels_sender_requests_create.py` |
-| `MessagingV2ChannelsSenderResponse` | `twilio_sdk/models/messaging_v2_channels_sender_response.py` |
+| `MessagingV2ChannelsSenderRequestsCreate` | `twilio/models/messaging_v2_channels_sender_requests_create.py` |
+| `MessagingV2ChannelsSenderRequestsCreateDict` | `twilio/models/messaging_v2_channels_sender_requests_create.py` |
+| `MessagingV2ChannelsSenderResponse` | `twilio/models/messaging_v2_channels_sender_response.py` |
 
 ### client.messaging_v2_channels_sender.delete_channels_sender
 
@@ -47,7 +47,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `MessagingV2ChannelsSenderResponse` | `twilio_sdk/models/messaging_v2_channels_sender_response.py` |
+| `MessagingV2ChannelsSenderResponse` | `twilio/models/messaging_v2_channels_sender_response.py` |
 
 ### client.messaging_v2_channels_sender.list_channels_sender
 
@@ -62,7 +62,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListChannelsSenderResponse` | `twilio_sdk/models/list_channels_sender_response.py` |
+| `ListChannelsSenderResponse` | `twilio/models/list_channels_sender_response.py` |
 
 ### client.messaging_v2_channels_sender.update_channels_sender
 
@@ -77,7 +77,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `MessagingV2ChannelsSenderRequestsUpdate` | `twilio_sdk/models/messaging_v2_channels_sender_requests_update.py` |
-| `MessagingV2ChannelsSenderRequestsUpdateDict` | `twilio_sdk/models/messaging_v2_channels_sender_requests_update.py` |
-| `MessagingV2ChannelsSenderResponse` | `twilio_sdk/models/messaging_v2_channels_sender_response.py` |
+| `MessagingV2ChannelsSenderRequestsUpdate` | `twilio/models/messaging_v2_channels_sender_requests_update.py` |
+| `MessagingV2ChannelsSenderRequestsUpdateDict` | `twilio/models/messaging_v2_channels_sender_requests_update.py` |
+| `MessagingV2ChannelsSenderResponse` | `twilio/models/messaging_v2_channels_sender_response.py` |
 

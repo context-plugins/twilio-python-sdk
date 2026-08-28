@@ -2,7 +2,7 @@
 
 # SyncV1SyncList — operations
 
-Accessor: `client.sync_v1_sync_list` · Source: `twilio_sdk/apis/sync_v1_sync_list.py` · 5 operations
+Accessor: `client.sync_v1_sync_list` · Source: `twilio/apis/sync_v1_sync_list.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `SyncV1ServiceSyncList` | `twilio_sdk/models/sync_v1_service_sync_list.py` |
+| `SyncV1ServiceSyncList` | `twilio/models/sync_v1_service_sync_list.py` |
 
 ### client.sync_v1_sync_list.delete_sync_list
 
@@ -45,7 +45,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `SyncV1ServiceSyncList` | `twilio_sdk/models/sync_v1_service_sync_list.py` |
+| `SyncV1ServiceSyncList` | `twilio/models/sync_v1_service_sync_list.py` |
 
 ### client.sync_v1_sync_list.list_sync_list
 
@@ -60,7 +60,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListSyncListResponse` | `twilio_sdk/models/list_sync_list_response.py` |
+| `ListSyncListResponse` | `twilio/models/list_sync_list_response.py` |
 
 ### client.sync_v1_sync_list.update_sync_list
 
@@ -75,5 +75,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `SyncV1ServiceSyncList` | `twilio_sdk/models/sync_v1_service_sync_list.py` |
+| `SyncV1ServiceSyncList` | `twilio/models/sync_v1_service_sync_list.py` |
 

@@ -2,7 +2,7 @@
 
 # TaskrouterV1Task — operations
 
-Accessor: `client.taskrouter_v1_task` · Source: `twilio_sdk/apis/taskrouter_v1_task.py` · 5 operations
+Accessor: `client.taskrouter_v1_task` · Source: `twilio/apis/taskrouter_v1_task.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TaskrouterV1WorkspaceTask` | `twilio_sdk/models/taskrouter_v1_workspace_task.py` |
+| `TaskrouterV1WorkspaceTask` | `twilio/models/taskrouter_v1_workspace_task.py` |
 
 ### client.taskrouter_v1_task.delete_task
 
@@ -45,7 +45,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TaskrouterV1WorkspaceTask` | `twilio_sdk/models/taskrouter_v1_workspace_task.py` |
+| `TaskrouterV1WorkspaceTask` | `twilio/models/taskrouter_v1_workspace_task.py` |
 
 ### client.taskrouter_v1_task.list_task
 
@@ -60,7 +60,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListTaskResponse` | `twilio_sdk/models/list_task_response.py` |
+| `ListTaskResponse` | `twilio/models/list_task_response.py` |
 
 ### client.taskrouter_v1_task.update_task
 
@@ -75,6 +75,6 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TaskEnumStatusOrStr` | `twilio_sdk/models/enums/task_enum_status.py` |
-| `TaskrouterV1WorkspaceTask` | `twilio_sdk/models/taskrouter_v1_workspace_task.py` |
+| `TaskEnumStatusOrStr` | `twilio/models/enums/task_enum_status.py` |
+| `TaskrouterV1WorkspaceTask` | `twilio/models/taskrouter_v1_workspace_task.py` |
 

@@ -2,7 +2,7 @@
 
 # ConversationsV1CredentialApi — operations
 
-Accessor: `client.conversations_v1_credential_api` · Source: `twilio_sdk/apis/conversations_v1_credential_api.py` · 5 operations
+Accessor: `client.conversations_v1_credential_api` · Source: `twilio/apis/conversations_v1_credential_api.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
@@ -19,8 +19,8 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `CredentialEnumPushTypeOrStr` | `twilio_sdk/models/enums/credential_enum_push_type.py` |
-| `ConversationsV1Credential` | `twilio_sdk/models/conversations_v1_credential.py` |
+| `CredentialEnumPushTypeOrStr` | `twilio/models/enums/credential_enum_push_type.py` |
+| `ConversationsV1Credential` | `twilio/models/conversations_v1_credential.py` |
 
 ### client.conversations_v1_credential_api.delete_credential
 
@@ -46,7 +46,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConversationsV1Credential` | `twilio_sdk/models/conversations_v1_credential.py` |
+| `ConversationsV1Credential` | `twilio/models/conversations_v1_credential.py` |
 
 ### client.conversations_v1_credential_api.list_credential
 
@@ -60,7 +60,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListCredentialResponse` | `twilio_sdk/models/list_credential_response.py` |
+| `ListCredentialResponse` | `twilio/models/list_credential_response.py` |
 
 ### client.conversations_v1_credential_api.update_credential
 
@@ -75,6 +75,6 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `CredentialEnumPushTypeOrStr` | `twilio_sdk/models/enums/credential_enum_push_type.py` |
-| `ConversationsV1Credential` | `twilio_sdk/models/conversations_v1_credential.py` |
+| `CredentialEnumPushTypeOrStr` | `twilio/models/enums/credential_enum_push_type.py` |
+| `ConversationsV1Credential` | `twilio/models/conversations_v1_credential.py` |
 

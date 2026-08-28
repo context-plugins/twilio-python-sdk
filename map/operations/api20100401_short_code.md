@@ -2,7 +2,7 @@
 
 # Api20100401ShortCode — operations
 
-Accessor: `client.api20100401_short_code` · Source: `twilio_sdk/apis/api20100401_short_code.py` · 3 operations
+Accessor: `client.api20100401_short_code` · Source: `twilio/apis/api20100401_short_code.py` · 3 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
@@ -19,7 +19,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ApiV2010AccountShortCode` | `twilio_sdk/models/api_v2010_account_short_code.py` |
+| `ApiV2010AccountShortCode` | `twilio/models/api_v2010_account_short_code.py` |
 
 ### client.api20100401_short_code.list_short_code
 
@@ -34,13 +34,13 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListShortCodeResponse` | `twilio_sdk/models/list_short_code_response.py` |
+| `ListShortCodeResponse` | `twilio/models/list_short_code_response.py` |
 
 ### client.api20100401_short_code.update_short_code
 
 - **Route**: `POST /2010-04-01/Accounts/{AccountSid}/SMS/ShortCodes/{Sid}.json`
 - **Server**: `default`
-- **Signature**: `def update_short_code(account_sid: str, sid: str, *, friendly_name: str | None = None, api_version: str | None = None, sms_url: AnyUrl | None = None, sms_method: SmsMethod14OrStr | None = None, sms_fallback_url: AnyUrl | None = None, sms_fallback_method: SmsFallbackMethod14OrStr | None = None, request_options: RequestOptionsOrDict | None = None)`
+- **Signature**: `def update_short_code(account_sid: str, sid: str, *, friendly_name: str | None = None, api_version: str | None = None, sms_url: str | None = None, sms_method: SmsMethod14OrStr | None = None, sms_fallback_url: str | None = None, sms_fallback_method: SmsFallbackMethod14OrStr | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `account_sid`, `sid`
 - **Params**: `account_sid` — path `AccountSid` · `sid` — path `Sid` · `friendly_name` — form field `FriendlyName` · `api_version` — form field `ApiVersion` · `sms_url` — form field `SmsUrl` · `sms_method` — form field `SmsMethod` · `sms_fallback_url` — form field `SmsFallbackUrl` · `sms_fallback_method` — form field `SmsFallbackMethod`
 - **Returns (parsed)**: `ApiV2010AccountShortCode`
@@ -49,7 +49,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `SmsMethod14OrStr` | `twilio_sdk/models/enums/sms_method14.py` |
-| `SmsFallbackMethod14OrStr` | `twilio_sdk/models/enums/sms_fallback_method14.py` |
-| `ApiV2010AccountShortCode` | `twilio_sdk/models/api_v2010_account_short_code.py` |
+| `SmsMethod14OrStr` | `twilio/models/enums/sms_method14.py` |
+| `SmsFallbackMethod14OrStr` | `twilio/models/enums/sms_fallback_method14.py` |
+| `ApiV2010AccountShortCode` | `twilio/models/api_v2010_account_short_code.py` |
 
