@@ -1,0 +1,44 @@
+from __future__ import annotations
+
+from typing import Any
+
+from pydantic import AnyUrl
+from typing_extensions import NotRequired, TypedDict
+
+from ..core import UNSET, OptionalNullable, SdkBaseModel
+
+
+class FlexV1Interaction(SdkBaseModel):
+    sid: OptionalNullable[str] = UNSET
+    """The unique string created by Twilio to identify an Interaction resource, prefixed with KD."""
+
+    channel: OptionalNullable[Any] = UNSET
+    """A JSON object that defines the Interaction’s communication channel and includes details about the channel. See
+    the `Outbound SMS
+    <https://www.twilio.com/docs/flex/developer/conversations/interactions-api/interactions#agent-initiated-outbound-interactions>`__
+    and `inbound (API-initiated)
+    <https://www.twilio.com/docs/flex/developer/conversations/interactions-api/interactions#api-initiated-contact>`__
+    Channel object examples."""
+
+    routing: OptionalNullable[Any] = UNSET
+    """A JSON Object representing the routing rules for the Interaction Channel. See `Outbound SMS Example
+    <https://www.twilio.com/docs/flex/developer/conversations/interactions-api/interactions#agent-initiated-outbound-interactions>`__
+    for an example Routing object. The Interactions resource uses TaskRouter for all routing functionality.
+     All attributes in the Routing object on your Interaction request body are added “as is” to the task. For a list of
+        known attributes consumed by the Flex UI and/or Flex Insights, see `Known Task Attributes
+        <https://www.twilio.com/docs/flex/developer/conversations/interactions-api#task-attributes>`__."""
+
+    url: OptionalNullable[AnyUrl] = UNSET
+    links: OptionalNullable[Any] = UNSET
+    interaction_context_sid: OptionalNullable[str] = UNSET
+    webhook_ttid: OptionalNullable[str] = UNSET
+
+
+class FlexV1InteractionDict(TypedDict):
+    sid: NotRequired[str | None]
+    channel: NotRequired[Any | None]
+    routing: NotRequired[Any | None]
+    url: NotRequired[AnyUrl | None]
+    links: NotRequired[Any | None]
+    interaction_context_sid: NotRequired[str | None]
+    webhook_ttid: NotRequired[str | None]

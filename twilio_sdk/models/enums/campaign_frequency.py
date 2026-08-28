@@ -1,0 +1,17 @@
+from enum import Enum
+from typing import Annotated, TypeAlias
+
+from ...core import open_enum_validator
+
+
+class CampaignFrequency(str, Enum):
+    ONE_MESSAGE_PER_SIGNUP = "ONE_MESSAGE_PER_SIGNUP"
+    LIMITED_NUMBER_OF_MESSAGES_PER_SIGNUP = "LIMITED_NUMBER_OF_MESSAGES_PER_SIGNUP"
+    LIMITED_NUMBER_OF_MESSAGES_AT_RECURRING_INTERVALS = "LIMITED_NUMBER_OF_MESSAGES_AT_RECURRING_INTERVALS"
+    VARIABLE_NUMBER_OF_MESSAGES_AT_UNPREDICTABLE_INTERVALS = "VARIABLE_NUMBER_OF_MESSAGES_AT_UNPREDICTABLE_INTERVALS"
+    LIMITED_NUMBER_OF_MESSAGES_IN_RESPONSE_TO_KEYWORDS = "LIMITED_NUMBER_OF_MESSAGES_IN_RESPONSE_TO_KEYWORDS"
+
+    __str__ = str.__str__
+
+
+CampaignFrequencyOrStr: TypeAlias = Annotated[CampaignFrequency | str, open_enum_validator(CampaignFrequency)]

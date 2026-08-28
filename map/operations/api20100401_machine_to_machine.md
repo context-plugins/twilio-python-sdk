@@ -1,0 +1,23 @@
+<!-- Generated file — do not edit; regenerated with the SDK. -->
+
+# Api20100401MachineToMachine — operations
+
+Accessor: `client.api20100401_machine_to_machine` · Source: `twilio_sdk/apis/api20100401_machine_to_machine.py` · 1 operation
+
+Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
+
+### client.api20100401_machine_to_machine.list_available_phone_number_machine_to_machine
+
+- **Route**: `GET /2010-04-01/Accounts/{AccountSid}/AvailablePhoneNumbers/{CountryCode}/MachineToMachine.json`
+- **Server**: `default`
+- **Signature**: `def list_available_phone_number_machine_to_machine(account_sid: str, country_code: str, *, area_code: int | None = None, contains: str | None = None, sms_enabled: bool | None = None, mms_enabled: bool | None = None, voice_enabled: bool | None = None, exclude_all_address_required: bool | None = None, exclude_local_address_required: bool | None = None, exclude_foreign_address_required: bool | None = None, beta: bool | None = None, near_number: str | None = None, near_lat_long: str | None = None, distance: int | None = None, in_postal_code: str | None = None, in_region: str | None = None, in_rate_center: str | None = None, in_lata: str | None = None, in_locality: str | None = None, fax_enabled: bool | None = None, page_size: int | None = None, page: int | None = None, page_token: str | None = None, request_options: RequestOptionsOrDict | None = None)`
+  - required, positional: `account_sid`, `country_code`
+- **Params**: `account_sid` — path `AccountSid` · `country_code` — path `CountryCode` · `area_code` — query `AreaCode` · `contains` — query `Contains` · `sms_enabled` — query `SmsEnabled` · `mms_enabled` — query `MmsEnabled` · `voice_enabled` — query `VoiceEnabled` · `exclude_all_address_required` — query `ExcludeAllAddressRequired` · `exclude_local_address_required` — query `ExcludeLocalAddressRequired` · `exclude_foreign_address_required` — query `ExcludeForeignAddressRequired` · `beta` — query `Beta` · `near_number` — query `NearNumber` · `near_lat_long` — query `NearLatLong` · `distance` — query `Distance` · `in_postal_code` — query `InPostalCode` · `in_region` — query `InRegion` · `in_rate_center` — query `InRateCenter` · `in_lata` — query `InLata` · `in_locality` — query `InLocality` · `fax_enabled` — query `FaxEnabled` · `page_size` — query `PageSize` · `page` — query `Page` · `page_token` — query `PageToken`
+- **Returns (parsed)**: `ListAvailablePhoneNumberMachineToMachineResponse`
+- **Returns (raw)**: `ApiResult[ListAvailablePhoneNumberMachineToMachineResponse, RawError]`
+- **Error**: `RawError` — **Case B**
+
+| Type | Source |
+| --- | --- |
+| `ListAvailablePhoneNumberMachineToMachineResponse` | `twilio_sdk/models/list_available_phone_number_machine_to_machine_response.py` |
+
