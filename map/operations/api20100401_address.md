@@ -2,13 +2,14 @@
 
 # Api20100401Address — operations
 
-Accessor: `client.api20100401_address` · Source: `twilio/apis/api20100401_address.py` · 5 operations
+Accessor: `client.api20100401_address` · Source: `twilio_sdk/apis/api20100401_address.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
 ### client.api20100401_address.create_address
 
 - **Route**: `POST /2010-04-01/Accounts/{AccountSid}/Addresses.json`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default`
 - **Signature**: `def create_address(account_sid: str, customer_name: str, street: str, city: str, region: str, postal_code: str, iso_country: str, *, friendly_name: str | None = None, emergency_enabled: bool | None = None, auto_correct_address: bool | None = None, street_secondary: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `account_sid`, `customer_name`, `street`, `city`, `region`, `postal_code`, `iso_country`
@@ -19,11 +20,12 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ApiV2010AccountAddress` | `twilio/models/api_v2010_account_address.py` |
+| `ApiV2010AccountAddress` | `twilio_sdk/models/api_v2010_account_address.py` |
 
 ### client.api20100401_address.delete_address
 
 - **Route**: `DELETE /2010-04-01/Accounts/{AccountSid}/Addresses/{Sid}.json`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default`
 - **Signature**: `def delete_address(account_sid: str, sid: str, *, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `account_sid`, `sid`
@@ -35,6 +37,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 ### client.api20100401_address.fetch_address
 
 - **Route**: `GET /2010-04-01/Accounts/{AccountSid}/Addresses/{Sid}.json`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default`
 - **Signature**: `def fetch_address(account_sid: str, sid: str, *, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `account_sid`, `sid`
@@ -45,11 +48,12 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ApiV2010AccountAddress` | `twilio/models/api_v2010_account_address.py` |
+| `ApiV2010AccountAddress` | `twilio_sdk/models/api_v2010_account_address.py` |
 
 ### client.api20100401_address.list_address
 
 - **Route**: `GET /2010-04-01/Accounts/{AccountSid}/Addresses.json`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default`
 - **Signature**: `def list_address(account_sid: str, *, customer_name: str | None = None, friendly_name: str | None = None, emergency_enabled: bool | None = None, iso_country: str | None = None, page_size: int | None = None, page: int | None = None, page_token: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `account_sid`
@@ -60,11 +64,12 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListAddressResponse` | `twilio/models/list_address_response.py` |
+| `ListAddressResponse` | `twilio_sdk/models/list_address_response.py` |
 
 ### client.api20100401_address.update_address
 
 - **Route**: `POST /2010-04-01/Accounts/{AccountSid}/Addresses/{Sid}.json`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default`
 - **Signature**: `def update_address(account_sid: str, sid: str, *, friendly_name: str | None = None, customer_name: str | None = None, street: str | None = None, city: str | None = None, region: str | None = None, postal_code: str | None = None, emergency_enabled: bool | None = None, auto_correct_address: bool | None = None, street_secondary: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `account_sid`, `sid`
@@ -75,5 +80,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ApiV2010AccountAddress` | `twilio/models/api_v2010_account_address.py` |
+| `ApiV2010AccountAddress` | `twilio_sdk/models/api_v2010_account_address.py` |
 

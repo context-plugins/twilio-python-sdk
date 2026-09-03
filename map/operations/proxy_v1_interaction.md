@@ -2,13 +2,14 @@
 
 # ProxyV1Interaction — operations
 
-Accessor: `client.proxy_v1_interaction` · Source: `twilio/apis/proxy_v1_interaction.py` · 3 operations
+Accessor: `client.proxy_v1_interaction` · Source: `twilio_sdk/apis/proxy_v1_interaction.py` · 3 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
 ### client.proxy_v1_interaction.delete_interaction
 
 - **Route**: `DELETE /v1/Services/{ServiceSid}/Sessions/{SessionSid}/Interactions/{Sid}`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default10`
 - **Signature**: `def delete_interaction(service_sid: str, session_sid: str, sid: str, *, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `service_sid`, `session_sid`, `sid`
@@ -20,6 +21,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 ### client.proxy_v1_interaction.fetch_interaction
 
 - **Route**: `GET /v1/Services/{ServiceSid}/Sessions/{SessionSid}/Interactions/{Sid}`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default10`
 - **Signature**: `def fetch_interaction(service_sid: str, session_sid: str, sid: str, *, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `service_sid`, `session_sid`, `sid`
@@ -30,11 +32,12 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ProxyV1ServiceSessionInteraction` | `twilio/models/proxy_v1_service_session_interaction.py` |
+| `ProxyV1ServiceSessionInteraction` | `twilio_sdk/models/proxy_v1_service_session_interaction.py` |
 
 ### client.proxy_v1_interaction.list_interaction
 
 - **Route**: `GET /v1/Services/{ServiceSid}/Sessions/{SessionSid}/Interactions`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default10`
 - **Signature**: `def list_interaction(service_sid: str, session_sid: str, *, page_size: int | None = None, page: int | None = None, page_token: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `service_sid`, `session_sid`
@@ -45,5 +48,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListInteractionResponse` | `twilio/models/list_interaction_response.py` |
+| `ListInteractionResponse` | `twilio_sdk/models/list_interaction_response.py` |
 

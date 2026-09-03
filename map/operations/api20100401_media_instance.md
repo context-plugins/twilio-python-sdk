@@ -2,13 +2,14 @@
 
 # Api20100401MediaInstance — operations
 
-Accessor: `client.api20100401_media_instance` · Source: `twilio/apis/api20100401_media_instance.py` · 2 operations
+Accessor: `client.api20100401_media_instance` · Source: `twilio_sdk/apis/api20100401_media_instance.py` · 2 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
 ### client.api20100401_media_instance.delete_media
 
 - **Route**: `DELETE /2010-04-01/Accounts/{AccountSid}/Messages/{MessageSid}/Media/{Sid}.json`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default`
 - **Signature**: `def delete_media(account_sid: str, message_sid: str, sid: str, *, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `account_sid`, `message_sid`, `sid`
@@ -20,6 +21,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 ### client.api20100401_media_instance.fetch_media
 
 - **Route**: `GET /2010-04-01/Accounts/{AccountSid}/Messages/{MessageSid}/Media/{Sid}.json`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default`
 - **Signature**: `def fetch_media(account_sid: str, message_sid: str, sid: str, *, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `account_sid`, `message_sid`, `sid`
@@ -30,5 +32,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ApiV2010AccountMessageMedia` | `twilio/models/api_v2010_account_message_media.py` |
+| `ApiV2010AccountMessageMedia` | `twilio_sdk/models/api_v2010_account_message_media.py` |
 

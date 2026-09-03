@@ -2,13 +2,14 @@
 
 # TaskrouterV1TaskReservation — operations
 
-Accessor: `client.taskrouter_v1_task_reservation` · Source: `twilio/apis/taskrouter_v1_task_reservation.py` · 3 operations
+Accessor: `client.taskrouter_v1_task_reservation` · Source: `twilio_sdk/apis/taskrouter_v1_task_reservation.py` · 3 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
 ### client.taskrouter_v1_task_reservation.fetch_task_reservation
 
 - **Route**: `GET /v1/Workspaces/{WorkspaceSid}/Tasks/{TaskSid}/Reservations/{Sid}`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default8`
 - **Signature**: `def fetch_task_reservation(workspace_sid: str, task_sid: str, sid: str, *, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `workspace_sid`, `task_sid`, `sid`
@@ -19,11 +20,12 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TaskrouterV1WorkspaceTaskTaskReservation` | `twilio/models/taskrouter_v1_workspace_task_task_reservation.py` |
+| `TaskrouterV1WorkspaceTaskTaskReservation` | `twilio_sdk/models/taskrouter_v1_workspace_task_task_reservation.py` |
 
 ### client.taskrouter_v1_task_reservation.list_task_reservation
 
 - **Route**: `GET /v1/Workspaces/{WorkspaceSid}/Tasks/{TaskSid}/Reservations`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default8`
 - **Signature**: `def list_task_reservation(workspace_sid: str, task_sid: str, *, reservation_status: TaskReservationEnumStatusOrStr | None = None, worker_sid: str | None = None, page_size: int | None = None, page: int | None = None, page_token: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `workspace_sid`, `task_sid`
@@ -34,12 +36,13 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TaskReservationEnumStatusOrStr` | `twilio/models/enums/task_reservation_enum_status.py` |
-| `ListTaskReservationResponse` | `twilio/models/list_task_reservation_response.py` |
+| `TaskReservationEnumStatusOrStr` | `twilio_sdk/models/enums/task_reservation_enum_status.py` |
+| `ListTaskReservationResponse` | `twilio_sdk/models/list_task_reservation_response.py` |
 
 ### client.taskrouter_v1_task_reservation.update_task_reservation
 
 - **Route**: `POST /v1/Workspaces/{WorkspaceSid}/Tasks/{TaskSid}/Reservations/{Sid}`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default8`
 - **Signature**: `def update_task_reservation(workspace_sid: str, task_sid: str, sid: str, *, if_match: str | None = None, reservation_status: TaskReservationEnumStatusOrStr | None = None, worker_activity_sid: str | None = None, instruction: str | None = None, dequeue_post_work_activity_sid: str | None = None, dequeue_from: str | None = None, dequeue_record: str | None = None, dequeue_timeout: int | None = None, dequeue_to: str | None = None, dequeue_status_callback_url: str | None = None, call_from: str | None = None, call_record: str | None = None, call_timeout: int | None = None, call_to: str | None = None, call_url: str | None = None, call_status_callback_url: str | None = None, call_accept: bool | None = None, redirect_call_sid: str | None = None, redirect_accept: bool | None = None, redirect_url: str | None = None, to: str | None = None, from_: str | None = None, status_callback: str | None = None, status_callback_method: AmdStatusCallbackMethodOrStr | None = None, status_callback_event: list[CallEnumEventOrStr] | None = None, timeout: int | None = None, record: bool | None = None, muted: bool | None = None, beep: str | None = None, start_conference_on_enter: bool | None = None, end_conference_on_exit: bool | None = None, wait_url: str | None = None, wait_method: AmdStatusCallbackMethodOrStr | None = None, early_media: bool | None = None, max_participants: int | None = None, conference_status_callback: str | None = None, conference_status_callback_method: AmdStatusCallbackMethodOrStr | None = None, conference_status_callback_event: list[TaskReservationEnumConferenceEventOrStr] | None = None, conference_record: str | None = None, conference_trim: str | None = None, recording_channels: str | None = None, recording_status_callback: str | None = None, recording_status_callback_method: AmdStatusCallbackMethodOrStr | None = None, conference_recording_status_callback: str | None = None, conference_recording_status_callback_method: AmdStatusCallbackMethodOrStr | None = None, region: str | None = None, sip_auth_username: str | None = None, sip_auth_password: str | None = None, dequeue_status_callback_event: list[str] | None = None, post_work_activity_sid: str | None = None, supervisor_mode: TaskReservationEnumSupervisorModeOrStr | None = None, supervisor: str | None = None, end_conference_on_customer_exit: bool | None = None, beep_on_customer_entrance: bool | None = None, jitter_buffer_size: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `workspace_sid`, `task_sid`, `sid`
@@ -50,10 +53,10 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TaskReservationEnumStatusOrStr` | `twilio/models/enums/task_reservation_enum_status.py` |
-| `AmdStatusCallbackMethodOrStr` | `twilio/models/enums/amd_status_callback_method.py` |
-| `CallEnumEventOrStr` | `twilio/models/enums/call_enum_event.py` |
-| `TaskReservationEnumConferenceEventOrStr` | `twilio/models/enums/task_reservation_enum_conference_event.py` |
-| `TaskReservationEnumSupervisorModeOrStr` | `twilio/models/enums/task_reservation_enum_supervisor_mode.py` |
-| `TaskrouterV1WorkspaceTaskTaskReservation` | `twilio/models/taskrouter_v1_workspace_task_task_reservation.py` |
+| `TaskReservationEnumStatusOrStr` | `twilio_sdk/models/enums/task_reservation_enum_status.py` |
+| `AmdStatusCallbackMethodOrStr` | `twilio_sdk/models/enums/amd_status_callback_method.py` |
+| `CallEnumEventOrStr` | `twilio_sdk/models/enums/call_enum_event.py` |
+| `TaskReservationEnumConferenceEventOrStr` | `twilio_sdk/models/enums/task_reservation_enum_conference_event.py` |
+| `TaskReservationEnumSupervisorModeOrStr` | `twilio_sdk/models/enums/task_reservation_enum_supervisor_mode.py` |
+| `TaskrouterV1WorkspaceTaskTaskReservation` | `twilio_sdk/models/taskrouter_v1_workspace_task_task_reservation.py` |
 

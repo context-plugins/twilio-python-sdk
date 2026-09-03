@@ -2,13 +2,14 @@
 
 # Api20100401AuthorizedConnectApp — operations
 
-Accessor: `client.api20100401_authorized_connect_app` · Source: `twilio/apis/api20100401_authorized_connect_app.py` · 2 operations
+Accessor: `client.api20100401_authorized_connect_app` · Source: `twilio_sdk/apis/api20100401_authorized_connect_app.py` · 2 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
 ### client.api20100401_authorized_connect_app.fetch_authorized_connect_app
 
 - **Route**: `GET /2010-04-01/Accounts/{AccountSid}/AuthorizedConnectApps/{ConnectAppSid}.json`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default`
 - **Signature**: `def fetch_authorized_connect_app(account_sid: str, connect_app_sid: str, *, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `account_sid`, `connect_app_sid`
@@ -19,11 +20,12 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ApiV2010AccountAuthorizedConnectApp` | `twilio/models/api_v2010_account_authorized_connect_app.py` |
+| `ApiV2010AccountAuthorizedConnectApp` | `twilio_sdk/models/api_v2010_account_authorized_connect_app.py` |
 
 ### client.api20100401_authorized_connect_app.list_authorized_connect_app
 
 - **Route**: `GET /2010-04-01/Accounts/{AccountSid}/AuthorizedConnectApps.json`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default`
 - **Signature**: `def list_authorized_connect_app(account_sid: str, *, page_size: int | None = None, page: int | None = None, page_token: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `account_sid`
@@ -34,5 +36,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListAuthorizedConnectAppResponse` | `twilio/models/list_authorized_connect_app_response.py` |
+| `ListAuthorizedConnectAppResponse` | `twilio_sdk/models/list_authorized_connect_app_response.py` |
 

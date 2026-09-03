@@ -2,13 +2,14 @@
 
 # Api20100401AuthCallsIpAccessControlListMapping — operations
 
-Accessor: `client.api20100401_auth_calls_ip_access_control_list_mapping` · Source: `twilio/apis/api20100401_auth_calls_ip_access_control_list_mapping.py` · 4 operations
+Accessor: `client.api20100401_auth_calls_ip_access_control_list_mapping` · Source: `twilio_sdk/apis/api20100401_auth_calls_ip_access_control_list_mapping.py` · 4 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
 ### client.api20100401_auth_calls_ip_access_control_list_mapping.create_sip_auth_calls_ip_access_control_list_mapping
 
 - **Route**: `POST /2010-04-01/Accounts/{AccountSid}/SIP/Domains/{DomainSid}/Auth/Calls/IpAccessControlListMappings.json`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default`
 - **Signature**: `def create_sip_auth_calls_ip_access_control_list_mapping(account_sid: str, domain_sid: str, ip_access_control_list_sid: str, *, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `account_sid`, `domain_sid`, `ip_access_control_list_sid`
@@ -19,11 +20,12 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `SipAuthCallsIpAccessControlListMapping` | `twilio/models/sip_auth_calls_ip_access_control_list_mapping.py` |
+| `SipAuthCallsIpAccessControlListMapping` | `twilio_sdk/models/sip_auth_calls_ip_access_control_list_mapping.py` |
 
 ### client.api20100401_auth_calls_ip_access_control_list_mapping.delete_sip_auth_calls_ip_access_control_list_mapping
 
 - **Route**: `DELETE /2010-04-01/Accounts/{AccountSid}/SIP/Domains/{DomainSid}/Auth/Calls/IpAccessControlListMappings/{Sid}.json`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default`
 - **Signature**: `def delete_sip_auth_calls_ip_access_control_list_mapping(account_sid: str, domain_sid: str, sid: str, *, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `account_sid`, `domain_sid`, `sid`
@@ -35,6 +37,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 ### client.api20100401_auth_calls_ip_access_control_list_mapping.fetch_sip_auth_calls_ip_access_control_list_mapping
 
 - **Route**: `GET /2010-04-01/Accounts/{AccountSid}/SIP/Domains/{DomainSid}/Auth/Calls/IpAccessControlListMappings/{Sid}.json`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default`
 - **Signature**: `def fetch_sip_auth_calls_ip_access_control_list_mapping(account_sid: str, domain_sid: str, sid: str, *, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `account_sid`, `domain_sid`, `sid`
@@ -45,11 +48,12 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `SipAuthCallsIpAccessControlListMapping` | `twilio/models/sip_auth_calls_ip_access_control_list_mapping.py` |
+| `SipAuthCallsIpAccessControlListMapping` | `twilio_sdk/models/sip_auth_calls_ip_access_control_list_mapping.py` |
 
 ### client.api20100401_auth_calls_ip_access_control_list_mapping.list_sip_auth_calls_ip_access_control_list_mapping
 
 - **Route**: `GET /2010-04-01/Accounts/{AccountSid}/SIP/Domains/{DomainSid}/Auth/Calls/IpAccessControlListMappings.json`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default`
 - **Signature**: `def list_sip_auth_calls_ip_access_control_list_mapping(account_sid: str, domain_sid: str, *, page_size: int | None = None, page: int | None = None, page_token: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `account_sid`, `domain_sid`
@@ -60,5 +64,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListSipAuthCallsIpAccessControlListMappingResponse` | `twilio/models/list_sip_auth_calls_ip_access_control_list_mapping_response.py` |
+| `ListSipAuthCallsIpAccessControlListMappingResponse` | `twilio_sdk/models/list_sip_auth_calls_ip_access_control_list_mapping_response.py` |
 

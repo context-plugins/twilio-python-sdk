@@ -2,13 +2,14 @@
 
 # ConversationsV1UserApi — operations
 
-Accessor: `client.conversations_v1_user_api` · Source: `twilio/apis/conversations_v1_user_api.py` · 10 operations
+Accessor: `client.conversations_v1_user_api` · Source: `twilio_sdk/apis/conversations_v1_user_api.py` · 10 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
 ### client.conversations_v1_user_api.create_service_user
 
 - **Route**: `POST /v1/Services/{ChatServiceSid}/Users`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default7`
 - **Signature**: `def create_service_user(chat_service_sid: str, identity: str, *, x_twilio_webhook_enabled: ConfirmationOrStr | None = None, friendly_name: str | None = None, attributes: str | None = None, role_sid: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `chat_service_sid`, `identity`
@@ -19,12 +20,13 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConfirmationOrStr` | `twilio/models/enums/confirmation.py` |
-| `ConversationsV1ServiceServiceUser` | `twilio/models/conversations_v1_service_service_user.py` |
+| `ConfirmationOrStr` | `twilio_sdk/models/enums/confirmation.py` |
+| `ConversationsV1ServiceServiceUser` | `twilio_sdk/models/conversations_v1_service_service_user.py` |
 
 ### client.conversations_v1_user_api.create_user
 
 - **Route**: `POST /v1/Users`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default7`
 - **Signature**: `def create_user(identity: str, *, x_twilio_webhook_enabled: ConfirmationOrStr | None = None, friendly_name: str | None = None, attributes: str | None = None, role_sid: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `identity`
@@ -35,12 +37,13 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConfirmationOrStr` | `twilio/models/enums/confirmation.py` |
-| `ConversationsV1User` | `twilio/models/conversations_v1_user.py` |
+| `ConfirmationOrStr` | `twilio_sdk/models/enums/confirmation.py` |
+| `ConversationsV1User` | `twilio_sdk/models/conversations_v1_user.py` |
 
 ### client.conversations_v1_user_api.delete_service_user
 
 - **Route**: `DELETE /v1/Services/{ChatServiceSid}/Users/{Sid}`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default7`
 - **Signature**: `def delete_service_user(chat_service_sid: str, sid: str, *, x_twilio_webhook_enabled: ConfirmationOrStr | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `chat_service_sid`, `sid`
@@ -51,11 +54,12 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConfirmationOrStr` | `twilio/models/enums/confirmation.py` |
+| `ConfirmationOrStr` | `twilio_sdk/models/enums/confirmation.py` |
 
 ### client.conversations_v1_user_api.delete_user
 
 - **Route**: `DELETE /v1/Users/{Sid}`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default7`
 - **Signature**: `def delete_user(sid: str, *, x_twilio_webhook_enabled: ConfirmationOrStr | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `sid`
@@ -66,11 +70,12 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConfirmationOrStr` | `twilio/models/enums/confirmation.py` |
+| `ConfirmationOrStr` | `twilio_sdk/models/enums/confirmation.py` |
 
 ### client.conversations_v1_user_api.fetch_service_user
 
 - **Route**: `GET /v1/Services/{ChatServiceSid}/Users/{Sid}`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default7`
 - **Signature**: `def fetch_service_user(chat_service_sid: str, sid: str, *, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `chat_service_sid`, `sid`
@@ -81,11 +86,12 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConversationsV1ServiceServiceUser` | `twilio/models/conversations_v1_service_service_user.py` |
+| `ConversationsV1ServiceServiceUser` | `twilio_sdk/models/conversations_v1_service_service_user.py` |
 
 ### client.conversations_v1_user_api.fetch_user
 
 - **Route**: `GET /v1/Users/{Sid}`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default7`
 - **Signature**: `def fetch_user(sid: str, *, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `sid`
@@ -96,11 +102,12 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConversationsV1User` | `twilio/models/conversations_v1_user.py` |
+| `ConversationsV1User` | `twilio_sdk/models/conversations_v1_user.py` |
 
 ### client.conversations_v1_user_api.list_service_user
 
 - **Route**: `GET /v1/Services/{ChatServiceSid}/Users`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default7`
 - **Signature**: `def list_service_user(chat_service_sid: str, *, page_size: int | None = None, page: int | None = None, page_token: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `chat_service_sid`
@@ -111,11 +118,12 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListServiceUserResponse` | `twilio/models/list_service_user_response.py` |
+| `ListServiceUserResponse` | `twilio_sdk/models/list_service_user_response.py` |
 
 ### client.conversations_v1_user_api.list_user
 
 - **Route**: `GET /v1/Users`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default7`
 - **Signature**: `def list_user(*, page_size: int | None = None, page: int | None = None, page_token: str | None = None, request_options: RequestOptionsOrDict | None = None)`
 - **Params**: `page_size` — query `PageSize` · `page` — query `Page` · `page_token` — query `PageToken`
@@ -125,11 +133,12 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListUserResponse` | `twilio/models/list_user_response.py` |
+| `ListUserResponse` | `twilio_sdk/models/list_user_response.py` |
 
 ### client.conversations_v1_user_api.update_service_user
 
 - **Route**: `POST /v1/Services/{ChatServiceSid}/Users/{Sid}`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default7`
 - **Signature**: `def update_service_user(chat_service_sid: str, sid: str, *, x_twilio_webhook_enabled: ConfirmationOrStr | None = None, friendly_name: str | None = None, attributes: str | None = None, role_sid: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `chat_service_sid`, `sid`
@@ -140,12 +149,13 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConfirmationOrStr` | `twilio/models/enums/confirmation.py` |
-| `ConversationsV1ServiceServiceUser` | `twilio/models/conversations_v1_service_service_user.py` |
+| `ConfirmationOrStr` | `twilio_sdk/models/enums/confirmation.py` |
+| `ConversationsV1ServiceServiceUser` | `twilio_sdk/models/conversations_v1_service_service_user.py` |
 
 ### client.conversations_v1_user_api.update_user
 
 - **Route**: `POST /v1/Users/{Sid}`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default7`
 - **Signature**: `def update_user(sid: str, *, x_twilio_webhook_enabled: ConfirmationOrStr | None = None, friendly_name: str | None = None, attributes: str | None = None, role_sid: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `sid`
@@ -156,6 +166,6 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ConfirmationOrStr` | `twilio/models/enums/confirmation.py` |
-| `ConversationsV1User` | `twilio/models/conversations_v1_user.py` |
+| `ConfirmationOrStr` | `twilio_sdk/models/enums/confirmation.py` |
+| `ConversationsV1User` | `twilio_sdk/models/conversations_v1_user.py` |
 

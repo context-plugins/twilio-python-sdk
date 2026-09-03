@@ -2,13 +2,14 @@
 
 # Api20100401AvailablePhoneNumberCountry — operations
 
-Accessor: `client.api20100401_available_phone_number_country` · Source: `twilio/apis/api20100401_available_phone_number_country.py` · 2 operations
+Accessor: `client.api20100401_available_phone_number_country` · Source: `twilio_sdk/apis/api20100401_available_phone_number_country.py` · 2 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
 ### client.api20100401_available_phone_number_country.fetch_available_phone_number_country
 
 - **Route**: `GET /2010-04-01/Accounts/{AccountSid}/AvailablePhoneNumbers/{CountryCode}.json`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default`
 - **Signature**: `def fetch_available_phone_number_country(account_sid: str, country_code: str, *, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `account_sid`, `country_code`
@@ -19,11 +20,12 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ApiV2010AccountAvailablePhoneNumberCountry` | `twilio/models/api_v2010_account_available_phone_number_country.py` |
+| `ApiV2010AccountAvailablePhoneNumberCountry` | `twilio_sdk/models/api_v2010_account_available_phone_number_country.py` |
 
 ### client.api20100401_available_phone_number_country.list_available_phone_number_country
 
 - **Route**: `GET /2010-04-01/Accounts/{AccountSid}/AvailablePhoneNumbers.json`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default`
 - **Signature**: `def list_available_phone_number_country(account_sid: str, *, page_size: int | None = None, page: int | None = None, page_token: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `account_sid`
@@ -34,5 +36,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListAvailablePhoneNumberCountryResponse` | `twilio/models/list_available_phone_number_country_response.py` |
+| `ListAvailablePhoneNumberCountryResponse` | `twilio_sdk/models/list_available_phone_number_country_response.py` |
 

@@ -2,13 +2,14 @@
 
 # MessagingV2TypingIndicator — operations
 
-Accessor: `client.messaging_v2_typing_indicator` · Source: `twilio/apis/messaging_v2_typing_indicator.py` · 1 operation
+Accessor: `client.messaging_v2_typing_indicator` · Source: `twilio_sdk/apis/messaging_v2_typing_indicator.py` · 1 operation
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
 ### client.messaging_v2_typing_indicator.create_typing_indicator
 
 - **Route**: `POST /v2/Indicators/Typing.json`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default1`
 - **Signature**: `def create_typing_indicator(channel: ChannelOrStr, message_id: str, *, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `channel`, `message_id`
@@ -19,6 +20,6 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ChannelOrStr` | `twilio/models/enums/channel.py` |
-| `V2IndicatorsTypingJsonResponse` | `twilio/models/v2_indicators_typing_json_response.py` |
+| `ChannelOrStr` | `twilio_sdk/models/enums/channel.py` |
+| `V2IndicatorsTypingJsonResponse` | `twilio_sdk/models/v2_indicators_typing_json_response.py` |
 

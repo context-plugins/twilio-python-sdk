@@ -2,13 +2,14 @@
 
 # Api20100401Credential — operations
 
-Accessor: `client.api20100401_credential` · Source: `twilio/apis/api20100401_credential.py` · 5 operations
+Accessor: `client.api20100401_credential` · Source: `twilio_sdk/apis/api20100401_credential.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
 ### client.api20100401_credential.create_sip_credential
 
 - **Route**: `POST /2010-04-01/Accounts/{AccountSid}/SIP/CredentialLists/{CredentialListSid}/Credentials.json`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default`
 - **Signature**: `def create_sip_credential(account_sid: str, credential_list_sid: str, username: str, password: str, *, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `account_sid`, `credential_list_sid`, `username`, `password`
@@ -19,11 +20,12 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ApiV2010AccountSipSipCredentialListSipCredential` | `twilio/models/api_v2010_account_sip_sip_credential_list_sip_credential.py` |
+| `ApiV2010AccountSipSipCredentialListSipCredential` | `twilio_sdk/models/api_v2010_account_sip_sip_credential_list_sip_credential.py` |
 
 ### client.api20100401_credential.delete_sip_credential
 
 - **Route**: `DELETE /2010-04-01/Accounts/{AccountSid}/SIP/CredentialLists/{CredentialListSid}/Credentials/{Sid}.json`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default`
 - **Signature**: `def delete_sip_credential(account_sid: str, credential_list_sid: str, sid: str, *, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `account_sid`, `credential_list_sid`, `sid`
@@ -35,6 +37,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 ### client.api20100401_credential.fetch_sip_credential
 
 - **Route**: `GET /2010-04-01/Accounts/{AccountSid}/SIP/CredentialLists/{CredentialListSid}/Credentials/{Sid}.json`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default`
 - **Signature**: `def fetch_sip_credential(account_sid: str, credential_list_sid: str, sid: str, *, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `account_sid`, `credential_list_sid`, `sid`
@@ -45,11 +48,12 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ApiV2010AccountSipSipCredentialListSipCredential` | `twilio/models/api_v2010_account_sip_sip_credential_list_sip_credential.py` |
+| `ApiV2010AccountSipSipCredentialListSipCredential` | `twilio_sdk/models/api_v2010_account_sip_sip_credential_list_sip_credential.py` |
 
 ### client.api20100401_credential.list_sip_credential
 
 - **Route**: `GET /2010-04-01/Accounts/{AccountSid}/SIP/CredentialLists/{CredentialListSid}/Credentials.json`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default`
 - **Signature**: `def list_sip_credential(account_sid: str, credential_list_sid: str, *, page_size: int | None = None, page: int | None = None, page_token: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `account_sid`, `credential_list_sid`
@@ -60,11 +64,12 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListSipCredentialResponse` | `twilio/models/list_sip_credential_response.py` |
+| `ListSipCredentialResponse` | `twilio_sdk/models/list_sip_credential_response.py` |
 
 ### client.api20100401_credential.update_sip_credential
 
 - **Route**: `POST /2010-04-01/Accounts/{AccountSid}/SIP/CredentialLists/{CredentialListSid}/Credentials/{Sid}.json`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default`
 - **Signature**: `def update_sip_credential(account_sid: str, credential_list_sid: str, sid: str, *, password: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `account_sid`, `credential_list_sid`, `sid`
@@ -75,5 +80,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ApiV2010AccountSipSipCredentialListSipCredential` | `twilio/models/api_v2010_account_sip_sip_credential_list_sip_credential.py` |
+| `ApiV2010AccountSipSipCredentialListSipCredential` | `twilio_sdk/models/api_v2010_account_sip_sip_credential_list_sip_credential.py` |
 

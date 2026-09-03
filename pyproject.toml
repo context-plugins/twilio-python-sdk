@@ -1,5 +1,5 @@
 [project]
-name = "twilio"
+name = "twilio-sdk"
 version = "1.0.0"
 description = "This is the public Twilio REST API., Manage configurations, conversations, participants, and communications. Create configurations to define capture rules and channel settings, then use conversations to group related communications., This is the public Twilio REST API., This is the public Twilio REST API., This is the public Twilio REST API., This is the public Twilio REST API., This is the public Twilio REST API., This is the public Twilio REST API., This is the public Twilio REST API., This is the public Twilio REST API., This is the public Twilio REST API., This is the reference API for the rest-proxy server., Insights Domain V3 API."
 authors = [
@@ -81,7 +81,7 @@ ignore = [
 
 [tool.mypy]
 python_version = "3.10"         # the supported floor, not whichever interpreter is local
-files = ["twilio"]
+files = ["twilio_sdk"]
 strict = true
 warn_unreachable = true
 enable_error_code = ["redundant-expr", "truthy-bool", "ignore-without-code", "possibly-undefined"]

@@ -2,13 +2,14 @@
 
 # Api20100401Yesterday — operations
 
-Accessor: `client.api20100401_yesterday` · Source: `twilio/apis/api20100401_yesterday.py` · 1 operation
+Accessor: `client.api20100401_yesterday` · Source: `twilio_sdk/apis/api20100401_yesterday.py` · 1 operation
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
 ### client.api20100401_yesterday.list_usage_record_yesterday
 
 - **Route**: `GET /2010-04-01/Accounts/{AccountSid}/Usage/Records/Yesterday.json`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default`
 - **Signature**: `def list_usage_record_yesterday(account_sid: str, *, category: str | None = None, start_date: Date | None = None, end_date: Date | None = None, include_subaccounts: bool | None = None, page_size: int | None = None, page: int | None = None, page_token: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `account_sid`
@@ -19,5 +20,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListUsageRecordYesterdayResponse` | `twilio/models/list_usage_record_yesterday_response.py` |
+| `ListUsageRecordYesterdayResponse` | `twilio_sdk/models/list_usage_record_yesterday_response.py` |
 

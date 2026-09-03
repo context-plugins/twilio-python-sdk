@@ -2,13 +2,14 @@
 
 # InsightsV1CallApi — operations
 
-Accessor: `client.insights_v1_call_api` · Source: `twilio/apis/insights_v1_call_api.py` · 1 operation
+Accessor: `client.insights_v1_call_api` · Source: `twilio_sdk/apis/insights_v1_call_api.py` · 1 operation
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
 ### client.insights_v1_call_api.fetch_call2
 
 - **Route**: `GET /v1/Voice/{Sid}`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default14`
 - **Signature**: `def fetch_call2(sid: str, *, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `sid`
@@ -19,5 +20,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `InsightsV1Call` | `twilio/models/insights_v1_call.py` |
+| `InsightsV1Call` | `twilio_sdk/models/insights_v1_call.py` |
 

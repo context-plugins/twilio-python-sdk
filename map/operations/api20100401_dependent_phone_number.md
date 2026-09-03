@@ -2,13 +2,14 @@
 
 # Api20100401DependentPhoneNumber — operations
 
-Accessor: `client.api20100401_dependent_phone_number` · Source: `twilio/apis/api20100401_dependent_phone_number.py` · 1 operation
+Accessor: `client.api20100401_dependent_phone_number` · Source: `twilio_sdk/apis/api20100401_dependent_phone_number.py` · 1 operation
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
 ### client.api20100401_dependent_phone_number.list_dependent_phone_number
 
 - **Route**: `GET /2010-04-01/Accounts/{AccountSid}/Addresses/{AddressSid}/DependentPhoneNumbers.json`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default`
 - **Signature**: `def list_dependent_phone_number(account_sid: str, address_sid: str, *, page_size: int | None = None, page: int | None = None, page_token: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `account_sid`, `address_sid`
@@ -19,5 +20,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListDependentPhoneNumberResponse` | `twilio/models/list_dependent_phone_number_response.py` |
+| `ListDependentPhoneNumberResponse` | `twilio_sdk/models/list_dependent_phone_number_response.py` |
 

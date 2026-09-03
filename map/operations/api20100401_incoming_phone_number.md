@@ -2,13 +2,14 @@
 
 # Api20100401IncomingPhoneNumber — operations
 
-Accessor: `client.api20100401_incoming_phone_number` · Source: `twilio/apis/api20100401_incoming_phone_number.py` · 5 operations
+Accessor: `client.api20100401_incoming_phone_number` · Source: `twilio_sdk/apis/api20100401_incoming_phone_number.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
 ### client.api20100401_incoming_phone_number.create_incoming_phone_number
 
 - **Route**: `POST /2010-04-01/Accounts/{AccountSid}/IncomingPhoneNumbers.json`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default`
 - **Signature**: `def create_incoming_phone_number(account_sid: str, *, api_version: str | None = None, friendly_name: str | None = None, sms_application_sid: str | None = None, sms_fallback_method: SmsFallbackMethod9OrStr | None = None, sms_fallback_url: str | None = None, sms_method: SmsMethod9OrStr | None = None, sms_url: str | None = None, status_callback: str | None = None, status_callback_method: StatusCallbackMethod10OrStr | None = None, voice_application_sid: str | None = None, voice_caller_id_lookup: bool | None = None, voice_fallback_method: VoiceFallbackMethod9OrStr | None = None, voice_fallback_url: str | None = None, voice_method: VoiceMethod9OrStr | None = None, voice_url: str | None = None, emergency_status: IncomingPhoneNumberEnumEmergencyStatusOrStr | None = None, emergency_address_sid: str | None = None, trunk_sid: str | None = None, identity_sid: str | None = None, address_sid: str | None = None, voice_receive_mode: IncomingPhoneNumberEnumVoiceReceiveModeOrStr | None = None, bundle_sid: str | None = None, phone_number: str | None = None, area_code: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `account_sid`
@@ -19,18 +20,19 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `SmsFallbackMethod9OrStr` | `twilio/models/enums/sms_fallback_method9.py` |
-| `SmsMethod9OrStr` | `twilio/models/enums/sms_method9.py` |
-| `StatusCallbackMethod10OrStr` | `twilio/models/enums/status_callback_method10.py` |
-| `VoiceFallbackMethod9OrStr` | `twilio/models/enums/voice_fallback_method9.py` |
-| `VoiceMethod9OrStr` | `twilio/models/enums/voice_method9.py` |
-| `IncomingPhoneNumberEnumEmergencyStatusOrStr` | `twilio/models/enums/incoming_phone_number_enum_emergency_status.py` |
-| `IncomingPhoneNumberEnumVoiceReceiveModeOrStr` | `twilio/models/enums/incoming_phone_number_enum_voice_receive_mode.py` |
-| `ApiV2010AccountIncomingPhoneNumber` | `twilio/models/api_v2010_account_incoming_phone_number.py` |
+| `SmsFallbackMethod9OrStr` | `twilio_sdk/models/enums/sms_fallback_method9.py` |
+| `SmsMethod9OrStr` | `twilio_sdk/models/enums/sms_method9.py` |
+| `StatusCallbackMethod10OrStr` | `twilio_sdk/models/enums/status_callback_method10.py` |
+| `VoiceFallbackMethod9OrStr` | `twilio_sdk/models/enums/voice_fallback_method9.py` |
+| `VoiceMethod9OrStr` | `twilio_sdk/models/enums/voice_method9.py` |
+| `IncomingPhoneNumberEnumEmergencyStatusOrStr` | `twilio_sdk/models/enums/incoming_phone_number_enum_emergency_status.py` |
+| `IncomingPhoneNumberEnumVoiceReceiveModeOrStr` | `twilio_sdk/models/enums/incoming_phone_number_enum_voice_receive_mode.py` |
+| `ApiV2010AccountIncomingPhoneNumber` | `twilio_sdk/models/api_v2010_account_incoming_phone_number.py` |
 
 ### client.api20100401_incoming_phone_number.delete_incoming_phone_number
 
 - **Route**: `DELETE /2010-04-01/Accounts/{AccountSid}/IncomingPhoneNumbers/{Sid}.json`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default`
 - **Signature**: `def delete_incoming_phone_number(account_sid: str, sid: str, *, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `account_sid`, `sid`
@@ -42,6 +44,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 ### client.api20100401_incoming_phone_number.fetch_incoming_phone_number
 
 - **Route**: `GET /2010-04-01/Accounts/{AccountSid}/IncomingPhoneNumbers/{Sid}.json`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default`
 - **Signature**: `def fetch_incoming_phone_number(account_sid: str, sid: str, *, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `account_sid`, `sid`
@@ -52,11 +55,12 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ApiV2010AccountIncomingPhoneNumber` | `twilio/models/api_v2010_account_incoming_phone_number.py` |
+| `ApiV2010AccountIncomingPhoneNumber` | `twilio_sdk/models/api_v2010_account_incoming_phone_number.py` |
 
 ### client.api20100401_incoming_phone_number.list_incoming_phone_number
 
 - **Route**: `GET /2010-04-01/Accounts/{AccountSid}/IncomingPhoneNumbers.json`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default`
 - **Signature**: `def list_incoming_phone_number(account_sid: str, *, beta: bool | None = None, friendly_name: str | None = None, phone_number: str | None = None, origin: str | None = None, page_size: int | None = None, page: int | None = None, page_token: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `account_sid`
@@ -67,11 +71,12 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListIncomingPhoneNumberResponse` | `twilio/models/list_incoming_phone_number_response.py` |
+| `ListIncomingPhoneNumberResponse` | `twilio_sdk/models/list_incoming_phone_number_response.py` |
 
 ### client.api20100401_incoming_phone_number.update_incoming_phone_number
 
 - **Route**: `POST /2010-04-01/Accounts/{AccountSid}/IncomingPhoneNumbers/{Sid}.json`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default`
 - **Signature**: `def update_incoming_phone_number(account_sid_template: str, sid: str, *, account_sid: str | None = None, api_version: str | None = None, friendly_name: str | None = None, sms_application_sid: str | None = None, sms_fallback_method: SmsFallbackMethod9OrStr | None = None, sms_fallback_url: str | None = None, sms_method: SmsMethod9OrStr | None = None, sms_url: str | None = None, status_callback: str | None = None, status_callback_method: StatusCallbackMethod10OrStr | None = None, voice_application_sid: str | None = None, voice_caller_id_lookup: bool | None = None, voice_fallback_method: VoiceFallbackMethod9OrStr | None = None, voice_fallback_url: str | None = None, voice_method: VoiceMethod9OrStr | None = None, voice_url: str | None = None, emergency_status: IncomingPhoneNumberEnumEmergencyStatusOrStr | None = None, emergency_address_sid: str | None = None, trunk_sid: str | None = None, voice_receive_mode: IncomingPhoneNumberEnumVoiceReceiveModeOrStr | None = None, identity_sid: str | None = None, address_sid: str | None = None, bundle_sid: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `account_sid_template`, `sid`
@@ -82,12 +87,12 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `SmsFallbackMethod9OrStr` | `twilio/models/enums/sms_fallback_method9.py` |
-| `SmsMethod9OrStr` | `twilio/models/enums/sms_method9.py` |
-| `StatusCallbackMethod10OrStr` | `twilio/models/enums/status_callback_method10.py` |
-| `VoiceFallbackMethod9OrStr` | `twilio/models/enums/voice_fallback_method9.py` |
-| `VoiceMethod9OrStr` | `twilio/models/enums/voice_method9.py` |
-| `IncomingPhoneNumberEnumEmergencyStatusOrStr` | `twilio/models/enums/incoming_phone_number_enum_emergency_status.py` |
-| `IncomingPhoneNumberEnumVoiceReceiveModeOrStr` | `twilio/models/enums/incoming_phone_number_enum_voice_receive_mode.py` |
-| `ApiV2010AccountIncomingPhoneNumber` | `twilio/models/api_v2010_account_incoming_phone_number.py` |
+| `SmsFallbackMethod9OrStr` | `twilio_sdk/models/enums/sms_fallback_method9.py` |
+| `SmsMethod9OrStr` | `twilio_sdk/models/enums/sms_method9.py` |
+| `StatusCallbackMethod10OrStr` | `twilio_sdk/models/enums/status_callback_method10.py` |
+| `VoiceFallbackMethod9OrStr` | `twilio_sdk/models/enums/voice_fallback_method9.py` |
+| `VoiceMethod9OrStr` | `twilio_sdk/models/enums/voice_method9.py` |
+| `IncomingPhoneNumberEnumEmergencyStatusOrStr` | `twilio_sdk/models/enums/incoming_phone_number_enum_emergency_status.py` |
+| `IncomingPhoneNumberEnumVoiceReceiveModeOrStr` | `twilio_sdk/models/enums/incoming_phone_number_enum_voice_receive_mode.py` |
+| `ApiV2010AccountIncomingPhoneNumber` | `twilio_sdk/models/api_v2010_account_incoming_phone_number.py` |
 

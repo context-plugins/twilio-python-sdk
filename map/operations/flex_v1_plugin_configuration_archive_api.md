@@ -2,13 +2,14 @@
 
 # FlexV1PluginConfigurationArchiveApi — operations
 
-Accessor: `client.flex_v1_plugin_configuration_archive_api` · Source: `twilio/apis/flex_v1_plugin_configuration_archive_api.py` · 1 operation
+Accessor: `client.flex_v1_plugin_configuration_archive_api` · Source: `twilio_sdk/apis/flex_v1_plugin_configuration_archive_api.py` · 1 operation
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
 ### client.flex_v1_plugin_configuration_archive_api.update_plugin_configuration_archive
 
 - **Route**: `POST /v1/PluginService/Configurations/{Sid}/Archive`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default13`
 - **Signature**: `def update_plugin_configuration_archive(sid: str, *, flex_metadata: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `sid`
@@ -19,5 +20,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `FlexV1PluginConfigurationArchive` | `twilio/models/flex_v1_plugin_configuration_archive.py` |
+| `FlexV1PluginConfigurationArchive` | `twilio_sdk/models/flex_v1_plugin_configuration_archive.py` |
 

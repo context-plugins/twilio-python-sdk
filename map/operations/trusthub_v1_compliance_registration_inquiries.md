@@ -2,13 +2,14 @@
 
 # TrusthubV1ComplianceRegistrationInquiries — operations
 
-Accessor: `client.trusthub_v1_compliance_registration_inquiries` · Source: `twilio/apis/trusthub_v1_compliance_registration_inquiries.py` · 2 operations
+Accessor: `client.trusthub_v1_compliance_registration_inquiries` · Source: `twilio_sdk/apis/trusthub_v1_compliance_registration_inquiries.py` · 2 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
 ### client.trusthub_v1_compliance_registration_inquiries.create_compliance_registration
 
 - **Route**: `POST /v1/ComplianceInquiries/Registration/RegulatoryCompliance/GB/Initialize`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default9`
 - **Signature**: `def create_compliance_registration(end_user_type: CustomerTypeOrStr, phone_number_type: ComplianceRegistrationEnumPhoneNumberTypeOrStr, *, business_identity_type: ComplianceRegistrationEnumBusinessIdentityTypeOrStr | None = None, business_registration_authority: ComplianceRegistrationEnumBusinessRegistrationAuthorityOrStr | None = None, business_legal_name: str | None = None, notification_email: str | None = None, accepted_notification_receipt: bool | None = None, business_registration_number: str | None = None, business_website_url: str | None = None, friendly_name: str | None = None, authorized_representative1_first_name: str | None = None, authorized_representative1_last_name: str | None = None, authorized_representative1_phone: str | None = None, authorized_representative1_email: str | None = None, authorized_representative1_date_of_birth: str | None = None, address_street: str | None = None, address_street_secondary: str | None = None, address_city: str | None = None, address_subdivision: str | None = None, address_postal_code: str | None = None, address_country_code: str | None = None, emergency_address_street: str | None = None, emergency_address_street_secondary: str | None = None, emergency_address_city: str | None = None, emergency_address_subdivision: str | None = None, emergency_address_postal_code: str | None = None, emergency_address_country_code: str | None = None, use_address_as_emergency_address: bool | None = None, file_name: str | None = None, file: str | None = None, first_name: str | None = None, last_name: str | None = None, date_of_birth: str | None = None, individual_email: str | None = None, individual_phone: str | None = None, is_isv_embed: bool | None = None, isv_registering_for_self_or_tenant: str | None = None, status_callback_url: str | None = None, theme_set_id: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `end_user_type`, `phone_number_type`
@@ -19,15 +20,16 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `CustomerTypeOrStr` | `twilio/models/enums/customer_type.py` |
-| `ComplianceRegistrationEnumPhoneNumberTypeOrStr` | `twilio/models/enums/compliance_registration_enum_phone_number_type.py` |
-| `ComplianceRegistrationEnumBusinessIdentityTypeOrStr` | `twilio/models/enums/compliance_registration_enum_business_identity_type.py` |
-| `ComplianceRegistrationEnumBusinessRegistrationAuthorityOrStr` | `twilio/models/enums/compliance_registration_enum_business_registration_authority.py` |
-| `TrusthubV1ComplianceRegistration` | `twilio/models/trusthub_v1_compliance_registration.py` |
+| `CustomerTypeOrStr` | `twilio_sdk/models/enums/customer_type.py` |
+| `ComplianceRegistrationEnumPhoneNumberTypeOrStr` | `twilio_sdk/models/enums/compliance_registration_enum_phone_number_type.py` |
+| `ComplianceRegistrationEnumBusinessIdentityTypeOrStr` | `twilio_sdk/models/enums/compliance_registration_enum_business_identity_type.py` |
+| `ComplianceRegistrationEnumBusinessRegistrationAuthorityOrStr` | `twilio_sdk/models/enums/compliance_registration_enum_business_registration_authority.py` |
+| `TrusthubV1ComplianceRegistration` | `twilio_sdk/models/trusthub_v1_compliance_registration.py` |
 
 ### client.trusthub_v1_compliance_registration_inquiries.update_compliance_registration
 
 - **Route**: `POST /v1/ComplianceInquiries/Registration/{RegistrationId}/RegulatoryCompliance/GB/Initialize`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default9`
 - **Signature**: `def update_compliance_registration(registration_id: str, *, is_isv_embed: bool | None = None, theme_set_id: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `registration_id`
@@ -38,5 +40,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TrusthubV1ComplianceRegistration` | `twilio/models/trusthub_v1_compliance_registration.py` |
+| `TrusthubV1ComplianceRegistration` | `twilio_sdk/models/trusthub_v1_compliance_registration.py` |
 

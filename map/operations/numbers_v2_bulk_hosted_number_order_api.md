@@ -2,13 +2,14 @@
 
 # NumbersV2BulkHostedNumberOrderApi — operations
 
-Accessor: `client.numbers_v2_bulk_hosted_number_order_api` · Source: `twilio/apis/numbers_v2_bulk_hosted_number_order_api.py` · 2 operations
+Accessor: `client.numbers_v2_bulk_hosted_number_order_api` · Source: `twilio_sdk/apis/numbers_v2_bulk_hosted_number_order_api.py` · 2 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
 ### client.numbers_v2_bulk_hosted_number_order_api.create_bulk_hosted_number_order
 
 - **Route**: `POST /v2/HostedNumber/Orders/Bulk`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default5`
 - **Signature**: `def create_bulk_hosted_number_order(*, body: Any | None = None, request_options: RequestOptionsOrDict | None = None)`
 - **Params**: `body` — JSON body
@@ -18,11 +19,12 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `NumbersV2BulkHostedNumberOrder` | `twilio/models/numbers_v2_bulk_hosted_number_order.py` |
+| `NumbersV2BulkHostedNumberOrder` | `twilio_sdk/models/numbers_v2_bulk_hosted_number_order.py` |
 
 ### client.numbers_v2_bulk_hosted_number_order_api.fetch_bulk_hosted_number_order
 
 - **Route**: `GET /v2/HostedNumber/Orders/Bulk/{BulkHostingSid}`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default5`
 - **Signature**: `def fetch_bulk_hosted_number_order(bulk_hosting_sid: str, *, order_status: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `bulk_hosting_sid`
@@ -33,5 +35,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `NumbersV2BulkHostedNumberOrder` | `twilio/models/numbers_v2_bulk_hosted_number_order.py` |
+| `NumbersV2BulkHostedNumberOrder` | `twilio_sdk/models/numbers_v2_bulk_hosted_number_order.py` |
 

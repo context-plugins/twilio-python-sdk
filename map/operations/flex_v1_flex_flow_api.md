@@ -2,13 +2,14 @@
 
 # FlexV1FlexFlowApi — operations
 
-Accessor: `client.flex_v1_flex_flow_api` · Source: `twilio/apis/flex_v1_flex_flow_api.py` · 5 operations
+Accessor: `client.flex_v1_flex_flow_api` · Source: `twilio_sdk/apis/flex_v1_flex_flow_api.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
 ### client.flex_v1_flex_flow_api.create_flex_flow
 
 - **Route**: `POST /v1/FlexFlows`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default13`
 - **Signature**: `def create_flex_flow(friendly_name: str, chat_service_sid: str, channel_type: FlexFlowEnumChannelTypeOrStr, *, contact_identity: str | None = None, enabled: bool | None = None, integration_type: FlexFlowEnumIntegrationTypeOrStr | None = None, integration_flow_sid: str | None = None, integration_url: str | None = None, integration_workspace_sid: str | None = None, integration_workflow_sid: str | None = None, integration_channel: str | None = None, integration_timeout: int | None = None, integration_priority: int | None = None, integration_creation_on_message: bool | None = None, long_lived: bool | None = None, janitor_enabled: bool | None = None, integration_retry_count: int | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `friendly_name`, `chat_service_sid`, `channel_type`
@@ -19,13 +20,14 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `FlexFlowEnumChannelTypeOrStr` | `twilio/models/enums/flex_flow_enum_channel_type.py` |
-| `FlexFlowEnumIntegrationTypeOrStr` | `twilio/models/enums/flex_flow_enum_integration_type.py` |
-| `FlexV1FlexFlow` | `twilio/models/flex_v1_flex_flow.py` |
+| `FlexFlowEnumChannelTypeOrStr` | `twilio_sdk/models/enums/flex_flow_enum_channel_type.py` |
+| `FlexFlowEnumIntegrationTypeOrStr` | `twilio_sdk/models/enums/flex_flow_enum_integration_type.py` |
+| `FlexV1FlexFlow` | `twilio_sdk/models/flex_v1_flex_flow.py` |
 
 ### client.flex_v1_flex_flow_api.delete_flex_flow
 
 - **Route**: `DELETE /v1/FlexFlows/{Sid}`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default13`
 - **Signature**: `def delete_flex_flow(sid: str, *, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `sid`
@@ -37,6 +39,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 ### client.flex_v1_flex_flow_api.fetch_flex_flow
 
 - **Route**: `GET /v1/FlexFlows/{Sid}`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default13`
 - **Signature**: `def fetch_flex_flow(sid: str, *, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `sid`
@@ -47,11 +50,12 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `FlexV1FlexFlow` | `twilio/models/flex_v1_flex_flow.py` |
+| `FlexV1FlexFlow` | `twilio_sdk/models/flex_v1_flex_flow.py` |
 
 ### client.flex_v1_flex_flow_api.list_flex_flow
 
 - **Route**: `GET /v1/FlexFlows`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default13`
 - **Signature**: `def list_flex_flow(*, friendly_name: str | None = None, page_size: int | None = None, page: int | None = None, page_token: str | None = None, request_options: RequestOptionsOrDict | None = None)`
 - **Params**: `friendly_name` — query `FriendlyName` · `page_size` — query `PageSize` · `page` — query `Page` · `page_token` — query `PageToken`
@@ -61,11 +65,12 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListFlexFlowResponse` | `twilio/models/list_flex_flow_response.py` |
+| `ListFlexFlowResponse` | `twilio_sdk/models/list_flex_flow_response.py` |
 
 ### client.flex_v1_flex_flow_api.update_flex_flow
 
 - **Route**: `POST /v1/FlexFlows/{Sid}`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default13`
 - **Signature**: `def update_flex_flow(sid: str, *, friendly_name: str | None = None, chat_service_sid: str | None = None, channel_type: FlexFlowEnumChannelTypeOrStr | None = None, contact_identity: str | None = None, enabled: bool | None = None, integration_type: FlexFlowEnumIntegrationTypeOrStr | None = None, integration_flow_sid: str | None = None, integration_url: str | None = None, integration_workspace_sid: str | None = None, integration_workflow_sid: str | None = None, integration_channel: str | None = None, integration_timeout: int | None = None, integration_priority: int | None = None, integration_creation_on_message: bool | None = None, long_lived: bool | None = None, janitor_enabled: bool | None = None, integration_retry_count: int | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `sid`
@@ -76,7 +81,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `FlexFlowEnumChannelTypeOrStr` | `twilio/models/enums/flex_flow_enum_channel_type.py` |
-| `FlexFlowEnumIntegrationTypeOrStr` | `twilio/models/enums/flex_flow_enum_integration_type.py` |
-| `FlexV1FlexFlow` | `twilio/models/flex_v1_flex_flow.py` |
+| `FlexFlowEnumChannelTypeOrStr` | `twilio_sdk/models/enums/flex_flow_enum_channel_type.py` |
+| `FlexFlowEnumIntegrationTypeOrStr` | `twilio_sdk/models/enums/flex_flow_enum_integration_type.py` |
+| `FlexV1FlexFlow` | `twilio_sdk/models/flex_v1_flex_flow.py` |
 

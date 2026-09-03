@@ -2,13 +2,14 @@
 
 # TaskrouterV1TaskQueue — operations
 
-Accessor: `client.taskrouter_v1_task_queue` · Source: `twilio/apis/taskrouter_v1_task_queue.py` · 5 operations
+Accessor: `client.taskrouter_v1_task_queue` · Source: `twilio_sdk/apis/taskrouter_v1_task_queue.py` · 5 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded, and an operation with no table mentions nothing but builtins and those.
 
 ### client.taskrouter_v1_task_queue.create_task_queue
 
 - **Route**: `POST /v1/Workspaces/{WorkspaceSid}/TaskQueues`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default8`
 - **Signature**: `def create_task_queue(workspace_sid: str, friendly_name: str, *, target_workers: str | None = None, max_reserved_workers: int | None = None, task_order: TaskQueueEnumTaskOrderOrStr | None = None, reservation_activity_sid: str | None = None, assignment_activity_sid: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `workspace_sid`, `friendly_name`
@@ -19,12 +20,13 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TaskQueueEnumTaskOrderOrStr` | `twilio/models/enums/task_queue_enum_task_order.py` |
-| `TaskrouterV1WorkspaceTaskQueue` | `twilio/models/taskrouter_v1_workspace_task_queue.py` |
+| `TaskQueueEnumTaskOrderOrStr` | `twilio_sdk/models/enums/task_queue_enum_task_order.py` |
+| `TaskrouterV1WorkspaceTaskQueue` | `twilio_sdk/models/taskrouter_v1_workspace_task_queue.py` |
 
 ### client.taskrouter_v1_task_queue.delete_task_queue
 
 - **Route**: `DELETE /v1/Workspaces/{WorkspaceSid}/TaskQueues/{Sid}`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default8`
 - **Signature**: `def delete_task_queue(workspace_sid: str, sid: str, *, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `workspace_sid`, `sid`
@@ -36,6 +38,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 ### client.taskrouter_v1_task_queue.fetch_task_queue
 
 - **Route**: `GET /v1/Workspaces/{WorkspaceSid}/TaskQueues/{Sid}`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default8`
 - **Signature**: `def fetch_task_queue(workspace_sid: str, sid: str, *, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `workspace_sid`, `sid`
@@ -46,11 +49,12 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TaskrouterV1WorkspaceTaskQueue` | `twilio/models/taskrouter_v1_workspace_task_queue.py` |
+| `TaskrouterV1WorkspaceTaskQueue` | `twilio_sdk/models/taskrouter_v1_workspace_task_queue.py` |
 
 ### client.taskrouter_v1_task_queue.list_task_queue
 
 - **Route**: `GET /v1/Workspaces/{WorkspaceSid}/TaskQueues`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default8`
 - **Signature**: `def list_task_queue(workspace_sid: str, *, friendly_name: str | None = None, evaluate_worker_attributes: str | None = None, worker_sid: str | None = None, ordering: str | None = None, page_size: int | None = None, page: int | None = None, page_token: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `workspace_sid`
@@ -61,11 +65,12 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListTaskQueueResponse` | `twilio/models/list_task_queue_response.py` |
+| `ListTaskQueueResponse` | `twilio_sdk/models/list_task_queue_response.py` |
 
 ### client.taskrouter_v1_task_queue.update_task_queue
 
 - **Route**: `POST /v1/Workspaces/{WorkspaceSid}/TaskQueues/{Sid}`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default8`
 - **Signature**: `def update_task_queue(workspace_sid: str, sid: str, *, friendly_name: str | None = None, target_workers: str | None = None, reservation_activity_sid: str | None = None, assignment_activity_sid: str | None = None, max_reserved_workers: int | None = None, task_order: TaskQueueEnumTaskOrderOrStr | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `workspace_sid`, `sid`
@@ -76,6 +81,6 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `TaskQueueEnumTaskOrderOrStr` | `twilio/models/enums/task_queue_enum_task_order.py` |
-| `TaskrouterV1WorkspaceTaskQueue` | `twilio/models/taskrouter_v1_workspace_task_queue.py` |
+| `TaskQueueEnumTaskOrderOrStr` | `twilio_sdk/models/enums/task_queue_enum_task_order.py` |
+| `TaskrouterV1WorkspaceTaskQueue` | `twilio_sdk/models/taskrouter_v1_workspace_task_queue.py` |
 

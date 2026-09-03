@@ -2,13 +2,14 @@
 
 # Api20100401Member — operations
 
-Accessor: `client.api20100401_member` · Source: `twilio/apis/api20100401_member.py` · 3 operations
+Accessor: `client.api20100401_member` · Source: `twilio_sdk/apis/api20100401_member.py` · 3 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
 ### client.api20100401_member.fetch_member
 
 - **Route**: `GET /2010-04-01/Accounts/{AccountSid}/Queues/{QueueSid}/Members/{CallSid}.json`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default`
 - **Signature**: `def fetch_member(account_sid: str, queue_sid: str, call_sid: str, *, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `account_sid`, `queue_sid`, `call_sid`
@@ -19,11 +20,12 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ApiV2010AccountQueueMember` | `twilio/models/api_v2010_account_queue_member.py` |
+| `ApiV2010AccountQueueMember` | `twilio_sdk/models/api_v2010_account_queue_member.py` |
 
 ### client.api20100401_member.list_member
 
 - **Route**: `GET /2010-04-01/Accounts/{AccountSid}/Queues/{QueueSid}/Members.json`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default`
 - **Signature**: `def list_member(account_sid: str, queue_sid: str, *, page_size: int | None = None, page: int | None = None, page_token: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `account_sid`, `queue_sid`
@@ -34,11 +36,12 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ListMemberResponse` | `twilio/models/list_member_response.py` |
+| `ListMemberResponse` | `twilio_sdk/models/list_member_response.py` |
 
 ### client.api20100401_member.update_member
 
 - **Route**: `POST /2010-04-01/Accounts/{AccountSid}/Queues/{QueueSid}/Members/{CallSid}.json`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default`
 - **Signature**: `def update_member(account_sid: str, queue_sid: str, call_sid: str, url: str, *, method: Method2OrStr | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `account_sid`, `queue_sid`, `call_sid`, `url`
@@ -49,6 +52,6 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `Method2OrStr` | `twilio/models/enums/method2.py` |
-| `ApiV2010AccountQueueMember` | `twilio/models/api_v2010_account_queue_member.py` |
+| `Method2OrStr` | `twilio_sdk/models/enums/method2.py` |
+| `ApiV2010AccountQueueMember` | `twilio_sdk/models/api_v2010_account_queue_member.py` |
 

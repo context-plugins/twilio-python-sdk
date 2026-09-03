@@ -2,13 +2,14 @@
 
 # TrusthubV1ComplianceTollfreeInquiries — operations
 
-Accessor: `client.trusthub_v1_compliance_tollfree_inquiries` · Source: `twilio/apis/trusthub_v1_compliance_tollfree_inquiries.py` · 1 operation
+Accessor: `client.trusthub_v1_compliance_tollfree_inquiries` · Source: `twilio_sdk/apis/trusthub_v1_compliance_tollfree_inquiries.py` · 1 operation
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
 ### client.trusthub_v1_compliance_tollfree_inquiries.create_compliance_tollfree_inquiry
 
 - **Route**: `POST /v1/ComplianceInquiries/Tollfree/Initialize`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default9`
 - **Signature**: `def create_compliance_tollfree_inquiry(tollfree_phone_number: str, notification_email: str, *, customer_profile_sid: str | None = None, business_name: str | None = None, business_website: str | None = None, use_case_categories: list[str] | None = None, use_case_summary: str | None = None, production_message_sample: str | None = None, opt_in_image_urls: list[str] | None = None, opt_in_type: ComplianceTollfreeInquiryEnumOptInTypeOrStr | None = None, message_volume: str | None = None, business_street_address: str | None = None, business_street_address2: str | None = None, business_city: str | None = None, business_state_province_region: str | None = None, business_postal_code: str | None = None, business_country: str | None = None, additional_information: str | None = None, business_contact_first_name: str | None = None, business_contact_last_name: str | None = None, business_contact_email: str | None = None, business_contact_phone: str | None = None, theme_set_id: str | None = None, skip_messaging_use_case: bool | None = None, business_registration_number: str | None = None, business_registration_authority: str | None = None, business_registration_country: str | None = None, business_type: TollfreeVerificationEnumBusinessTypeOrStr | None = None, doing_business_as: str | None = None, opt_in_confirmation_message: str | None = None, help_message_sample: str | None = None, privacy_policy_url: str | None = None, terms_and_conditions_url: str | None = None, age_gated_content: bool | None = None, external_reference_id: str | None = None, opt_in_keywords: list[str] | None = None, vetting_id: str | None = None, vetting_provider: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `tollfree_phone_number`, `notification_email`
@@ -19,7 +20,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ComplianceTollfreeInquiryEnumOptInTypeOrStr` | `twilio/models/enums/compliance_tollfree_inquiry_enum_opt_in_type.py` |
-| `TollfreeVerificationEnumBusinessTypeOrStr` | `twilio/models/enums/tollfree_verification_enum_business_type.py` |
-| `TrusthubV1ComplianceTollfreeInquiry` | `twilio/models/trusthub_v1_compliance_tollfree_inquiry.py` |
+| `ComplianceTollfreeInquiryEnumOptInTypeOrStr` | `twilio_sdk/models/enums/compliance_tollfree_inquiry_enum_opt_in_type.py` |
+| `TollfreeVerificationEnumBusinessTypeOrStr` | `twilio_sdk/models/enums/tollfree_verification_enum_business_type.py` |
+| `TrusthubV1ComplianceTollfreeInquiry` | `twilio_sdk/models/trusthub_v1_compliance_tollfree_inquiry.py` |
 

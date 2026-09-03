@@ -2,13 +2,14 @@
 
 # VerifyV2Challenge — operations
 
-Accessor: `client.verify_v2_challenge` · Source: `twilio/apis/verify_v2_challenge.py` · 4 operations
+Accessor: `client.verify_v2_challenge` · Source: `twilio_sdk/apis/verify_v2_challenge.py` · 4 operations
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
 ### client.verify_v2_challenge.create_challenge
 
 - **Route**: `POST /v2/Services/{ServiceSid}/Entities/{Identity}/Challenges`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default3`
 - **Signature**: `def create_challenge(service_sid: str, identity: str, factor_sid: str, *, expiration_date: RFC3339DateTime | None = None, details_message: str | None = None, details_fields: list[Any] | None = None, hidden_details: Any | None = None, auth_payload: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `service_sid`, `identity`, `factor_sid`
@@ -19,11 +20,12 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `VerifyV2ServiceEntityChallenge` | `twilio/models/verify_v2_service_entity_challenge.py` |
+| `VerifyV2ServiceEntityChallenge` | `twilio_sdk/models/verify_v2_service_entity_challenge.py` |
 
 ### client.verify_v2_challenge.fetch_challenge
 
 - **Route**: `GET /v2/Services/{ServiceSid}/Entities/{Identity}/Challenges/{Sid}`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default3`
 - **Signature**: `def fetch_challenge(service_sid: str, identity: str, sid: str, *, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `service_sid`, `identity`, `sid`
@@ -34,11 +36,12 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `VerifyV2ServiceEntityChallenge` | `twilio/models/verify_v2_service_entity_challenge.py` |
+| `VerifyV2ServiceEntityChallenge` | `twilio_sdk/models/verify_v2_service_entity_challenge.py` |
 
 ### client.verify_v2_challenge.list_challenge
 
 - **Route**: `GET /v2/Services/{ServiceSid}/Entities/{Identity}/Challenges`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default3`
 - **Signature**: `def list_challenge(service_sid: str, identity: str, *, factor_sid: str | None = None, status: ChallengeEnumChallengeStatusesOrStr | None = None, order: ChallengeEnumListOrdersOrStr | None = None, page_size: int | None = None, page: int | None = None, page_token: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `service_sid`, `identity`
@@ -49,13 +52,14 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `ChallengeEnumChallengeStatusesOrStr` | `twilio/models/enums/challenge_enum_challenge_statuses.py` |
-| `ChallengeEnumListOrdersOrStr` | `twilio/models/enums/challenge_enum_list_orders.py` |
-| `ListChallengeResponse` | `twilio/models/list_challenge_response.py` |
+| `ChallengeEnumChallengeStatusesOrStr` | `twilio_sdk/models/enums/challenge_enum_challenge_statuses.py` |
+| `ChallengeEnumListOrdersOrStr` | `twilio_sdk/models/enums/challenge_enum_list_orders.py` |
+| `ListChallengeResponse` | `twilio_sdk/models/list_challenge_response.py` |
 
 ### client.verify_v2_challenge.update_challenge
 
 - **Route**: `POST /v2/Services/{ServiceSid}/Entities/{Identity}/Challenges/{Sid}`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default3`
 - **Signature**: `def update_challenge(service_sid: str, identity: str, sid: str, *, auth_payload: str | None = None, metadata: Any | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `service_sid`, `identity`, `sid`
@@ -66,5 +70,5 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `VerifyV2ServiceEntityChallenge` | `twilio/models/verify_v2_service_entity_challenge.py` |
+| `VerifyV2ServiceEntityChallenge` | `twilio_sdk/models/verify_v2_service_entity_challenge.py` |
 

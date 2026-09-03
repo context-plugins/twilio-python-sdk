@@ -2,13 +2,14 @@
 
 # NumbersV3HostedNumbersHostedNumberOrderApi — operations
 
-Accessor: `client.numbers_v3_hosted_numbers_hosted_number_order_api` · Source: `twilio/apis/numbers_v3_hosted_numbers_hosted_number_order_api.py` · 1 operation
+Accessor: `client.numbers_v3_hosted_numbers_hosted_number_order_api` · Source: `twilio_sdk/apis/numbers_v3_hosted_numbers_hosted_number_order_api.py` · 1 operation
 
 Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omit what its invariants table covers and are otherwise self-contained, so chunk at block level. Signatures are the sync parsed spelling; the async and raw spellings take the same parameters (see sdk-map.md). **Type sources** names the module declaring each type an operation mentions, so resolving a body, return or error payload is a lookup rather than a search; the runtime types `RawError` and `ApiResult` are excluded.
 
 ### client.numbers_v3_hosted_numbers_hosted_number_order_api.create_hosted_numbers_hosted_number_order
 
 - **Route**: `POST /v3/HostedNumbers/HostedNumberOrders`
+- **Auth**: `account_sid_auth_token`
 - **Server**: `default5`
 - **Signature**: `def create_hosted_numbers_hosted_number_order(phone_number: str, sms_capability: bool, *, account_sid: str | None = None, friendly_name: str | None = None, unique_name: str | None = None, cc_emails: list[str] | None = None, sms_url: str | None = None, sms_method: AmdStatusCallbackMethodOrStr | None = None, sms_fallback_url: str | None = None, sms_fallback_method: AmdStatusCallbackMethodOrStr | None = None, status_callback_url: str | None = None, status_callback_method: AmdStatusCallbackMethodOrStr | None = None, sms_application_sid: str | None = None, address_sid: str | None = None, email: str | None = None, verification_type: DependentOrderEnumVerificationTypeOrStr | None = None, verification_document_sid: str | None = None, request_options: RequestOptionsOrDict | None = None)`
   - required, positional: `phone_number`, `sms_capability`
@@ -19,7 +20,7 @@ Each `###` block is one operation and assumes `sdk-map.md` is loaded: blocks omi
 
 | Type | Source |
 | --- | --- |
-| `AmdStatusCallbackMethodOrStr` | `twilio/models/enums/amd_status_callback_method.py` |
-| `DependentOrderEnumVerificationTypeOrStr` | `twilio/models/enums/dependent_order_enum_verification_type.py` |
-| `NumbersV3HostedNumbersHostedNumberOrder` | `twilio/models/numbers_v3_hosted_numbers_hosted_number_order.py` |
+| `AmdStatusCallbackMethodOrStr` | `twilio_sdk/models/enums/amd_status_callback_method.py` |
+| `DependentOrderEnumVerificationTypeOrStr` | `twilio_sdk/models/enums/dependent_order_enum_verification_type.py` |
+| `NumbersV3HostedNumbersHostedNumberOrder` | `twilio_sdk/models/numbers_v3_hosted_numbers_hosted_number_order.py` |
 
